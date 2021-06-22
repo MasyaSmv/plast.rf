@@ -1,0 +1,66 @@
+Query:
+performedDatetime: 2017-05-09 17:27:16  0000
+action: check_user_rights
+sklad_user: Kon.ko@mail.ru
+appleId: 97224A4D-97F7-4D0C-B381-CC3816DFD281
+sklad_hash: 8da41ca9d3608052330a4eb44bcd2867
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-09T17:27:16Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-09 17:27:29  0000
+action: check_user_rights
+sklad_user: Kon.ko@mail.ru
+appleId: 97224A4D-97F7-4D0C-B381-CC3816DFD281
+sklad_hash: 10221ba142028063d080fa15eb0972b6
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-09T17:27:29Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-09 17:27:39  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-09T17:27:39Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-09 17:28:02  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 97224A4D-97F7-4D0C-B381-CC3816DFD281
+sklad_hash: 9f3ce8b9adfdf35357cd3370819e5825
+searchTerm: Кабель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2017-05-09T17:28:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====

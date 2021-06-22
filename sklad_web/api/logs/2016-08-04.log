@@ -1,0 +1,102 @@
+Query:
+performedDatetime: 2016-08-04 03:37:04  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":false,"data_url":false,"performedDatetime":"2016-08-04T03:37:05Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-08-04 03:37:08  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":false,"data_url":false,"performedDatetime":"2016-08-04T03:37:09Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-08-04 03:37:13  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":false,"data_url":false,"performedDatetime":"2016-08-04T03:37:13Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5dd6-01d4-ffff-ffffb10800f5
+appleId: 00000000-5dd6-01d4-ffff-ffffb10800f5
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-08-04T14:23:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-5dd6-01d4-ffff-ffffb10800f5
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":false,"data_url":false,"performedDatetime":"2016-08-04T14:23:03Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5dd6-01d4-ffff-ffffb10800f5
+appleId: 00000000-5dd6-01d4-ffff-ffffb10800f5
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: перфоратор
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043f\u0435\u0440\u0444\u043e\u0440\u0430\u0442\u043e\u0440","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-04T14:23:21Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'перфоратор%' or title like '% перфоратор%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'перфоратор%' or title like '% перфоратор%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-04 18:07:03  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":false,"data_url":false,"performedDatetime":"2016-08-04T18:07:03Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

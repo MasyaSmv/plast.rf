@@ -1,0 +1,34 @@
+Query:
+performedDatetime: 2015-09-12 08:56:04  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-09-12T08:56:04Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-09-12 08:56:11  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 9A8EB9AF-F580-4ECA-9760-6A98CCB04B8C
+sklad_hash: 0dc147776450a9c9b9170906fe4c1afe
+searchTerm: Вино
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0438\u043d\u043e","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-09-12T08:56:11Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Вино%' or title like '% Вино%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Вино%' or title like '% Вино%')
+ auth: 100 
+=====

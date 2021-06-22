@@ -1,0 +1,30 @@
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-8c50-b711-0c40-764d0b3d1c72
+appleId: ffffffff-8c50-b711-0c40-764d0b3d1c72
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-07-21T04:24:36Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-8c50-b711-0c40-764d0b3d1c72
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-07-21T04:24:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

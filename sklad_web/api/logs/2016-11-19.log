@@ -1,0 +1,172 @@
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-bae0-778d-dfbe-c90159813624
+appleId: ffffffff-bae0-778d-dfbe-c90159813624
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-11-19T08:31:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-bae0-778d-dfbe-c90159813624
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-19T08:31:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-c095-340a-ffff-ffffdc1cee75
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-11-19T15:00:02Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-19T15:00:02Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: вов
+sklad_hash: aaae315588c04fd9fdd5ba7322c87e9c
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-11-19T15:00:35Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-19T15:00:35Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: вов
+sklad_hash: aaae315588c04fd9fdd5ba7322c87e9c
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: привет 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043f\u0440\u0438\u0432\u0435\u0442","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-11-19T15:00:48Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'привет%' or title like '% привет%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'привет%' or title like '% привет%')
+ auth: 0 
+=====
+Query:
+sklad_user: вов
+sklad_hash: aaae315588c04fd9fdd5ba7322c87e9c
+appleId: ffffffff-c095-340a-ffff-ffffdc1cee75
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: никкей
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043d\u0438\u043a\u043a\u0435\u0439","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-11-19T15:01:04Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'никкей%' or title like '% никкей%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'никкей%' or title like '% никкей%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-11-19 17:14:43  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-19T17:14:46Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-11-19 17:28:12  0000
+action: check_user_rights
+sklad_user: Pidgainyi@icloud.com
+appleId: 5D509148-9C75-4C4E-962E-48164D196097
+sklad_hash: e09f2f8bcf30d787c40bfa9c9db1b7e5
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-11-19T17:28:14Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-11-19 17:28:20  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-19T17:28:20Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

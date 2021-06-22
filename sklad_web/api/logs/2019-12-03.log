@@ -1,0 +1,68 @@
+Query:
+performedDatetime: 2019-12-03 09:52:30  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-12-03T09:52:30Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-12-03 09:52:43  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3D4B224B-0638-4011-BB71-6C0BF9B06710
+sklad_hash: e467a26eee31724e70703fe629f5f859
+searchTerm: Ретро кабель 
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0420\u0435\u0442\u0440\u043e \u043a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u0420\u0435\u0442\u0440\u043e (\u0440\u0435\u0442\u0440\u043e,\u0432\u0438\u043d\u0442\u0430\u0436\u043d\u044b\u0439) \u0441\u043c. \u0442\u0435\u0440\u043c\u043e\u0441\u0442\u043e\u0439\u043a\u0438\u0439","amount":"0,001","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","company_id":"38366","company_name":"\u0410\u0411\u0421\u041e\u041b\u042e\u0422\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u0420\u0435\u0442\u0440\u043e 2\u04452,5","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0438\u0440\u043e\u0432","company_id":"38474","company_name":"\u0417\u0410\u041e \u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b"}],"performedDatetime":"2019-12-03T09:52:44Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Ретро%' or title like '% Ретро%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Ретро%' or title like '% Ретро%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-03 09:53:00  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 3D4B224B-0638-4011-BB71-6C0BF9B06710
+sklad_hash: e467a26eee31724e70703fe629f5f859
+company_id: 38366
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":38366,"title":"\u0410\u0411\u0421\u041e\u041b\u042e\u0422\u043a\u0430\u0431\u0435\u043b\u044c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","address":"660050 \u0433. \u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a, \u0443\u043b. \u0413\u0440\u0443\u043d\u0442\u043e\u0432\u0430\u044f - 17 (\u0431\u0430\u0437\u0430 \u0418\u0437\u0443\u043c\u0440\u0443\u0434)","phone":"+7(391) 2-782-781","email":"abkabel@bk.ru","url":"http:\/\/www.kabelyarsk.su\/","contact":"\u0410\u0431\u0441\u043e\u043b\u044e\u0442 \u041a\u0430\u0431\u0435\u043b\u044c","goods_count":"1255","last_update":"16.11.2019"},"performedDatetime":"2019-12-03T09:53:01Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-03 09:53:11  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 3D4B224B-0638-4011-BB71-6C0BF9B06710
+sklad_hash: e467a26eee31724e70703fe629f5f859
+company_id: 38474
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":38474,"title":"\u0417\u0410\u041e \u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b","city":"\u041a\u0438\u0440\u043e\u0432","address":"\u0420\u043e\u0441\u0441\u0438\u044f, 610047, \u0433.\u041a\u0438\u0440\u043e\u0432, \u0443\u043b.\u0412\u0435\u0441\u0435\u043d\u043d\u044f\u044f, 60","phone":"7 (8332) 254-00","email":"fmu@k-kirov.ru","url":"http:\/\/kkirov.ru\/","contact":"\u0424\u043e\u043c\u0438\u043d\u044b\u0445 \u041c\u0430\u0440\u0438\u044f","goods_count":"120","last_update":"02.12.2019"},"performedDatetime":"2019-12-03T09:53:11Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

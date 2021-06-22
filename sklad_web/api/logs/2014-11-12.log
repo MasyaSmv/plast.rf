@@ -1,0 +1,97 @@
+Query:
+performedDatetime: 2014-11-12 10:44:16  0000
+action: check_user_rights
+sklad_user: Кабель-НФ
+appleId: E38E1C2E-6D06-492D-B1FB-54E712ACF2EA
+sklad_hash: 187135edbf8f867e925953ce5fc0a77a
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-11-12T10:44:17Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-11-12 10:44:21  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-11-12T10:44:21Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-11-12 10:44:43  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: E38E1C2E-6D06-492D-B1FB-54E712ACF2EA
+sklad_hash: 6abb88ae2b3fb57ede27f648ff0b2354
+searchTerm: Мкэкшвнг 4х2х2,5
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041c\u043a\u044d\u043a\u0448\u0432\u043d\u0433 4\u04452\u04452,5","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"\u041c\u041a\u042d\u041a\u0428\u0432\u043d\u0433(\u0410)-LS 4\u04452\u04452,5","amount":"0,15","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""}],"performedDatetime":"2014-11-12T10:44:46Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Мкэкшвнг%' or title like '% Мкэкшвнг%') and (title like '%4х2х2,5%' or title like '%4х2х2.5%' or title like '%4x2x2,5%' or title like '%4x2x2,5%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Мкэкшвнг%' or title like '% Мкэкшвнг%') and (title like '%4х2х2,5%' or title like '%4х2х2.5%' or title like '%4x2x2,5%' or title like '%4x2x2,5%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-11-12 10:44:49  0000
+action: get_company_data
+sklad_user: Гость
+appleId: E38E1C2E-6D06-492D-B1FB-54E712ACF2EA
+sklad_hash: 6abb88ae2b3fb57ede27f648ff0b2354
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2014-11-12T10:44:49Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-11-12 10:44:53  0000
+action: get_company_data
+sklad_user: Гость
+appleId: E38E1C2E-6D06-492D-B1FB-54E712ACF2EA
+sklad_hash: 6abb88ae2b3fb57ede27f648ff0b2354
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2014-11-12T10:44:53Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-11-12 13:00:36  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-11-12T13:00:34Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,34 @@
+Query:
+performedDatetime: 2019-01-19 10:53:34  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-01-19T10:53:34Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-01-19 10:53:58  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: EEB2AC4B-6E45-4A08-A0A0-D7A97BB35E4A
+sklad_hash: ec1be98d7fd7679d6b6315cd728f57fa
+searchTerm: Ксил
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0441\u0438\u043b","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2019-01-19T10:53:58Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Ксил%' or title like '% Ксил%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Ксил%' or title like '% Ксил%')
+ auth: 100 
+=====

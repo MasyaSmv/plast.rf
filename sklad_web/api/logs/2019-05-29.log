@@ -1,0 +1,97 @@
+Query:
+performedDatetime: 2019-05-29 18:52:33  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-05-29T18:52:34Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-05-29 18:52:50  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: DD94EFF1-8008-451A-9621-368D8F61F9D0
+sklad_hash: f7c892b5d2fed04a94bd5a89394b0d98
+searchTerm: Лом 
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041b\u043e\u043c","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2019-05-29T18:52:50Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Лом%' or title like '% Лом%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Лом%' or title like '% Лом%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-05-29 18:52:57  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: DD94EFF1-8008-451A-9621-368D8F61F9D0
+sklad_hash: f7c892b5d2fed04a94bd5a89394b0d98
+searchTerm: Кабель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2019-05-29T18:52:57Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-05-29 18:53:01  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: DD94EFF1-8008-451A-9621-368D8F61F9D0
+sklad_hash: f7c892b5d2fed04a94bd5a89394b0d98
+searchTerm: Кабель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2019-05-29T18:53:01Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-05-29 18:53:06  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: DD94EFF1-8008-451A-9621-368D8F61F9D0
+sklad_hash: f7c892b5d2fed04a94bd5a89394b0d98
+searchTerm: Мель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041c\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2019-05-29T18:53:06Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Мель%' or title like '% Мель%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Мель%' or title like '% Мель%')
+ auth: 100 
+=====

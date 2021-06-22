@@ -1,0 +1,76 @@
+Query:
+performedDatetime: 2021-02-19 15:46:37  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-02-19T15:46:38Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-19 15:46:52  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: C6078F3B-72A0-4964-A00C-32998889CB91
+sklad_hash: a761a667bf7f16926e20b3ed686b9e78
+searchTerm: Кгн 3х70 1х35
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0433\u043d 3\u044570 1\u044535","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2021-02-19T15:46:53Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') and (title like '1х35%' or title like '% 1х35%' or title like '%1x35%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') and (title like '1х35%' or title like '% 1х35%' or title like '%1x35%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-19 15:46:58  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: C6078F3B-72A0-4964-A00C-32998889CB91
+sklad_hash: a761a667bf7f16926e20b3ed686b9e78
+searchTerm: Кгн 3х70 1х
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0433\u043d 3\u044570 1\u0445","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2021-02-19T15:46:59Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') and (title like '1х%' or title like '% 1х%' or title like '%1x%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') and (title like '1х%' or title like '% 1х%' or title like '%1x%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-19 15:47:04  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: C6078F3B-72A0-4964-A00C-32998889CB91
+sklad_hash: a761a667bf7f16926e20b3ed686b9e78
+searchTerm: Кгн 3х70
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0433\u043d 3\u044570","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u0413\u041d 3\u044570","amount":"0,786","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"11160","company_name":"\u0418\u0422\u0421\u041a-\u042d\u043b\u0435\u043a\u0442\u0440\u043e"},{"name":"\u041a\u0413\u041d 3\u044570+1\u044525","amount":"0,239","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"11160","company_name":"\u0418\u0422\u0421\u041a-\u042d\u043b\u0435\u043a\u0442\u0440\u043e"}],"performedDatetime":"2021-02-19T15:47:05Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Кгн%' or title like '% Кгн%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%')
+ auth: 100 
+=====

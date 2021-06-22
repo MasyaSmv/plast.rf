@@ -1,0 +1,308 @@
+Query:
+performedDatetime: 2016-08-16 21:53:29  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-16T21:53:30Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-08-16 23:07:19  0000
+action: check_user_rights
+sklad_user: Lpiii
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 9c4c126c21f63dabf22a96dae9b04f99
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-08-16T23:07:22Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-08-16 23:07:24  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-16T23:07:26Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-08-16 23:07:35  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+searchTerm: Utp
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"309","lastPage":0,"data":[{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"4,144","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"6 UTP LSZH 23AWG \u0441\u0438\u043d\u0438\u0439","amount":"0,6","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","company_id":"23577","company_name":"\u041e\u041e\u041e \"\u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \"\u042d\u041d\u0415\u0420\u0413\u041e\u0421\u0412\u042f\u0417\u042c\u041a\u0410\u0411\u0415\u041b\u042c\""},{"name":"BaseLevel UTP \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 5\u0435, 4 \u043f\u0430\u0440\u044b, CU, \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0430 PVC (\u041c)","amount":"0,305","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22463","company_name":"\u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"Cabletech UTP 4PR 24AWG cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Cabletech UTP4 CCA OUTDOOR \u0432\u043d\u0435\u0448\u043d\u0438\u0439 cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Cabletech UTP4 CU OUTDOOR \u0432\u043d\u0435\u0448\u043d\u0438\u0439 cat5e","amount":"61","amount_parts":"30,5; 30,5; ","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"CU-incl. HELUKAT 300 UTP UL 4P AWG 23\/1 gr\u044cn","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 rot","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"ECS UTP cat. 5e HF-LS 50\u04452\u044524AWG","amount":"0,895","amount_parts":"450; 315; 130","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"29649","company_name":"\u041e\u041e\u041e \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431"},{"name":"HELUKAT 100 UTP 4P AWG 26\/7 PVC grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 155 UTP 4P AWG 24\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 155 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 300 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"Hyperline UTP 50-c5-solid outdoor 50\u04452\u04450,5","amount":"1,47","amount_parts":"500; 500; 470","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"29649","company_name":"\u041e\u041e\u041e \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431"},{"name":"Hyperline UTP4-C5E-SOLID-GY-305 (U\/UTP4-C5E-S24-IN-PVC-GY-305) \u043d\u0435 U\/UTP, 5e, (24 AWG)","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"HYPERLINE UTP4-C5E-SOLID-GY-305 (UUTP4-C5E-S24-IN-PVC-GY-305)","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 100pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 10pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 16pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"}],"performedDatetime":"2016-08-16T23:07:38Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:07:45  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+searchTerm: Utp
+resultsFrom: 1
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp","resultsFrom":1,"sort":0,"cityFilter":"","code":0,"resultsCount":"309","lastPage":0,"data":[{"name":"Indoor Cat5e UTP 25pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 50pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"LAN UTP4-C5E 4x2xAWG24\/1","amount":"0,69","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"273","company_name":"\u0410\u041e \u0421\u041f\u0415\u0426\u041a\u0410\u0411\u0415\u041b\u042c"},{"name":"Lancable UTP4 CU FRLS cat5e","amount":"21,35","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Lancable UTP4 CU LSZH cat5e","amount":"21,35","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Molex UTP cat 3 25RP","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"15911","company_name":"\u0421\u0435\u043a\u043e\u0438\u043d-\u042d\u043b\u0435\u043a\u0442\u0440\u043e"},{"name":"Nexans UTP 4 \u043f\u0430\u0440\u044b cat. 5e","amount":"3","amount_parts":"","unit":"\u043a\u043c","city":"\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a","company_id":"11170","company_name":"\u041e\u041e\u041e \u0422\u0421\u041b"},{"name":"Outdoor Cat5e UTP 25pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Outdoor Cat5e UTP cat5e 10pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Outdoor Cat5e UTP cat5e 16pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Outdoor Cat5e UTP cat5e 4airs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Outdoor Cat5e UTP cat5e 4pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"PCnet UTP 2pr cat 5e 2\u04452\u04450,5","amount":"0,12","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"310","company_name":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0423\u0440\u0430\u043b"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 0,5m, gelb","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 0,5m, grau","amount":"1,5","amount_parts":"0,5; 1; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 0,5m, gr\u044cn","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 0,5m, rot","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 0,5m, schwarz","amount":"1","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 1,0m, blau","amount":"1","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"RJ-45 PATCHK. UTP Kat.6 PVC 1,0m, gelb","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"}],"performedDatetime":"2016-08-16T23:07:47Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') order by  s.title LIMIT 20, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:08:05  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+searchTerm: Utp 2pairs
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp 2pairs","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-16T23:08:08Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') and (title like '2pairs%' or title like '% 2pairs%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') and (title like '2pairs%' or title like '% 2pairs%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:08:15  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+searchTerm: Utp 
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"309","lastPage":0,"data":[{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"4,144","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"6 UTP LSZH 23AWG \u0441\u0438\u043d\u0438\u0439","amount":"0,6","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","company_id":"23577","company_name":"\u041e\u041e\u041e \"\u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \"\u042d\u041d\u0415\u0420\u0413\u041e\u0421\u0412\u042f\u0417\u042c\u041a\u0410\u0411\u0415\u041b\u042c\""},{"name":"BaseLevel UTP \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u0438 5\u0435, 4 \u043f\u0430\u0440\u044b, CU, \u043e\u0431\u043e\u043b\u043e\u0447\u043a\u0430 PVC (\u041c)","amount":"0,305","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22463","company_name":"\u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"Cabletech UTP 4PR 24AWG cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Cabletech UTP4 CCA OUTDOOR \u0432\u043d\u0435\u0448\u043d\u0438\u0439 cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Cabletech UTP4 CU OUTDOOR \u0432\u043d\u0435\u0448\u043d\u0438\u0439 cat5e","amount":"61","amount_parts":"30,5; 30,5; ","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"CU-incl. HELUKAT 300 UTP UL 4P AWG 23\/1 gr\u044cn","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 rot","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"ECS UTP cat. 5e HF-LS 50\u04452\u044524AWG","amount":"0,895","amount_parts":"450; 315; 130","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"29649","company_name":"\u041e\u041e\u041e \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431"},{"name":"HELUKAT 100 UTP 4P AWG 26\/7 PVC grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 155 UTP 4P AWG 24\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 155 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"HELUKAT 300 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"Hyperline UTP 50-c5-solid outdoor 50\u04452\u04450,5","amount":"1,47","amount_parts":"500; 500; 470","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"29649","company_name":"\u041e\u041e\u041e \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431"},{"name":"Hyperline UTP4-C5E-SOLID-GY-305 (U\/UTP4-C5E-S24-IN-PVC-GY-305) \u043d\u0435 U\/UTP, 5e, (24 AWG)","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"HYPERLINE UTP4-C5E-SOLID-GY-305 (UUTP4-C5E-S24-IN-PVC-GY-305)","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 100pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 10pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"Indoor Cat5e UTP 16pairs","amount":"10","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"}],"performedDatetime":"2016-08-16T23:08:19Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:08:32  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+searchTerm: Utp 2p
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp 2p","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"6","lastPage":1,"data":[{"name":"PCnet UTP 2pr cat 5e 2\u04452\u04450,5","amount":"0,12","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"310","company_name":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0423\u0440\u0430\u043b"},{"name":"UTP 2PR 24AWG (2x2x0.48) Ecoline","amount":"85,4","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"},{"name":"UTP 2PR 24AWG CAT5e LT","amount":"0,629","amount_parts":"","unit":"\u043a\u043c","city":"\u0418\u0432\u0430\u043d\u043e\u0432\u043e","company_id":"15173","company_name":"\u041e\u041e\u041e \u0414\u0435\u0439\u0442\u0435\u0440\u0438\u0439 \u043f\u043b\u044e\u0441 \u042d\u043d\u0435\u0440\u0433\u043e\u0441\u043d\u0430\u0431"},{"name":"UTP 2PR 24AWG REXANT","amount":"0,305","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22463","company_name":"\u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"UTP 2PR 24AWG \u043a\u0430\u0442.5 \u043c\u0435\u0434\u044c REXANT, \u0443\u043f\u0430\u043a","amount":"3","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"28050","company_name":"\u041e\u041e\u041e \u041d\u041a-\u041a\u0430\u0431\u0435\u043b\u044c"},{"name":"UTP 2PR CCA (2x2x0.51) Ecoline","amount":"183","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d"}],"performedDatetime":"2016-08-16T23:08:34Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') and (title like '2p%' or title like '% 2p%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') and (title like '2p%' or title like '% 2p%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:08:49  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+company_id: 16031
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":16031,"title":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","address":"198152, \u0433. \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0443\u0442\u0438\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u0443\u043b. 67","phone":"+7-812-716-3338","email":"info@verkkon.net","url":"http:\/\/www.verkkon.net","contact":"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0412\u0435\u0440\u043a\u043e\u043d","goods_count":"88","last_update":"10.08.2016"},"performedDatetime":"2016-08-16T23:08:53Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-16 23:09:03  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 3F0EDBA0-D31C-4490-AB32-CDB3B40993AA
+sklad_hash: 676339dd737aa9a9b22d8c74232c055f
+company_id: 16031
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":16031,"title":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","address":"198152, \u0433. \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0443\u0442\u0438\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u0443\u043b. 67","phone":"+7-812-716-3338","email":"info@verkkon.net","url":"http:\/\/www.verkkon.net","contact":"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0412\u0435\u0440\u043a\u043e\u043d","goods_count":"88","last_update":"10.08.2016"},"performedDatetime":"2016-08-16T23:09:08Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-08-17 06:33:00  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-17T06:33:04Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-17T17:35:55Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-17T17:37:18Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-67dc-5cd7-8974-5a1e15c37918
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-08-17T18:33:38Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-17T18:33:38Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-67dc-5cd7-8974-5a1e15c37918
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: араба 500/70
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0430\u0440\u0430\u0431\u0430 500\/70","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-17T18:34:10Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'араба%' or title like '% араба%') and (title like '500/70%' or title like '% 500/70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'араба%' or title like '% араба%') and (title like '500/70%' or title like '% 500/70%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-67dc-5cd7-8974-5a1e15c37918
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: апвбп 500/70
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0430\u043f\u0432\u0431\u043f 500\/70","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-17T18:34:28Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'апвбп%' or title like '% апвбп%') and (title like '500/70%' or title like '% 500/70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'апвбп%' or title like '% апвбп%') and (title like '500/70%' or title like '% 500/70%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-67dc-5cd7-8974-5a1e15c37918
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: апвпг 500/70
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0430\u043f\u0432\u043f\u0433 500\/70","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-17T18:34:39Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'апвпг%' or title like '% апвпг%') and (title like '500/70%' or title like '% 500/70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'апвпг%' or title like '% апвпг%') and (title like '500/70%' or title like '% 500/70%')
+ auth: 0 
+=====

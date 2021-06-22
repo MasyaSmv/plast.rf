@@ -1,0 +1,47 @@
+Query:
+performedDatetime: 2016-11-20 20:16:30  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-20T20:16:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-11-20 20:16:51  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 5D509148-9C75-4C4E-962E-48164D196097
+sklad_hash: b77f2c5248da4d75cfd6c370b7f0129c
+searchTerm: Кабеля
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044f","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-11-20T20:16:52Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Кабеля%' or title like '% Кабеля%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Кабеля%' or title like '% Кабеля%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2016-11-20 20:57:14  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-20T20:57:13Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

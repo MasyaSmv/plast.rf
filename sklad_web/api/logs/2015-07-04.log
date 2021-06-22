@@ -1,0 +1,85 @@
+Query:
+performedDatetime: 2015-07-04 06:00:02  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-04T06:00:03Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-04 06:00:32  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: B9D0A46C-5D82-4C93-B267-849F151F31DE
+sklad_hash: 21dfaa2f4c89e230dd9e65ad984552c1
+searchTerm: кввэнг
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043a\u0432\u0432\u044d\u043d\u0433","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"6","lastPage":1,"data":[{"name":"\u041a\u0412\u0412\u042d\u043d\u0433 2\u04453\u04451,5","amount":"0,42","amount_parts":"0,265; 0,1; 0,055; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"3601","company_name":"\u041e\u041e\u041e \"\u0422\u041c\u041a-\u042d\u041d\u0415\u0420\u0413\u041e\""},{"name":"\u041a\u0412\u0412\u042d\u043d\u0433 2\u04453\u04451,5","amount":"0,42","amount_parts":"0,1; 0,055; 0,265; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"28233","company_name":"\u041e\u041e\u041e \"\u0410\u0421\u041a-\u041b\u0418\u0414\u0415\u0420\""},{"name":"\u041a\u0412\u0412\u042d\u043d\u0433 2\u04453\u04451,5","amount":"0,42","amount_parts":"0,055; 0,1; 0,265; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"25001","company_name":"\u041e\u041e\u041e \u0421\u041f\u041a \"\u041f\u0440\u043e\u043c\u0418\u043d\u0432\u0435\u0441\u0442\u041a\u0430\u0431\u0435\u043b\u044c\""},{"name":"\u041a\u0412\u0412\u042d\u043d\u0433 2\u04453\u04451,5","amount":"0,32","amount_parts":"0,055; 0,265; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"17640","company_name":"\u041e\u041e\u041e \"\u0415\u0432\u0440\u043e\u0441\u0442\u0440\u043e\u0439\""},{"name":"\u041a\u0412\u0412\u042d\u043d\u0433-FRLS 18\u04450,75","amount":"0,002","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"273","company_name":"\u0410\u041e \u0421\u041f\u0415\u0426\u041a\u0410\u0411\u0415\u041b\u042c"},{"name":"\u041a\u0412\u0412\u042d\u043d\u0433LS 4\u04451,5","amount":"0,202","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"10969","company_name":"\u041e\u041e\u041e \u0410\u0428\u0422\u0420\u0415\u0412\u0415\u041b"}],"performedDatetime":"2015-07-04T06:00:33Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'кввэнг%' or title like '% кввэнг%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'кввэнг%' or title like '% кввэнг%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-04 06:01:37  0000
+action: get_company_data
+sklad_user: Гость
+appleId: B9D0A46C-5D82-4C93-B267-849F151F31DE
+sklad_hash: 21dfaa2f4c89e230dd9e65ad984552c1
+company_id: 25001
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":25001,"title":"\u041e\u041e\u041e \u0421\u041f\u041a \"\u041f\u0440\u043e\u043c\u0418\u043d\u0432\u0435\u0441\u0442\u041a\u0430\u0431\u0435\u043b\u044c\"","city":"\u041f\u0435\u0440\u043c\u044c","address":"614104, \u0433. \u041f\u0435\u0440\u043c\u044c, \u0430\/\u044f 5071","phone":"9048423333","email":"79048423333@yandex.ru","contact":"\u041c\u0443\u0441\u0438\u0445\u0438\u043d \u041d\u0438\u043a\u0438\u0442\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447","goods_count":"1531","last_update":"02.07.2015"},"performedDatetime":"2015-07-04T06:01:38Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-04 06:01:44  0000
+action: get_company_data
+sklad_user: Гость
+appleId: B9D0A46C-5D82-4C93-B267-849F151F31DE
+sklad_hash: 21dfaa2f4c89e230dd9e65ad984552c1
+company_id: 17640
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":17640,"title":"\u041e\u041e\u041e \"\u0415\u0432\u0440\u043e\u0441\u0442\u0440\u043e\u0439\"","city":"\u041f\u0435\u0440\u043c\u044c","address":"614000, \u0433. \u041f\u0435\u0440\u043c\u044c, \u0443\u043b. \u041b\u0443\u043d\u0430\u0447\u0430\u0440\u0441\u043a\u043e\u0433\u043e, 3\/2, \u043e\u0444 403\u0411","phone":"(342) 207-10-20 \u0434\u043e\u0431 102, 8 922 641-75-50","email":"marat.t@evrostroy.pro, marat_chus@bk.ru","contact":"\u0422\u044e\u0442\u0438\u043d \u041c\u0430\u0440\u0430\u0442","goods_count":"1347","last_update":"03.07.2015"},"performedDatetime":"2015-07-04T06:01:45Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-04 06:01:49  0000
+action: get_company_data
+sklad_user: Гость
+appleId: B9D0A46C-5D82-4C93-B267-849F151F31DE
+sklad_hash: 21dfaa2f4c89e230dd9e65ad984552c1
+company_id: 273
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":273,"title":"\u0410\u041e \u0421\u041f\u0415\u0426\u041a\u0410\u0411\u0415\u041b\u042c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","address":"195248, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u043f\u0440. \u042d\u043d\u0435\u0440\u0433\u0435\u0442\u0438\u043a\u043e\u0432, 19","phone":"812 458-59-29","email":"sklad@sk.ru.com","url":"http:\/\/www.s-kabel.ru\/","contact":"\u041a\u043e\u0436\u0435\u0432\u043d\u0438\u043a\u043e\u0432\u0430 \u0410\u043d\u0438\u0442\u0430","goods_count":"1800","last_update":"29.06.2015"},"performedDatetime":"2015-07-04T06:01:50Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

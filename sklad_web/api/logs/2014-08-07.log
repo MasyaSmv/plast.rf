@@ -1,0 +1,60 @@
+Query:
+performedDatetime: 2014-08-06 20:41:16  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-08-06T20:41:17Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-06 20:41:26  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-08-06T20:41:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-06 20:41:33  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: F4531157-6D6F-4E6D-81D2-ED540D668641
+sklad_hash: 0f86572472b1fb0402b3207900fa586f
+searchTerm: Ff
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Ff","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2014-08-06T20:41:33Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Ff%' or title like '% Ff%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Ff%' or title like '% Ff%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-08-07 18:34:44  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-08-07T18:34:43Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

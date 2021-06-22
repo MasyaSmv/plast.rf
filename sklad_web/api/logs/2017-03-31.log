@@ -1,0 +1,80 @@
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-e115-13e9-ffff-ffffafa62037
+appleId: ffffffff-e115-13e9-ffff-ffffafa62037
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-03-31T09:06:09Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-e115-13e9-ffff-ffffafa62037
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-03-31T09:06:09Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-e115-13e9-ffff-ffffafa62037
+appleId: ffffffff-e115-13e9-ffff-ffffafa62037
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: Апогей Откровения
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u043e\u0433\u0435\u0439 \u041e\u0442\u043a\u0440\u043e\u0432\u0435\u043d\u0438\u044f","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2017-03-31T09:06:37Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апогей%' or title like '% Апогей%' or title like '%Апогей%' or title like '%Апогей%') and (title like 'Откровения%' or title like '% Откровения%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апогей%' or title like '% Апогей%' or title like '%Апогей%' or title like '%Апогей%') and (title like 'Откровения%' or title like '% Откровения%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-e115-13e9-ffff-ffffafa62037
+appleId: ffffffff-e115-13e9-ffff-ffffafa62037
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-03-31T09:07:17Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-e115-13e9-ffff-ffffafa62037
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-03-31T09:07:17Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

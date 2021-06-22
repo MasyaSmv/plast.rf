@@ -1,0 +1,55 @@
+Query:
+performedDatetime: 2018-01-21 00:17:20  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":null,"data_url":null,"performedDatetime":"2018-01-21T00:17:20Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-01-21 00:17:24  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":null,"data_url":null,"performedDatetime":"2018-01-21T00:17:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-01-21 00:17:35  0000
+action: check_user_rights
+sklad_user: 
+appleId: 3EF97909-95A3-4D50-AC89-E666751458F1
+sklad_hash: 3e72f2ac65e4a5faee6986131ce6c44f
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2018-01-21T00:17:35Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-01-21 00:17:38  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":null,"data_url":null,"performedDatetime":"2018-01-21T00:17:38Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

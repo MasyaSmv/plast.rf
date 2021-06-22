@@ -1,0 +1,87 @@
+Query:
+performedDatetime: 2014-08-30 05:07:54  0000
+action: check_user_rights
+sklad_user: sm-kabel
+appleId: 750DD54C-D738-4831-98B6-DF980199A11B
+sklad_hash: 2590130a1611bf6dc7bb574ba31eacba
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-08-30T05:07:54Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-30 05:08:02  0000
+action: check_user_rights
+sklad_user: sm-kabel
+appleId: 750DD54C-D738-4831-98B6-DF980199A11B
+sklad_hash: 2590130a1611bf6dc7bb574ba31eacba
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-08-30T05:08:02Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-30 05:09:06  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-08-30T05:09:06Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-30 05:09:19  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 750DD54C-D738-4831-98B6-DF980199A11B
+sklad_hash: ad6aea6154eb99fde2292bf6a8ea0d8d
+searchTerm: Ввг 3*1,5
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":false,"resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2014-08-30T05:09:18Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '%' or title like '% %') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '%' or title like '% %')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-30 05:09:22  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 750DD54C-D738-4831-98B6-DF980199A11B
+sklad_hash: ad6aea6154eb99fde2292bf6a8ea0d8d
+searchTerm: Ввг 3*1,5
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":false,"resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2014-08-30T05:09:21Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '%' or title like '% %') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '%' or title like '% %')
+ auth: 0 
+=====

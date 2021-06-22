@@ -1,0 +1,130 @@
+Query:
+sklad_user: Сергей Иванович
+sklad_hash: 1590aabe7a12d9b217279835d98a6813
+appleId: ffffffff-b3d7-cf81-ffff-ffffab52d8f9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-06-18T13:01:30Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Сергей Иванович
+sklad_hash: 1590aabe7a12d9b217279835d98a6813
+appleId: ffffffff-b3d7-cf81-ffff-ffffab52d8f9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-06-18T13:01:43Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 16:06:28  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-06-18T16:06:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 16:07:24  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-06-18T16:07:30Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 18:17:42  0000
+action: check_user_rights
+sklad_user: Weg zapad
+appleId: F76F8F60-0926-45F9-BA18-EB20645536C7
+sklad_hash: c27b0099bb73ee15f9adcc06d62a470c
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-06-18T18:17:44Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 18:17:47  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-06-18T18:17:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 18:30:22  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-06-18T18:30:22Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 18:30:50  0000
+action: check_user_rights
+sklad_user: Weg zapad
+appleId: F76F8F60-0926-45F9-BA18-EB20645536C7
+sklad_hash: c27b0099bb73ee15f9adcc06d62a470c
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-06-18T18:30:50Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-06-18 18:30:54  0000
+action: check_user_rights
+sklad_user: Weg zapad
+appleId: F76F8F60-0926-45F9-BA18-EB20645536C7
+sklad_hash: c27b0099bb73ee15f9adcc06d62a470c
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-06-18T18:30:54Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,71 @@
+Query:
+performedDatetime: 2015-11-06 12:06:56  0000
+action: check_user_rights
+sklad_user: Makarov
+appleId: A7F8C02C-FB85-4932-B33D-669CFCC5D08B
+sklad_hash: cc8389b2f0f25c35a67416efc55b3827
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-11-06T12:06:55Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-11-06 12:06:59  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-11-06T12:06:57Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-11-06 12:07:12  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: A7F8C02C-FB85-4932-B33D-669CFCC5D08B
+sklad_hash: 2157b093e0bfd170de54e78099da5fea
+searchTerm: ПСУ 180
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041f\u0421\u0423 180","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-11-06T12:07:10Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ПСУ%' or title like '% ПСУ%') and (title like '180%' or title like '% 180%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ПСУ%' or title like '% ПСУ%') and (title like '180%' or title like '% 180%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-11-06 12:07:19  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: A7F8C02C-FB85-4932-B33D-669CFCC5D08B
+sklad_hash: 2157b093e0bfd170de54e78099da5fea
+searchTerm: ПСУ180
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041f\u0421\u0423180","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-11-06T12:07:18Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ПСУ180%' or title like '% ПСУ180%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ПСУ180%' or title like '% ПСУ180%')
+ auth: 100 
+=====

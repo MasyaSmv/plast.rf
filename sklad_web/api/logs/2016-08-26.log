@@ -1,0 +1,50 @@
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-3def-a62f-056a-5eca1c0292e1
+appleId: 00000000-3def-a62f-056a-5eca1c0292e1
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-08-26T05:14:04Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-3def-a62f-056a-5eca1c0292e1
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-08-26T05:14:04Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-3def-a62f-056a-5eca1c0292e1
+appleId: 00000000-3def-a62f-056a-5eca1c0292e1
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: склад
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0441\u043a\u043b\u0430\u0434","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-08-26T05:14:19Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'склад%' or title like '% склад%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'склад%' or title like '% склад%')
+ auth: 100 
+=====

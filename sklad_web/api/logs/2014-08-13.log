@@ -1,0 +1,110 @@
+Query:
+performedDatetime: 2014-08-12 20:48:24  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-08-12T20:48:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-08-12 20:48:46  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 0BC8D46B-E063-4291-AC0C-A4DB792FC290
+sklad_hash: 7347b9b0d51f6435f2ede58b0effb5b5
+searchTerm: Кабель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2014-08-12T20:48:46Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-08-12 20:48:51  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 0BC8D46B-E063-4291-AC0C-A4DB792FC290
+sklad_hash: 7347b9b0d51f6435f2ede58b0effb5b5
+searchTerm: Кабель
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2014-08-12T20:48:52Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-08-12 20:48:57  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 0BC8D46B-E063-4291-AC0C-A4DB792FC290
+sklad_hash: 7347b9b0d51f6435f2ede58b0effb5b5
+searchTerm: B
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"B","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"49","lastPage":0,"data":[{"name":"9539 Belden","amount":"0,153","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22412","company_name":"\u041e\u041e\u041e \u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \u0411\u0430\u043b\u0442\u041f\u0440\u043e\u043c\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442"},{"name":"A-MEDIAstrip BH 3\u044550RM\/16 - 10 \u043a\u0432 Nexans (\u0430\u043d\u0430\u043b\u043e\u0433)","amount":"0,213","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"7923","company_name":"\u0417\u0410\u041e \u041e\u0412\u041b-\u042d\u043d\u0435\u0440\u0433\u043e"},{"name":"B3-type (Xtraflex) 75 kVDC","amount":"0,092","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"18820","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u0443\u043a\u0446\u0438\u043e\u043d"},{"name":"Belden 1583\u0415 (305\u043c) \u041a\u0430\u0431\u0435\u043b\u044c \u0432\u0438\u0442\u0430\u044f \u043f\u0430\u0440\u0430 (U\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b, 24AWG, \u043e\u0434\u043d\u043e\u0436\u0438\u043b\u044c\u043d\u044b\u0439","amount":"0,915","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"7655","company_name":"\u041e\u041e\u041e \u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"Belden 1633\u0415 (305\u043c) \u041a\u0430\u0431\u0435\u043b\u044c \u044d\u043a\u0440\u0430\u043d\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u0430\u044f \u0432\u0438\u0442\u0430\u044f \u043f\u0430\u0440\u0430 (F\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b24AWG, \u043e\u0434\u043d\u043e\u0436\u0438\u043b\u044c\u043d\u044b\u0439","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"7655","company_name":"\u041e\u041e\u041e \u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"Belden 1700E","amount":"0,215","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"310","company_name":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0423\u0440\u0430\u043b"},{"name":"Belden 1\u04452\u044520 AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","company_id":"1816","company_name":"\u0417\u0410\u041e \u0420\u0443\u0441\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431\u0435\u043b\u044c"},{"name":"Belden 1\u04452\u044520 AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","company_id":"2484","company_name":"\u0417\u0430\u043a\u0430\u0437\u043d\u043e\u0432 \u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447"},{"name":"BELDEN 3092A","amount":"0,195","amount_parts":"","unit":"\u043a\u043c","city":"\u0423\u0444\u0430","company_id":"8479","company_name":"\u0427\u0430\u0441\u0442\u043d\u0430\u044f \u0421\u041a-\u0423\u0420\u0410\u041b"},{"name":"Belden 3105\u0410","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"12999","company_name":"\u041e\u041e\u041e \u041c\u0430\u0433\u0438\u0441\u0442\u0440\u0430\u043b\u044c"},{"name":"Belden 3107\u0410","amount":"0,12","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"310","company_name":"\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0423\u0440\u0430\u043b"},{"name":"Belden 7965E, 4 \u0432\u0438\u0442\u044b\u0435 \u043f\u0430\u0440\u044b, \u043a\u0430\u0442.6","amount":"0,062","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"BELDEN 89842","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"17570","company_name":"\u041e\u041e\u041e \u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0422\u0435\u0445\u041a\u0430\u0431\u0435\u043b\u044c"},{"name":"Belden 9433060500","amount":"0,152","amount_parts":"","unit":"\u043a\u043c","city":"\u0420\u0435\u0443\u0442\u043e\u0432","company_id":"372","company_name":"\u041f\u0420\u0415\u0421\u0421\u041a\u041e"},{"name":"Belden 9539","amount":"0,153","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16940","company_name":"\u041e\u041e\u041e \"\u041e\u043f\u0442\u0413\u0440\u0443\u043f\u043f\""},{"name":"Belden 9841 RS-485 1\u0445(2\u044524 AWG)","amount":"0,31","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"Belden 9841.01305","amount":"2,175","amount_parts":"0,175; 2; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"Belden 9842","amount":"0,22","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22412","company_name":"\u041e\u041e\u041e \u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \u0411\u0430\u043b\u0442\u041f\u0440\u043e\u043c\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442"},{"name":"Belden-M 1032A","amount":"10,2","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"11082","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"Belsis Wire 2\u04456,0 \u043c\u043c2","amount":"0,016","amount_parts":"","unit":"\u043a\u043c","city":"\u0422\u043e\u043c\u0441\u043a","company_id":"6396","company_name":"\u041c\u043e\u043d\u0442\u0430\u0436\u0441\u0442\u0440\u043e\u0439\u044d\u043b\u0435\u043a\u0442\u0440\u043e"}],"performedDatetime":"2014-08-12T20:48:58Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'B%' or title like '% B%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'B%' or title like '% B%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-08-12 20:49:08  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 0BC8D46B-E063-4291-AC0C-A4DB792FC290
+sklad_hash: 7347b9b0d51f6435f2ede58b0effb5b5
+company_id: 11082
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":11082,"title":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c","city":"\u041f\u0435\u0440\u043c\u044c","address":"614030, \u0433. \u041f\u0435\u0440\u043c\u044c, \u0443\u043b. \u0420\u0435\u043f\u0438\u043d\u0430, 31","phone":"8 342 274 29 32","email":"krasnoselskih@bk.ru","url":"http:\/\/www.stroikabel.ru","contact":"\u041a\u0440\u0430\u0441\u043d\u043e\u0441\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0412\u0430\u043b\u0435\u0440\u044c\u0435\u0432\u0438\u0447","goods_count":"2185","last_update":"29.07.2014"},"performedDatetime":"2014-08-12T20:49:08Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-08-12 20:49:25  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 0BC8D46B-E063-4291-AC0C-A4DB792FC290
+sklad_hash: 7347b9b0d51f6435f2ede58b0effb5b5
+company_id: 22412
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":22412,"title":"\u041e\u041e\u041e \u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \u0411\u0430\u043b\u0442\u041f\u0440\u043e\u043c\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442","city":"\u041c\u043e\u0441\u043a\u0432\u0430","address":"\u041c\u043e\u0441\u043a\u0432\u0430 2-\u044f \u0443\u043b \u042d\u043d\u0442\u0443\u0437\u0438\u0430\u0441\u0442\u043e\u0432 \u0434\u043e\u043c 3","phone":"4957807792","email":"alexs@bpks.ru","url":"http:\/\/bpks.ru","contact":"\u0421\u0435\u0440\u0433\u0435\u0435\u0432 \u0410\u043b\u0435\u043a\u0441\u0435\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447","goods_count":"3363","last_update":"16.07.2014"},"performedDatetime":"2014-08-12T20:49:26Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

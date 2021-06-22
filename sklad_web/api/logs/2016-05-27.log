@@ -1,0 +1,99 @@
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-05-27T03:05:07Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-05-27T07:31:52Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-eaa4-04b6-0995-f2e000000000
+appleId: ffffffff-eaa4-04b6-0995-f2e000000000
+action: check_user_rights
+
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-eaa4-04b6-0995-f2e000000000
+appleId: ffffffff-eaa4-04b6-0995-f2e000000000
+action: check_user_rights
+
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-eaa4-04b6-0995-f2e000000000
+appleId: ffffffff-eaa4-04b6-0995-f2e000000000
+action: check_user_rights
+
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-eaa4-04b6-0995-f2e000000000
+appleId: ffffffff-eaa4-04b6-0995-f2e000000000
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-27T18:00:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-27T18:00:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-27T18:00:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-27T18:00:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-eaa4-04b6-0995-f2e000000000
+appleId: ffffffff-eaa4-04b6-0995-f2e000000000
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-27T18:00:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====

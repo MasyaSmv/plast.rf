@@ -1,0 +1,228 @@
+Query:
+performedDatetime: 2021-01-25 11:38:30  0000
+action: check_user_rights
+sklad_user: 
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2021-01-25T11:38:31Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:38:32  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-25T11:38:32Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:39:12  0000
+action: get_goods_data
+sklad_user: 
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+searchTerm: КПГВСЭВнг(A)
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u041f\u0413\u0412\u0421\u042d\u0412\u043d\u0433(A)","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2021-01-25T11:39:13Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'КПГВСЭВнг(A)%' or title like '% КПГВСЭВнг(A)%' or title like '%КПГВСЭВнг%' or title like '%КПГВСЭВнг(А)%' ) order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'КПГВСЭВнг(A)%' or title like '% КПГВСЭВнг(A)%' or title like '%КПГВСЭВнг%' or title like '%КПГВСЭВнг(А)%' )
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:49:03  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-25T11:49:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:49:12  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+searchTerm: КПСТТнг
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433(\u0410)-HF 1\u04452\u04450,5","amount":"0,404","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"11082","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433(\u0410)-\u041dF 1x2x0,75","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","company_id":"22212","company_name":"\u041e\u041e\u041e \u0422\u0414 \u0422\u041e\u041b\u0415\u0414\u041e"}],"performedDatetime":"2021-01-25T11:49:12Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'КПСТТнг%' or title like '% КПСТТнг%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'КПСТТнг%' or title like '% КПСТТнг%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:49:25  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+company_id: 22212
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":22212,"title":"\u041e\u041e\u041e \u0422\u0414 \u0422\u041e\u041b\u0415\u0414\u041e","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","address":"603014, \u0433. \u041d. \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434, \u0443\u043b. \u041a\u043e\u043c\u0438\u043d\u0442\u0435\u0440\u043d\u0430, 30\u0430","phone":"9050130037","email":"andrey367182@mail.ru","url":"http:\/\/www.toledo24.ru\/","contact":"\u041a\u0443\u0441\u043a\u043e\u0432 \u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447","goods_count":"1247","last_update":"18.01.2021"},"performedDatetime":"2021-01-25T11:49:26Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:49:35  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+company_id: 22212
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":22212,"title":"\u041e\u041e\u041e \u0422\u0414 \u0422\u041e\u041b\u0415\u0414\u041e","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","address":"603014, \u0433. \u041d. \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434, \u0443\u043b. \u041a\u043e\u043c\u0438\u043d\u0442\u0435\u0440\u043d\u0430, 30\u0430","phone":"9050130037","email":"andrey367182@mail.ru","url":"http:\/\/www.toledo24.ru\/","contact":"\u041a\u0443\u0441\u043a\u043e\u0432 \u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447","goods_count":"1247","last_update":"18.01.2021"},"performedDatetime":"2021-01-25T11:49:35Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:49:51  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-25T11:49:52Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:50:03  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+searchTerm: КПСТТнг
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433(\u0410)-HF 1\u04452\u04450,5","amount":"0,404","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"11082","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u041a\u041f\u0421\u0422\u0422\u043d\u0433(\u0410)-\u041dF 1x2x0,75","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","company_id":"22212","company_name":"\u041e\u041e\u041e \u0422\u0414 \u0422\u041e\u041b\u0415\u0414\u041e"}],"performedDatetime":"2021-01-25T11:50:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'КПСТТнг%' or title like '% КПСТТнг%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'КПСТТнг%' or title like '% КПСТТнг%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:50:05  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+company_id: 11082
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":11082,"title":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c","city":"\u041f\u0435\u0440\u043c\u044c","address":"614030, \u0433. \u041f\u0435\u0440\u043c\u044c, \u0443\u043b. \u0413\u0440\u0430\u0444\u0442\u0438\u043e, 8, \u043e\u0444. 1","phone":"8 342 274 29 32","email":"stroikabel@yandex.ru","url":"http:\/\/www.stroikabel.ru\/","contact":"\u041a\u0440\u0430\u0441\u043d\u043e\u0441\u0435\u043b\u044c\u0441\u043a\u0438\u0445 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0412\u0430\u043b\u0435\u0440\u044c\u0435\u0432\u0438\u0447","goods_count":"6329","last_update":"18.01.2021"},"performedDatetime":"2021-01-25T11:50:05Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 11:50:11  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 4B93DF55-8F8D-403A-A362-BD45DCACBBA8
+sklad_hash: e3452c2289db428bbd4d7196459dbb89
+company_id: 22212
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":22212,"title":"\u041e\u041e\u041e \u0422\u0414 \u0422\u041e\u041b\u0415\u0414\u041e","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","address":"603014, \u0433. \u041d. \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434, \u0443\u043b. \u041a\u043e\u043c\u0438\u043d\u0442\u0435\u0440\u043d\u0430, 30\u0430","phone":"9050130037","email":"andrey367182@mail.ru","url":"http:\/\/www.toledo24.ru\/","contact":"\u041a\u0443\u0441\u043a\u043e\u0432 \u0410\u043d\u0434\u0440\u0435\u0439 \u041f\u0430\u0432\u043b\u043e\u0432\u0438\u0447","goods_count":"1247","last_update":"18.01.2021"},"performedDatetime":"2021-01-25T11:50:11Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 12:18:37  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-25T12:18:37Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 12:18:45  0000
+action: check_user_rights
+sklad_user: 
+appleId: 2EA923F0-61E2-4732-A083-A12ECB639F94
+sklad_hash: d3f4770f52abf970a05f71fa4e25a4da
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2021-01-25T12:18:45Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-25 12:18:45  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-25T12:18:45Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====

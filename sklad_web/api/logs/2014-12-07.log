@@ -1,0 +1,214 @@
+Query:
+sklad_user: 
+sklad_hash: ffffffff-9eaf-9658-ffff-ffff99d603a9
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:06:38Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:06:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: get_goods_data
+searchTerm: 2
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"2","resultsFrom":0,"sort":0,"cityFilter":null,"code":0,"resultsCount":"15475","lastPage":0,"data":[{"name":"1583\u0415 (305\u043c) (U\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b, 24AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"20QTVR2-CT","amount":"1,94","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20VPL2-CT","amount":"0,378","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20XTV2-CT","amount":"4,093","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"24\u0412\u0442\/\u043c GWS\/SRL 24-2","amount":"0,548","amount_parts":"","unit":"\u043a\u043c","city":"\u0433. \u041a\u0438\u0440\u043e\u0432","company_id":"","company_name":""},{"name":"25 \u041d\u0422\u04202-\u0412\u0420","amount":"0,072","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"27\/115 FC","amount":"0,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"27VR2-F","amount":"2,458","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"27VR2-T","amount":"4,215","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"2M JE-H(St)H FE180 PH90 1x2x0,8","amount":"0,469","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2NORM-JZ-CY(H)05VVC4V5-K 4G0,5 (AWG20)","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 4x4 RM\u0447\u0435\u0440\u043d.","amount":"5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 5x1RM\u0447\u0435\u0440\u043d.","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XHRH 0,6\/1 KV 7x2,5 RM\u0447\u0435\u0440\u043d.","amount":"0,805","amount_parts":"0,55; 0,255; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XSEY 3 70 \/16 10\u043a\u0412","amount":"0,108","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","company_id":"","company_name":""},{"name":"2XSEY 3\u044535RM\/16-3,6\/6\u043aV","amount":"0,295","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSEY 3\u044595RM\/16-3,6\/6\u043aV","amount":"0,048","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 10kv 3x50\/16","amount":"0,653","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""}],"performedDatetime":"2014-12-06T21:06:48Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%')
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: ffffffff-9eaf-9658-ffff-ffff99d603a9
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:09:12Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:09:17Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: get_goods_data
+searchTerm: 2
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"2","resultsFrom":0,"sort":0,"cityFilter":null,"code":0,"resultsCount":"15475","lastPage":0,"data":[{"name":"1583\u0415 (305\u043c) (U\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b, 24AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"20QTVR2-CT","amount":"1,94","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20VPL2-CT","amount":"0,378","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20XTV2-CT","amount":"4,093","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"24\u0412\u0442\/\u043c GWS\/SRL 24-2","amount":"0,548","amount_parts":"","unit":"\u043a\u043c","city":"\u0433. \u041a\u0438\u0440\u043e\u0432","company_id":"","company_name":""},{"name":"25 \u041d\u0422\u04202-\u0412\u0420","amount":"0,072","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"27\/115 FC","amount":"0,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"27VR2-F","amount":"2,458","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"27VR2-T","amount":"4,215","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"2M JE-H(St)H FE180 PH90 1x2x0,8","amount":"0,469","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2NORM-JZ-CY(H)05VVC4V5-K 4G0,5 (AWG20)","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 4x4 RM\u0447\u0435\u0440\u043d.","amount":"5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 5x1RM\u0447\u0435\u0440\u043d.","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XHRH 0,6\/1 KV 7x2,5 RM\u0447\u0435\u0440\u043d.","amount":"0,805","amount_parts":"0,55; 0,255; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XSEY 3 70 \/16 10\u043a\u0412","amount":"0,108","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","company_id":"","company_name":""},{"name":"2XSEY 3\u044535RM\/16-3,6\/6\u043aV","amount":"0,295","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSEY 3\u044595RM\/16-3,6\/6\u043aV","amount":"0,048","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 10kv 3x50\/16","amount":"0,653","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""}],"performedDatetime":"2014-12-06T21:09:17Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%')
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: ffffffff-9eaf-9658-ffff-ffff99d603a9
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:12:04Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-06T21:12:09Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: 
+sklad_hash: 
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: get_goods_data
+searchTerm: 2
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"2","resultsFrom":0,"sort":0,"cityFilter":null,"code":0,"resultsCount":"15475","lastPage":0,"data":[{"name":"1583\u0415 (305\u043c) (U\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b, 24AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"20QTVR2-CT","amount":"1,94","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20VPL2-CT","amount":"0,378","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"20XTV2-CT","amount":"4,093","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"24\u0412\u0442\/\u043c GWS\/SRL 24-2","amount":"0,548","amount_parts":"","unit":"\u043a\u043c","city":"\u0433. \u041a\u0438\u0440\u043e\u0432","company_id":"","company_name":""},{"name":"25 \u041d\u0422\u04202-\u0412\u0420","amount":"0,072","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"27\/115 FC","amount":"0,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"27VR2-F","amount":"2,458","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"27VR2-T","amount":"4,215","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"","company_name":""},{"name":"2M JE-H(St)H FE180 PH90 1x2x0,8","amount":"0,469","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2NORM-JZ-CY(H)05VVC4V5-K 4G0,5 (AWG20)","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 4x4 RM\u0447\u0435\u0440\u043d.","amount":"5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XH 0,6\/1 KV 5x1RM\u0447\u0435\u0440\u043d.","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XHRH 0,6\/1 KV 7x2,5 RM\u0447\u0435\u0440\u043d.","amount":"0,805","amount_parts":"0,55; 0,255; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"2XSEY 3 70 \/16 10\u043a\u0412","amount":"0,108","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","company_id":"","company_name":""},{"name":"2XSEY 3\u044535RM\/16-3,6\/6\u043aV","amount":"0,295","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSEY 3\u044595RM\/16-3,6\/6\u043aV","amount":"0,048","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 10kv 3x50\/16","amount":"0,653","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""}],"performedDatetime":"2014-12-06T21:12:09Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-12-07 17:09:35  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/kabelsnab_bnr12_600x70_1.5.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-12-07T18:08:42Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-12-07 18:28:37  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/kabelsnab_bnr12_600x70_1.5.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-12-07T18:28:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: pda
+sklad_hash: 70a882022136aadc426fca4bcbe23049
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-07T18:38:07Z","authStatus":"0","accessDateEnd":"25.11.2015"}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user: pda
+sklad_hash: 70a882022136aadc426fca4bcbe23049
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-12-07T18:38:17Z","authStatus":"0","accessDateEnd":"25.11.2015"}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user: pda
+sklad_hash: 70a882022136aadc426fca4bcbe23049
+appleId: ffffffff-9eaf-9658-ffff-ffff99d603a9
+action: get_goods_data
+searchTerm: 2
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"2","resultsFrom":0,"sort":0,"cityFilter":null,"code":0,"resultsCount":"15475","lastPage":0,"data":[{"name":"1583\u0415 (305\u043c) (U\/UTP), \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5\u0435, 4 \u043f\u0430\u0440\u044b, 24AWG","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22463","company_name":"\u042d\u043b\u0442\u0435\u043a\u043e\u043c \u0422\u041a"},{"name":"20QTVR2-CT","amount":"1,94","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"4350","company_name":"\u041e\u041e\u041e \u042d\u0421\u041f \"\u042d\u043d\u0435\u0440\u0433\u043e\u0442\u0435\u0445\u043c\u043e\u043d\u0442\u0430\u0436\""},{"name":"20VPL2-CT","amount":"0,378","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"4350","company_name":"\u041e\u041e\u041e \u042d\u0421\u041f \"\u042d\u043d\u0435\u0440\u0433\u043e\u0442\u0435\u0445\u043c\u043e\u043d\u0442\u0430\u0436\""},{"name":"20XTV2-CT","amount":"4,093","amount_parts":"","unit":"\u043a\u043c","city":"\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","company_id":"4350","company_name":"\u041e\u041e\u041e \u042d\u0421\u041f \"\u042d\u043d\u0435\u0440\u0433\u043e\u0442\u0435\u0445\u043c\u043e\u043d\u0442\u0430\u0436\""},{"name":"24\u0412\u0442\/\u043c GWS\/SRL 24-2","amount":"0,548","amount_parts":"","unit":"\u043a\u043c","city":"\u0433. \u041a\u0438\u0440\u043e\u0432","company_id":"19098","company_name":"\u041e\u041e\u041e \u0413\u0440\u043e\u0441\u0441-\u042d\u043b\u0435\u043a\u0442\u0440\u043e"},{"name":"25 \u041d\u0422\u04202-\u0412\u0420","amount":"0,072","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"8456","company_name":"\u041e\u041e\u041e \"\u041f\u0440\u043e\u043c\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431\u0435\u043b\u044c\""},{"name":"27\/115 FC","amount":"0,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"6283","company_name":"\u041e\u041e\u041e \u0422\u041f\u041a \u041d\u043e\u043a\u0441\u0442\u043e\u043d"},{"name":"27VR2-F","amount":"2,458","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"16198","company_name":"\u041e\u041e\u041e \u00ab\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0434\u043e\u043c \"\u0411\u0443\u0440\u042d\u043d\u0435\u0440\u0433\u043e\u0421\u043d\u0430\u0431\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u00bb"},{"name":"27VR2-T","amount":"4,215","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"16198","company_name":"\u041e\u041e\u041e \u00ab\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0434\u043e\u043c \"\u0411\u0443\u0440\u042d\u043d\u0435\u0440\u0433\u043e\u0421\u043d\u0430\u0431\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442\u00bb"},{"name":"2M JE-H(St)H FE180 PH90 1x2x0,8","amount":"0,469","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"5967","company_name":"\u041e\u041e\u041e \u041a\u0443\u043c\u0438\u0440 \u044d\u043d\u0435\u0440\u0433\u0438\u044f"},{"name":"2NORM-JZ-CY(H)05VVC4V5-K 4G0,5 (AWG20)","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"12442","company_name":"\u041e\u041e\u041e \u041c\u0438\u0446\u0430\u0440"},{"name":"2XH 0,6\/1 KV 4x4 RM\u0447\u0435\u0440\u043d.","amount":"5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"2XH 0,6\/1 KV 5x1RM\u0447\u0435\u0440\u043d.","amount":"0,5","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"2XHRH 0,6\/1 KV 7x2,5 RM\u0447\u0435\u0440\u043d.","amount":"0,805","amount_parts":"0,55; 0,255; ","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"21469","company_name":"\u041e\u041e\u041e \u0421\u043f\u043b\u0430\u0432\u042d\u043a\u0441\u043f\u0435\u0440\u0442"},{"name":"2XSEY 3 70 \/16 10\u043a\u0412","amount":"0,108","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","company_id":"5372","company_name":" \u0410\u041a\u0411 \"\u0420\u0415\u0413\u0418\u041e\u041d\u0410\u041b\u042c\u041d\u042b\u0415 \u041a\u0410\u0411\u0415\u041b\u042c\u041d\u042b\u0415 \u0411\u0410\u0417\u042b\""},{"name":"2XSEY 3\u044535RM\/16-3,6\/6\u043aV","amount":"0,295","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"8500","company_name":"\u041e\u041e\u041e \u041c\u0435\u0436\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f"},{"name":"2XSEY 3\u044595RM\/16-3,6\/6\u043aV","amount":"0,048","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"8500","company_name":"\u041e\u041e\u041e \u041c\u0435\u0436\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f"},{"name":"2XSYBY 10kv 3x50\/16","amount":"0,653","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"273","company_name":"\u0417\u0410\u041e \u0421\u041f\u0415\u0426\u041a\u0410\u0411\u0415\u041b\u042c"},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"22412","company_name":"\u041e\u041e\u041e \u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \u0411\u0430\u043b\u0442\u041f\u0440\u043e\u043c\u041a\u043e\u043c\u043f\u043b\u0435\u043a\u0442"},{"name":"2XSYBY 3\u044570RM\/16 -6\/10","amount":"0,13","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16940","company_name":"\u041e\u041e\u041e \"\u041e\u043f\u0442\u0413\u0440\u0443\u043f\u043f\""}],"performedDatetime":"2014-12-07T18:38:17Z","authStatus":"0","accessDateEnd":"25.11.2015"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '2%' or title like '% 2%')
+ auth: 100 
+=====

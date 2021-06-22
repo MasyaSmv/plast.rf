@@ -1,0 +1,153 @@
+Query:
+performedDatetime: 2015-07-17 10:03:50  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.ruscable.ru\/","performedDatetime":"2015-07-17T10:03:52Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-07-17T20:09:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-07-17T20:09:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+action: get_text
+
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.ruscable.ru\/","performedDatetime":"2015-07-17T20:09:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.ruscable.ru\/","performedDatetime":"2015-07-17T20:09:47Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: пвпуг 1х70 6 кв
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043f\u0432\u043f\u0443\u0433 1\u044570 6 \u043a\u0432","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-07-17T20:10:25Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'пвпуг%' or title like '% пвпуг%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%') and (title like '6%' or title like '% 6%') and (title like 'кв%' or title like '% кв%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'пвпуг%' or title like '% пвпуг%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%') and (title like '6%' or title like '% 6%') and (title like 'кв%' or title like '% кв%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: пвпуг 1х70 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043f\u0432\u043f\u0443\u0433 1\u044570","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-07-17T20:10:38Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'пвпуг%' or title like '% пвпуг%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'пвпуг%' or title like '% пвпуг%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: пвпу 1х70 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043f\u0432\u043f\u0443 1\u044570","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-07-17T20:10:48Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'пвпу%' or title like '% пвпу%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'пвпу%' or title like '% пвпу%') and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-79ee-0b92-ffff-ffffc3a651e9
+appleId: 00000000-79ee-0b92-ffff-ffffc3a651e9
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: 1х70 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"1\u044570","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"396","lastPage":0,"data":[{"name":"H01N2-D 1x70 qmm","amount":"0,798","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 RN-F 1x70 qmm, schwarz","amount":"0,96","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K RING 1x70 qmm, gr\u0403n-gelb","amount":"0,742","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K RING 1x70 qmm, schwarz","amount":"0,7116","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K TROMMEL 1X70 QMM BLAU","amount":"0,7338","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K TROMMEL 1X70 QMM GN-GE","amount":"0,7338","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K TROMMEL 1X70 QMM ROT","amount":"0,7338","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-K TROMMEL 1X70 QMM SCHWARZ","amount":"0,7338","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07 V-R TROMMEL 1X70 QMM GN-GE","amount":"0,738","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"H07V-K 1x70, \u0436\u0435\u043b\u0442\u044b\u0439\/\u0437\u0435\u043b\u0435\u043d\u044b\u0439, coil","amount":"0,011","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"H07Z-K 1x70, \u0436\u0435\u043b\u0442\u044b\u0439\/\u0437\u0435\u043b\u0435\u043d\u044b\u0439","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"HELUTHERM 145 1X70 QMM GN-GE","amount":"0,7617","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"HELUTHERM 145 1X70 QMM SCHWARZ","amount":"0,7625","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"KAWEFLEX 3130 SK-PUR 1x70","amount":"1,15","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"KOMPOSPEED 600 1X70 QMM","amount":"0,8004","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"KOMPOSPEED 600-C 1X70 QMM","amount":"0,9294","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"N2XH-J 1x70 rm, schwarz","amount":"0,71","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"N2XH-O 1x70 rm, schwarz","amount":"0,71","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"N2XS(F)2Y 12\/20 KV 1X70RM\/16","amount":"1,55","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""},{"name":"N2XS(F)2Y 6\/10 KV 1X70RM\/16","amount":"1,46","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"","company_name":""}],"performedDatetime":"2015-07-17T20:11:03Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '1х70%' or title like '% 1х70%' or title like '%1x70%')
+ auth: 0 
+=====

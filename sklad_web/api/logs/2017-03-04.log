@@ -1,0 +1,45 @@
+Query:
+sklad_user: 093627945
+sklad_hash: 5c8a1ecfc2920a47f2292d8bd0f1d204
+appleId: 00000000-19b0-d956-d03d-8f840939c162
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-03-03T22:21:16Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-3418-54f1-ffff-ffffc17e062f
+appleId: 00000000-3418-54f1-ffff-ffffc17e062f
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-03-04T09:21:50Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-3418-54f1-ffff-ffffc17e062f
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-03-04T09:21:50Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

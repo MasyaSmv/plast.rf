@@ -1,0 +1,201 @@
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-03-07T04:06:48Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-cbcd-f120-4182-9bc56111e9f4
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-03-07T09:23:19Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-03-07T09:23:19Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-cbcd-f120-4182-9bc56111e9f4
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: ss royalrc.biz
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"ss royalrc.biz","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-03-07T09:25:54Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ss%' or title like '% ss%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ss%' or title like '% ss%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-cbcd-f120-4182-9bc56111e9f4
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: ss royalrc.biz
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"ss royalrc.biz","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-03-07T09:26:05Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ss%' or title like '% ss%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ss%' or title like '% ss%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-cbcd-f120-4182-9bc56111e9f4
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: s s royalrc.biz
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"s s royalrc.biz","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-03-07T09:26:22Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 's%' or title like '% s%') and (title like 's%' or title like '% s%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 's%' or title like '% s%') and (title like 's%' or title like '% s%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-cbcd-f120-4182-9bc56111e9f4
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: s-s royalrc.biz
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"s-s royalrc.biz","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-03-07T09:38:16Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 's-s%' or title like '% s-s%' or title like '%s(A)-s%' or title like '%s(А)-s%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 's-s%' or title like '% s-s%' or title like '%s(A)-s%' or title like '%s(А)-s%') and (title like '%royalrc.biz%' or title like '%royalrc,biz%')
+ auth: 100 
+=====
+Query:
+sklad_user: Dior
+sklad_hash: 639e4bb625b565e0f95d8b8de2eb6aab
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-03-07T09:38:57Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-03-07T09:38:57Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Dior
+sklad_hash: 639e4bb625b565e0f95d8b8de2eb6aab
+appleId: ffffffff-cbcd-f120-4182-9bc56111e9f4
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: s-s.royalrc.biz
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"s-s.royalrc.biz","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-03-07T09:39:50Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like '%s-s.royalrc.biz%' or title like '%s-s,royalrc,biz%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like '%s-s.royalrc.biz%' or title like '%s-s,royalrc,biz%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-03-07 11:59:24  0000
+action: check_user_rights
+sklad_user: andrio007
+appleId: 6060E760-4221-412D-AA84-DDE96D4EAC3A
+sklad_hash: 4aac71843161502457240e2a6bdd28bf
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-03-07T11:59:24Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-03-07 11:59:29  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-03-07T11:59:29Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

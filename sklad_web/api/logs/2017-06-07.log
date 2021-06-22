@@ -1,0 +1,58 @@
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-06-07T00:30:34Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-06-07 06:41:51  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-06-07T06:41:51Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-06-07 06:42:15  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: E0CC21DF-EB5F-4CE7-8BDF-E544AA710AFB
+sklad_hash: 61571e81d6aff52d5f42b0edbd506205
+searchTerm: Электропроводки и кабельные линии
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043f\u0440\u043e\u0432\u043e\u0434\u043a\u0438 \u0438 \u043a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0435 \u043b\u0438\u043d\u0438\u0438","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2017-06-07T06:42:16Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Электропроводки%' or title like '% Электропроводки%') and (title like 'и%' or title like '% и%') and (title like 'кабельные%' or title like '% кабельные%') and (title like 'линии%' or title like '% линии%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Электропроводки%' or title like '% Электропроводки%') and (title like 'и%' or title like '% и%') and (title like 'кабельные%' or title like '% кабельные%') and (title like 'линии%' or title like '% линии%')
+ auth: 100 
+=====
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-06-07T20:45:58Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,42 @@
+Query:
+performedDatetime: 2015-09-09 06:37:13  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-09-09T06:37:14Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-09-09 18:16:59  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-09-09T18:17:00Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-09-09 18:34:45  0000
+action: check_user_rights
+sklad_user: 
+appleId: 8310C39C-7515-4F26-A624-F3E0859CD305
+sklad_hash: 3b9e907fda31804c04f26499c33fc8d5
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-09-09T18:34:45Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

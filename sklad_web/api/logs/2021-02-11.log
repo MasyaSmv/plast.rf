@@ -1,0 +1,34 @@
+Query:
+performedDatetime: 2021-02-11 17:55:43  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-02-11T17:55:43Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-11 17:56:04  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: C6078F3B-72A0-4964-A00C-32998889CB91
+sklad_hash: a761a667bf7f16926e20b3ed686b9e78
+searchTerm: ППГнг-HF 4x95
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041f\u041f\u0413\u043d\u0433-HF 4x95","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2021-02-11T17:56:04Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ППГнг-HF%' or title like '% ППГнг-HF%' or title like '%ППГнг(A)-HF%' or title like '%ППГнг(А)-HF%') and (title like '4х95%' or title like '% 4х95%' or title like '%4x95%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ППГнг-HF%' or title like '% ППГнг-HF%' or title like '%ППГнг(A)-HF%' or title like '%ППГнг(А)-HF%') and (title like '4х95%' or title like '% 4х95%' or title like '%4x95%')
+ auth: 100 
+=====

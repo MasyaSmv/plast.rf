@@ -1,0 +1,29 @@
+Query:
+performedDatetime: 2018-09-10 15:08:19  0000
+action: check_user_rights
+sklad_user: kaskad@ruscable.ru
+appleId: 84D88D9C-C1FC-452F-A406-30F57D97C953
+sklad_hash: 0fb5d766fb7dfdc312d64228f8d27759
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2018-09-10T15:08:20Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-09-10 15:08:24  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-09-10T15:08:24Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,51 @@
+Query:
+performedDatetime: 2018-09-22 07:20:35  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-09-22T07:20:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-09-22 07:20:46  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: E73F26F0-4F16-4A73-9ECF-6AEB30B60A07
+sklad_hash: ead0cfc72c646fc276493803da8d5ea1
+searchTerm: Оклж
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041e\u043a\u043b\u0436","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"6","lastPage":1,"data":[{"name":"\u041e\u041a\u041b\u0416 0,1-6-12-10-122-0,36\/0,22-35\/18-7,5","amount":"0,96","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"27293","company_name":"\u0417\u0410\u041e \"\u041f\u041a\u0424 \"\u041f\u0435\u0440\u043c\u0441\u043f\u0435\u0446\u043a\u0430\u0431\u0435\u043b\u044c\""},{"name":"\u041e\u041a\u041b\u0416 01-6-16-10\/125\/0,36\/022-3,5\/18-7,5","amount":"0,95","amount_parts":"","unit":"\u043a\u043c","city":"\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443","company_id":"15534","company_name":"\u041e\u041e\u041e \u044d\u043a\u0441\u043f\u0435\u0440\u0442-\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442"},{"name":"\u041e\u041a\u041b\u0416-01-6-48-10\/125-0,36\/0,22-.(8,0)","amount":"0,453","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u043d\u0437\u0430","company_id":"7881","company_name":"\u041e\u041e\u041e \u0410\u041b\u0415\u041a\u0421\u041a\u0410\u0411\u0415\u041b\u042c"},{"name":"\u041e\u041a\u041b\u0416-01-6-48-8,0","amount":"0,453","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u043d\u0437\u0430","company_id":"7881","company_name":"\u041e\u041e\u041e \u0410\u041b\u0415\u041a\u0421\u041a\u0410\u0411\u0415\u041b\u042c"},{"name":"\u041e\u041a\u041b\u0416-01-8-10\/125-6,0","amount":"3,7","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","company_id":"23732","company_name":"\u041e\u041e\u041e \u0420\u0435\u0433\u0438\u043e\u043d \u041a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u041e\u041a\u041b\u0416-\u0422-01-6-4-10\/125-0,36\/0,22-3,5\/18-26,0","amount":"13,54","amount_parts":"2,04; 3; 2,5; 3; 3; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"3601","company_name":"\u041e\u041e\u041e \u0423\u0440\u0430\u043b\u041f\u043b\u0438\u0442\u041f\u0440\u043e\u043c"}],"performedDatetime":"2018-09-22T07:20:53Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Оклж%' or title like '% Оклж%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Оклж%' or title like '% Оклж%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-09-22 07:21:04  0000
+action: get_company_data
+sklad_user: Гость
+appleId: E73F26F0-4F16-4A73-9ECF-6AEB30B60A07
+sklad_hash: ead0cfc72c646fc276493803da8d5ea1
+company_id: 23732
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":23732,"title":"\u041e\u041e\u041e \u0420\u0435\u0433\u0438\u043e\u043d \u041a\u0430\u0431\u0435\u043b\u044c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","address":"443052, \u0433.\u0421\u0430\u043c\u0430\u0440\u0430, \u043f\u0440\u043e\u0441\u043f\u0435\u043a\u0442 \u041a\u0438\u0440\u043e\u0432\u0430, \u0434.3, \u043e\u0444\u0438\u0441 13","phone":"(846) 955-28-65","email":"vols@samtelecom.ru","url":"http:\/\/\u0440\u0435\u0433\u0438\u043e\u043d\u043a\u0430\u0431\u0435\u043b\u044c.\u0440\u0444\/","contact":"\u041c\u0430\u0440\u0438\u0447\u0435\u0432 \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0412\u0438\u043a\u0442\u043e\u0440\u043e\u0432\u0438\u0447","goods_count":"44","last_update":"19.09.2018"},"performedDatetime":"2018-09-22T07:21:08Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

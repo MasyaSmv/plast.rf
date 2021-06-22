@@ -1,0 +1,97 @@
+Query:
+performedDatetime: 2018-11-20 09:46:44  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-11-20T09:46:53Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-20 09:48:09  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 33CB9993-3F99-4219-9145-D00AD8053D3A
+sklad_hash: 598193b271700a8b883b57be3cbf7b36
+searchTerm: ВВГнг(А)-FRLSLTx4x25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx4x25","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-20T09:48:17Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх4х25%' or title like '% ВВГнг(А)-FRLSLTх4х25%' or title like '%ВВГнг(А)-FRLSLTx4x25%' or title like '%ВВГнг-FRLSLTх4х25%' or title like '%ВВГнг(A)-FRLSLTх4х25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх4х25%' or title like '% ВВГнг(А)-FRLSLTх4х25%' or title like '%ВВГнг(А)-FRLSLTx4x25%' or title like '%ВВГнг-FRLSLTх4х25%' or title like '%ВВГнг(A)-FRLSLTх4х25%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-20 09:48:49  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 33CB9993-3F99-4219-9145-D00AD8053D3A
+sklad_hash: 598193b271700a8b883b57be3cbf7b36
+searchTerm: ВВГнг(А)-FRLSLTx 4х25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u044525","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-20T09:48:57Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х25%' or title like '% 4х25%' or title like '%4x25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х25%' or title like '% 4х25%' or title like '%4x25%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-20 09:49:09  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 33CB9993-3F99-4219-9145-D00AD8053D3A
+sklad_hash: 598193b271700a8b883b57be3cbf7b36
+searchTerm: ВВГнг(А)-FRLSLTx 4х10
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u044510","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u044510 -1\u043a\u0412","amount":"1,47","amount_parts":"0,235; 0,014; 0,246; 0,324; 0,417; 0,234; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"31385","company_name":"\u041e\u041e\u041e \u0421\u0435\u0433\u043c\u0435\u043d\u0442\u042d\u043d\u0435\u0440\u0433\u043e"}],"performedDatetime":"2018-11-20T09:49:17Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х10%' or title like '% 4х10%' or title like '%4x10%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х10%' or title like '% 4х10%' or title like '%4x10%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-20 09:49:43  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 33CB9993-3F99-4219-9145-D00AD8053D3A
+sklad_hash: 598193b271700a8b883b57be3cbf7b36
+searchTerm: ВВГнг(А)-FRLSLTx 4х6
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u04456","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"3","lastPage":1,"data":[{"name":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u04456 -0,66 \u043a\u0412","amount":"0,072","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"31385","company_name":"\u041e\u041e\u041e \u0421\u0435\u0433\u043c\u0435\u043d\u0442\u042d\u043d\u0435\u0440\u0433\u043e"},{"name":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u04456 -1\u043a\u0412","amount":"9,621","amount_parts":"4,796; 0,002; 0,407; 0,527; 0,67; 0,027; 0,95; 1; 0,114; 1,128; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"31385","company_name":"\u041e\u041e\u041e \u0421\u0435\u0433\u043c\u0435\u043d\u0442\u042d\u043d\u0435\u0440\u0433\u043e"},{"name":"\u0412\u0412\u0413\u043d\u0433(\u0410)-FRLSLTx 4\u04456 \u043e\u043a-1","amount":"180","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"17265","company_name":"\u041e\u041e\u041e \"\u0421\u0420\u0421-\u042d\u043b\u0435\u043a\u0442\u0440\u043e\""}],"performedDatetime":"2018-11-20T09:49:51Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х6%' or title like '% 4х6%' or title like '%4x6%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'ВВГнг(А)-FRLSLTх%' or title like '% ВВГнг(А)-FRLSLTх%' or title like '%ВВГнг(А)-FRLSLTx%' or title like '%ВВГнг-FRLSLTх%' or title like '%ВВГнг(A)-FRLSLTх%') and (title like '4х6%' or title like '% 4х6%' or title like '%4x6%')
+ auth: 100 
+=====

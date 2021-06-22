@@ -1,0 +1,41 @@
+Query:
+performedDatetime: 2016-01-08 08:34:28  0000
+action: check_user_rights
+sklad_user: Майя
+appleId: 38CC36A1-92FB-47D8-8B15-4EB756A8DFA6
+sklad_hash: 1b2182dec103231506dc14c690b3be0e
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-01-08T08:34:26Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-08 08:34:36  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-01-08T08:34:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-01-08T17:01:14Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

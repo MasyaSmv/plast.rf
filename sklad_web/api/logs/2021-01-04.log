@@ -1,0 +1,34 @@
+Query:
+performedDatetime: 2021-01-04 06:00:28  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-01-04T06:00:30Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-01-04 06:00:41  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: A2864D24-2906-4CF9-BB89-F855CE02A1EA
+sklad_hash: fecc09aae36ec2514303d007ec46be36
+searchTerm: Аваг
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u0432\u0430\u0433","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2021-01-04T06:00:41Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Аваг%' or title like '% Аваг%' or title like '%Аваг%' or title like '%Аваг%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Аваг%' or title like '% Аваг%' or title like '%Аваг%' or title like '%Аваг%')
+ auth: 100 
+=====

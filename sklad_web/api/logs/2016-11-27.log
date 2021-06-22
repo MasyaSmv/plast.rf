@@ -1,0 +1,28 @@
+Query:
+performedDatetime: 2016-11-27 11:32:40  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2016-11-27T11:32:40Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: expertkabel
+sklad_hash: a6a81c702431fc0284092f105a04d8bf
+appleId: ffffffff-b20a-f5dc-b78a-7f504dc8f742
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-11-27T18:48:23Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

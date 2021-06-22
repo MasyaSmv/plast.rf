@@ -1,0 +1,50 @@
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-0628-1cc5-878a-f0b023662f3e
+appleId: 00000000-0628-1cc5-878a-f0b023662f3e
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-06-07T18:04:00Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-0628-1cc5-878a-f0b023662f3e
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-06-07T18:04:01Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-0628-1cc5-878a-f0b023662f3e
+appleId: 00000000-0628-1cc5-878a-f0b023662f3e
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: груз
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0433\u0440\u0443\u0437","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-06-07T18:05:18Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'груз%' or title like '% груз%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'груз%' or title like '% груз%')
+ auth: 100 
+=====

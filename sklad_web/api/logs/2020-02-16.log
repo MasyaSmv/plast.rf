@@ -1,0 +1,185 @@
+Query:
+performedDatetime: 2020-02-16 07:38:53  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2020-02-16T07:38:54Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:39:07  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+searchTerm: Кабель кнрэ 3х70
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c \u043a\u043d\u0440\u044d 3\u044570","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""}],"performedDatetime":"2020-02-16T07:39:08Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'кнрэ%' or title like '% кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'кнрэ%' or title like '% кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:39:19  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2020-02-16T07:39:20Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:39:53  0000
+action: check_user_rights
+sklad_user: lsm
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: c03f48027ab7fde03ed57906125c8072
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2020-02-16T07:39:53Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:39:54  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2020-02-16T07:39:54Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:10  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+searchTerm: Кнрэ 3х70
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u043d\u0440\u044d 3\u044570","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""}],"performedDatetime":"2020-02-16T07:40:11Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Кнрэ%' or title like '% Кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Кнрэ%' or title like '% Кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:12  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2020-02-16T07:40:12Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:26  0000
+action: check_user_rights
+sklad_user: lsm
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: ed18b75a61003c76a410e56c535b66c7
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2020-02-16T07:40:27Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:36  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2020-02-16T07:40:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:48  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+searchTerm: кабель кнрэ 3х70
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043a\u0430\u0431\u0435\u043b\u044c \u043a\u043d\u0440\u044d 3\u044570","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041a\u041d\u0420\u042d 3\u044570","amount":"0,01","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""}],"performedDatetime":"2020-02-16T07:40:49Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'кнрэ%' or title like '% кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'кнрэ%' or title like '% кнрэ%') and (title like '3х70%' or title like '% 3х70%' or title like '%3x70%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2020-02-16 07:40:50  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 8684183E-4390-49A2-ABB0-CC7FA59BBC88
+sklad_hash: 9168db6978b597c89ff67ddeed4dfbeb
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2020-02-16T07:40:50Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

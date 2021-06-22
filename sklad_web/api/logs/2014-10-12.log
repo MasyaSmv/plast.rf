@@ -1,0 +1,81 @@
+Query:
+performedDatetime: 2014-10-12 13:27:05  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-10-12T13:27:05Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-10-12 13:27:17  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 00A43C43-52FB-41F1-B762-45FA17E17643
+sklad_hash: 8ce037d78af5b03114745799a7165798
+searchTerm: Прок
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041f\u0440\u043e\u043a","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"3","lastPage":1,"data":[{"name":"LAN-3FTP25-OUT LANMASTER FTP 25 \u043f\u0430\u0440, \u043a\u0430\u0442. 3, \u041f\u042d, 100 \u041e\u043c, \u0434\u043b\u044f \u043d\u0430\u0440\u0443\u0436\u043d\u0435\u0439 \u043f\u0440\u043e\u043a\u043b\u0430\u0434\u043a\u0438,","amount":"4,392","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"16247","company_name":"\u041e\u041e\u041e \u041f\u0440\u043e\u043c-\u0421\u043d\u0430\u0431"},{"name":"LAN-3UTP25-OUT LANMASTER UTP 25 \u043f\u0430\u0440, \u043a\u0430\u0442. 3, \u041f\u042d, 100 \u041e\u043c, \u0434\u043b\u044f \u043d\u0430\u0440\u0443\u0436\u043d\u0435\u0439 \u043f\u0440\u043e\u043a\u043b\u0430\u0434\u043a\u0438,","amount":"5,49","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"16247","company_name":"\u041e\u041e\u041e \u041f\u0440\u043e\u043c-\u0421\u043d\u0430\u0431"},{"name":"UTP 4 \u043f\u0430\u0440\u044b, \u043a\u0430\u0442.5\u0435, 305\u043c \u0434\u043b\u044f \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u043f\u0440\u043e\u043a\u043b\u0430\u0434\u043a\u0438","amount":"0,61","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"9695","company_name":"\u041e\u041e\u041e \"\u041e\u043f\u0442\u0438\u043c\u0430\""}],"performedDatetime":"2014-10-12T13:27:15Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Прок%' or title like '% Прок%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Прок%' or title like '% Прок%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-10-12 13:27:22  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 00A43C43-52FB-41F1-B762-45FA17E17643
+sklad_hash: 8ce037d78af5b03114745799a7165798
+company_id: 16247
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":16247,"title":"\u041e\u041e\u041e \u041f\u0440\u043e\u043c-\u0421\u043d\u0430\u0431","city":"\u041c\u043e\u0441\u043a\u0432\u0430","address":"105275,  \u0433.\u041c\u043e\u0441\u043a\u0432\u0430, \u0443\u043b. \u041c\u043e\u043b\u043e\u0434\u043e\u0433\u0432\u0430\u0440\u0434\u0435\u0439\u0441\u043a\u0430\u044f 57","phone":"+7(499)704-3-704","email":"info@prom-sn.ru","url":"http:\/\/prom-sn.ru\/","contact":"\u041f\u043e\u043b\u044f\u043a\u043e\u0432 \u0421\u0435\u0440\u0433\u0435\u0439","goods_count":"141","last_update":"03.10.2014"},"performedDatetime":"2014-10-12T13:27:20Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-10-12 13:27:27  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 00A43C43-52FB-41F1-B762-45FA17E17643
+sklad_hash: 8ce037d78af5b03114745799a7165798
+company_id: 9695
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":9695,"title":"\u041e\u041e\u041e \"\u041e\u043f\u0442\u0438\u043c\u0430\"","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","address":"620143 \u0433.\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433, \u0443\u043b.\u0412\u043e\u0441\u0441\u0442\u0430\u043d\u0438\u044f \u0434.9 \u043a.17","phone":"(343) 2530503","email":"optima-nt@mail.ru","url":"http:\/\/www.optimant.ru","contact":"\u0413\u0440\u0438\u0433\u043e\u0440\u044c\u0435\u0432\u0430 \u041d\u0430\u0442\u0430\u043b\u044c\u044f \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430","goods_count":"97","last_update":"07.10.2014"},"performedDatetime":"2014-10-12T13:27:25Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2014-10-12 16:28:56  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2014-10-12T16:28:58Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

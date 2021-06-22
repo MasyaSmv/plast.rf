@@ -1,0 +1,29 @@
+Query:
+performedDatetime: 2015-10-02 10:36:10  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-10-02T10:36:11Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-10-02 10:36:26  0000
+action: check_user_rights
+sklad_user: 
+appleId: A32608C9-D9B4-4E92-8DA4-7FBB8BB59BED
+sklad_hash: 7a4aecddb4b179f77dd4dda8388f5583
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-10-02T10:36:28Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

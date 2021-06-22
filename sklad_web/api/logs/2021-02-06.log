@@ -1,0 +1,42 @@
+Query:
+performedDatetime: 2021-02-05 23:03:44  0000
+action: check_user_rights
+sklad_user: imperial_60
+appleId: 4CF8025A-A75C-4A90-94CD-02F4C9A3C162
+sklad_hash: c47c370cf1baa79a4ce347bc32fa3e7e
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2021-02-05T23:03:44Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-05 23:03:44  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-02-05T23:03:44Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-02-06 11:53:31  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-02-06T11:53:32Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====

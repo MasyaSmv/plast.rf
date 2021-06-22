@@ -1,0 +1,29 @@
+Query:
+performedDatetime: 2017-02-05 14:10:28  0000
+action: check_user_rights
+sklad_user: Yura778
+appleId: B2BB9302-B28F-4893-A35C-651645C5FA91
+sklad_hash: 3c437a67c09fd497225183ce59473899
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-02-05T14:10:28Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-02-05 14:10:32  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-02-05T14:10:32Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.iframegura {
+  width: 560px;
+  height: 315px;
+}
+
+@media screen and (max-width:600px) {
+  .iframegura {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+  }
+}
+
+
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Что бы логотип был рядом с меню */
+.navbar.navbar-light.nav-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: none;
+}
+
+.table.table-sklad {
+  width: 40em;
+  margin: auto;
+}
+
+.navbar-brand {
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.welcome {
+  padding-right: 5em;
+  margin-top: 0.6em;
+   font-family: 'RocknRoll One', sans-serif;
+}
+
+.btn-menu-lc {
+  border: none;
+  background: none;
+}
+
+.btn-menu-lc-img {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+
+.img-name-lc {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  margin-right: 1em;
+  margin-left: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+
+.dropdown-item.outh:hover {
+  background-color: #6c757d99;
+}
+
+.dropdown-item.outh:focus {
+  background-color: #6c757d99;
+}
+
+.dropdown-item.drop-menu-name.img-name {
+  padding-left: 3%;
+}
+
+.header-drop-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-menu.links.show {
+  width: max-content;
+  padding-right: 1em;
+}
+
+.block_for_messages {
+  padding-top: 5em;
+}

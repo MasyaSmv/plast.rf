@@ -1,0 +1,29 @@
+Query:
+performedDatetime: 2021-05-28 05:35:14  0000
+action: check_user_rights
+sklad_user: Suz
+appleId: 6A68CCF3-2DD9-4AC6-A46D-38816B0DB0F2
+sklad_hash: 3a273a847f0ab1df9816db229821f4c4
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2021-05-28T05:35:15Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2021-05-28 05:35:14  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/i\/15years.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2021-05-28T05:35:15Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====

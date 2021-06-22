@@ -1,0 +1,50 @@
+Query:
+performedDatetime: 2014-09-02 06:32:29  0000
+action: check_user_rights
+sklad_user: Balizza
+appleId: C3D24294-F1C2-4AE9-A07A-9AD8D2269656
+sklad_hash: 3caaf5f3300831cdd4962fd5f90464ae
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2014-09-02T06:27:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-09-02 06:32:33  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"","performedDatetime":"2014-09-02T06:27:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2014-09-02 06:32:59  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: C3D24294-F1C2-4AE9-A07A-9AD8D2269656
+sklad_hash: cdba5191fb236e57748e651eb6724540
+searchTerm: Брюки
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0411\u0440\u044e\u043a\u0438","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2014-09-02T06:28:03Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Брюки%' or title like '% Брюки%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Брюки%' or title like '% Брюки%')
+ auth: 100 
+=====

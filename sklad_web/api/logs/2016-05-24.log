@@ -1,0 +1,50 @@
+Query:
+performedDatetime: 2016-05-24 10:29:30  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-05-24T10:29:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-05-24 10:29:44  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: E48A1E43-A23F-42F5-B48F-0AEE86E55F51
+sklad_hash: 83c3edccbb25500d48331bf374e6f57f
+searchTerm: Тзпшп
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0422\u0437\u043f\u0448\u043f","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-05-24T10:29:44Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Тзпшп%' or title like '% Тзпшп%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Тзпшп%' or title like '% Тзпшп%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-05-24 10:34:01  0000
+action: check_user_rights
+sklad_user: 
+appleId: E48A1E43-A23F-42F5-B48F-0AEE86E55F51
+sklad_hash: 83c3edccbb25500d48331bf374e6f57f
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-05-24T10:34:03Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

@@ -1,0 +1,290 @@
+Query:
+performedDatetime: 2016-01-20 07:08:09  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-01-20T08:11:04Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:08:47  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+searchTerm: Апвпуг-10 1х185/25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u0443\u0433-10 1\u0445185\/25","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-01-20T08:11:42Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпуг-10%' or title like '% Апвпуг-10%' or title like '%Апвпуг-10%' or title like '%Апвпуг-10%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпуг-10%' or title like '% Апвпуг-10%' or title like '%Апвпуг-10%' or title like '%Апвпуг-10%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:09:25  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+searchTerm: Апвпуг-10 1х185/25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u0443\u0433-10 1\u0445185\/25","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-01-20T08:12:23Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпуг-10%' or title like '% Апвпуг-10%' or title like '%Апвпуг-10%' or title like '%Апвпуг-10%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпуг-10%' or title like '% Апвпуг-10%' or title like '%Апвпуг-10%' or title like '%Апвпуг-10%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:09:38  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+searchTerm: Апвпуг 1х185/25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u0443\u0433 1\u0445185\/25","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"\u0410\u041f\u0432\u041f\u0443\u0433 - 10 1\u0445185\/25","amount":"0,341","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u0440\u043e\u043b\u0435\u0432","company_id":"","company_name":""}],"performedDatetime":"2016-01-20T08:12:35Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпуг%' or title like '% Апвпуг%' or title like '%Апвпуг%' or title like '%Апвпуг%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпуг%' or title like '% Апвпуг%' or title like '%Апвпуг%' or title like '%Апвпуг%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:10:09  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2016-01-20T08:13:05Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:11:06  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2016-01-20T08:14:01Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:11:17  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2016-01-20T08:14:12Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:11:35  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-01-20T08:14:31Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:11:47  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+searchTerm: Апвпуг 1х185/25
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u0443\u0433 1\u0445185\/25","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"\u0410\u041f\u0432\u041f\u0443\u0433 - 10 1\u0445185\/25","amount":"0,341","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u0440\u043e\u043b\u0435\u0432","company_id":"","company_name":""}],"performedDatetime":"2016-01-20T08:14:43Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпуг%' or title like '% Апвпуг%' or title like '%Апвпуг%' or title like '%Апвпуг%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпуг%' or title like '% Апвпуг%' or title like '%Апвпуг%' or title like '%Апвпуг%') and (title like '1х185/25%' or title like '% 1х185/25%' or title like '%1x185/25%')
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:11:52  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2016-01-20T08:14:45Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2016-01-20 07:12:01  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 7A4A4622-7BD6-490D-9430-2B4BDC73EC00
+sklad_hash: 39d2ba584d86f8263cd7d2c01f7a4f57
+company_id: 
+
+=====
+Response:
+{"action":"get_company_data","company_id":0,"code":30,"techMessage":"\u041a\u0430\u043a \u0433\u043e\u0441\u0442\u044c, \u0432\u044b \u043d\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u0440\u043e\u0441\u043c\u0430\u0442\u0440\u0438\u0432\u0430\u0442\u044c \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f \u0438 \u043a\u043e\u043d\u0442\u0430\u043a\u0442\u043d\u044b\u0435 \u0434\u0430\u043d\u043d\u044b\u0435 \u043f\u043e\u0441\u0442\u0430\u0432\u0449\u0438\u043a\u043e\u0432","performedDatetime":"2016-01-20T08:14:56Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: vatson
+sklad_hash: 4011cd66cfcd9c27be310c9d2a3391b5
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-01-20T10:47:48Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: андрій
+sklad_hash: 4011cd66cfcd9c27be310c9d2a3391b5
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-01-20T10:48:16Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: андрій
+sklad_hash: f2ba2f16d5fba45e6399245e2e009b08
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-01-20T10:48:34Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-51b8-ee29-faf0-069858386e47
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-01-20T10:48:45Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-01-20T10:48:45Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-51b8-ee29-faf0-069858386e47
+appleId: 00000000-51b8-ee29-faf0-069858386e47
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: епроо
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0435\u043f\u0440\u043e\u043e","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2016-01-20T10:48:55Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'епроо%' or title like '% епроо%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'епроо%' or title like '% епроо%')
+ auth: 100 
+=====

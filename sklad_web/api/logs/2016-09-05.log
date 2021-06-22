@@ -1,0 +1,130 @@
+Query:
+sklad_user: Бизон
+sklad_hash: 58d43ecd68fd7e835ba85a654842f403
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-09-05T09:39:03Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-0886-a58c-dc97-b4993c5aab13
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-09-05T09:39:36Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2016-09-05T09:39:37Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-0886-a58c-dc97-b4993c5aab13
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: аапл
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0430\u0430\u043f\u043b","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u0410\u0410\u041f\u043b 3\u044535(\u043e\u0436)-6","amount":"0,155","amount_parts":"","unit":"\u043a\u043c","city":"\u0418\u0440\u043a\u0443\u0442\u0441\u043a","company_id":"30777","company_name":"\u041e\u041e\u041e \u0422\u0414 \"\u0423\u041d\u041a\u041e\u041c\u0422\u0415\u0425\" \u041c\u043e\u0441\u043a\u0432\u0430"},{"name":"\u0410\u0410\u041f\u041b-1 4\u044535","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"1400","company_name":"\u041e\u041e\u041e \u0423\u0440\u0430\u043b\u043a\u0430\u0431\u0435\u043b\u044c\u043f\u0440\u043e\u043c"}],"performedDatetime":"2016-09-05T09:39:55Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'аапл%' or title like '% аапл%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'аапл%' or title like '% аапл%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-0886-a58c-dc97-b4993c5aab13
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+cityFilter: 
+sort: 0
+resultsFrom: 7
+action: get_goods_data
+searchTerm: аапл
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0430\u0430\u043f\u043b","resultsFrom":7,"code":0,"resultsCount":"2","data":[],"performedDatetime":"2016-09-05T09:40:15Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'аапл%' or title like '% аапл%') order by  s.title LIMIT 140, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'аапл%' or title like '% аапл%')
+ auth: 100 
+=====
+Query:
+sklad_user: Бизон
+sklad_hash: 58d43ecd68fd7e835ba85a654842f403
+appleId: 00000000-0886-a58c-dc97-b4993c5aab13
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-09-05T09:40:31Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: vwoijgwe213213
+sklad_hash: 47d2798bc01b08b42e0a8bb01588b959
+appleId: ffffffff-e38d-8333-ffff-ffffaf50a106
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-09-05T19:28:15Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: vwoijgwe213213
+sklad_hash: 47d2798bc01b08b42e0a8bb01588b959
+appleId: ffffffff-e38d-8333-ffff-ffffaf50a106
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-09-05T19:29:00Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

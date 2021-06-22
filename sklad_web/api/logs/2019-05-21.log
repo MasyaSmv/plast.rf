@@ -1,0 +1,32 @@
+Query:
+performedDatetime: 2019-05-20 21:59:47  0000
+action: check_user_rights
+sklad_user: R-TaK
+appleId: 7AA50AD7-8A11-4209-BA6E-73B04B185B31
+sklad_hash: fd25b2738ec9de0ba84acf5ffd4b953c
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2019-05-20T21:59:48Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-05-20 22:01:20  0000
+action: check_user_rights
+sklad_user: R-TaK
+appleId: 7AA50AD7-8A11-4209-BA6E-73B04B185B31
+sklad_hash: fd25b2738ec9de0ba84acf5ffd4b953c
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2019-05-20T22:01:21Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

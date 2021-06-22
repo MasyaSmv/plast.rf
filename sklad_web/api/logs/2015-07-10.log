@@ -1,0 +1,161 @@
+Query:
+performedDatetime: 2015-07-10 05:30:25  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-10T05:30:26Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 06:27:20  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-10T06:27:21Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 06:27:35  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: A4894D64-F461-4E2E-801E-CD6EB9677046
+sklad_hash: 12564c0fe944a564721d2ae807ac0d73
+searchTerm: Мф-85
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041c\u0444-85","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"2","lastPage":1,"data":[{"name":"\u041c\u0424-85","amount":"0,168","amount_parts":"","unit":"\u0442\u043d","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"2790","company_name":"\u041e\u041e\u041e \u0421\u043b\u0430\u0432\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u041c\u0424-85","amount":"4,416","amount_parts":"1,409; 2; 1,007; ","unit":"\u043a\u043c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","company_id":"24246","company_name":"\u041e\u041e\u041e \u0414\u0415\u041e\u0414\u0410\u0420"}],"performedDatetime":"2015-07-10T06:27:36Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Мф-85%' or title like '% Мф-85%' or title like '%Мф(A)-85%' or title like '%Мф(А)-85%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Мф-85%' or title like '% Мф-85%' or title like '%Мф(A)-85%' or title like '%Мф(А)-85%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-10 06:27:42  0000
+action: get_company_data
+sklad_user: Гость
+appleId: A4894D64-F461-4E2E-801E-CD6EB9677046
+sklad_hash: 12564c0fe944a564721d2ae807ac0d73
+company_id: 24246
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":24246,"title":"\u041e\u041e\u041e \u0414\u0415\u041e\u0414\u0410\u0420","city":"\u0421\u0430\u043c\u0430\u0440\u0430","address":"443090, \u0433.\u0421\u0430\u043c\u0430\u0440\u0430, \u0443\u043b. \u0421\u043e\u0432\u0435\u0442\u0441\u043a\u043e\u0439 \u0410\u0440\u043c\u0438\u0438, \u0434. 180, \u0441\u0442\u0440\u043e\u0435\u043d\u0438\u0435 3, \u043e\u0444. 804. ","phone":"8469735801","email":"deodar-office@mail.ru","contact":"\u0428\u0435\u0432\u0446\u043e\u0432 \u0421\u0435\u0440\u0433\u0435\u0439 \u0412\u0430\u043b\u0435\u0440\u0438\u0435\u0432\u0438\u0447","goods_count":"16","last_update":"01.07.2015"},"performedDatetime":"2015-07-10T06:27:43Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-10 06:28:15  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: A4894D64-F461-4E2E-801E-CD6EB9677046
+sklad_hash: 12564c0fe944a564721d2ae807ac0d73
+searchTerm: Мф-100
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041c\u0444-100","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-07-10T06:28:15Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Мф-100%' or title like '% Мф-100%' or title like '%Мф(A)-100%' or title like '%Мф(А)-100%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Мф-100%' or title like '% Мф-100%' or title like '%Мф(A)-100%' or title like '%Мф(А)-100%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2015-07-10 07:09:25  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-10T07:09:26Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 14:12:53  0000
+action: check_user_rights
+sklad_user: 
+appleId: 1B908903-23A7-4107-900E-08C117194C1A
+sklad_hash: a5056906a4076aa8785bb6e65ac797bb
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2015-07-10T14:12:54Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 14:12:56  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-10T14:12:56Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 14:13:05  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","performedDatetime":"2015-07-10T14:13:05Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-07-10 14:13:10  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 1B908903-23A7-4107-900E-08C117194C1A
+sklad_hash: a5056906a4076aa8785bb6e65ac797bb
+searchTerm: Df
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Df","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"SAT 602 DF2N","amount":"0,08","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""}],"performedDatetime":"2015-07-10T14:13:11Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Df%' or title like '% Df%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Df%' or title like '% Df%')
+ auth: 0 
+=====

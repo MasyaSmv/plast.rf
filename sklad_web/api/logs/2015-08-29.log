@@ -1,0 +1,34 @@
+Query:
+performedDatetime: 2015-08-29 05:45:34  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ffffff;'><center><img src='http:\/\/www.ruscable.ru\/banners\/uncomtech_bnr3_600x70_1.1.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.uncomtech.ru\/","performedDatetime":"2015-08-29T05:45:35Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2015-08-29 05:45:45  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 251B7AC1-6D41-402F-ADA1-3225800DDD7A
+sklad_hash: 0a968e722a73a3aba62ad9261baba065
+searchTerm: Велснаб
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0412\u0435\u043b\u0441\u043d\u0430\u0431","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2015-08-29T05:45:46Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Велснаб%' or title like '% Велснаб%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Велснаб%' or title like '% Велснаб%')
+ auth: 100 
+=====

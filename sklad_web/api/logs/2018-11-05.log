@@ -1,0 +1,176 @@
+Query:
+performedDatetime: 2018-11-05 14:26:17  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-11-05T14:26:18Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-05 14:26:50  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+searchTerm: Плинтуса и розетки
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041f\u043b\u0438\u043d\u0442\u0443\u0441\u0430 \u0438 \u0440\u043e\u0437\u0435\u0442\u043a\u0438","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-05T14:26:50Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Плинтуса%' or title like '% Плинтуса%') and (title like 'и%' or title like '% и%') and (title like 'розетки%' or title like '% розетки%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Плинтуса%' or title like '% Плинтуса%') and (title like 'и%' or title like '% и%') and (title like 'розетки%' or title like '% розетки%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-05 14:29:35  0000
+action: check_user_rights
+sklad_user: 
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2018-11-05T14:29:36Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-05 14:29:40  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-11-05T14:29:40Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-05 14:29:55  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+searchTerm: Кабель канал sl
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c \u043a\u0430\u043d\u0430\u043b sl","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-05T14:29:56Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%') and (title like 'sl%' or title like '% sl%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%') and (title like 'sl%' or title like '% sl%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-05 14:30:04  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+searchTerm: Кабель канал 
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c \u043a\u0430\u043d\u0430\u043b","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-05T14:30:05Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-05 15:59:13  0000
+action: check_user_rights
+sklad_user: 
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2018-11-05T15:59:14Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-05 15:59:25  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2018-11-05T15:59:25Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2018-11-05 15:59:42  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+searchTerm: Кабель канал
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u041a\u0430\u0431\u0435\u043b\u044c \u043a\u0430\u043d\u0430\u043b","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-05T15:59:43Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'канал%' or title like '% канал%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2018-11-05 16:00:00  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 748F7A69-5829-41E4-B200-490DDEF63F2C
+sklad_hash: d958e74a47319a0c3e2ab9cbc6cfd31b
+searchTerm: Розетки
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0420\u043e\u0437\u0435\u0442\u043a\u0438","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2018-11-05T16:00:01Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Розетки%' or title like '% Розетки%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Розетки%' or title like '% Розетки%')
+ auth: 100 
+=====

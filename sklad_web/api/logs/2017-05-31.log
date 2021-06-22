@@ -1,0 +1,520 @@
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5a73-2c12-af55-878d3b6f03ee
+appleId: 00000000-5a73-2c12-af55-878d3b6f03ee
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T08:21:23Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-5a73-2c12-af55-878d3b6f03ee
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T08:21:23Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: elektrik45
+sklad_hash: c8c2a6e36c8e5bb8fa4c92449e25d826
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T11:53:49Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: elektrik45
+sklad_hash: c8c2a6e36c8e5bb8fa4c92449e25d826
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T11:53:50Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T11:53:58Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T11:53:59Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T11:53:59Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T11:54:00Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+appleId: 00000000-5d2a-a3eb-33bf-30c7499a2ba7
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: мкэш
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043c\u043a\u044d\u0448","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1721","lastPage":0,"data":[{"name":"\u041c\u041a\u042d\u0428 (\u0412\u041f) 5\u04450,35","amount":"0,195","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10x0.35","amount":"0,234","amount_parts":"","unit":"\u043a\u043c","city":"\u0425\u0438\u043c\u043a\u0438","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10x0.75","amount":"1,48","amount_parts":"","unit":"\u043a\u043c","city":"\u0425\u0438\u043c\u043a\u0438","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u0445 0,35","amount":"0,925","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u0445 0,5","amount":"0,55","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u0445 0,75","amount":"0,87","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,16","amount_parts":"","unit":"\u043a\u043c","city":"\u0411\u0435\u0440\u0451\u0437\u043e\u0432\u0441\u043a\u0438\u0439","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,673","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,15","amount_parts":"75;75","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,59","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,823","amount_parts":"0,654; 0,169; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35","amount":"0,654","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,35,","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"0,103","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"1,223","amount_parts":"6*100;71;86;90;106;130;140","unit":"\u043a\u043c","city":"\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"0,15","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"0,115","amount_parts":"","unit":"\u043a\u043c","city":"\u0411\u0435\u0440\u0451\u0437\u043e\u0432\u0441\u043a\u0438\u0439","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"0,598","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""},{"name":"\u041c\u041a\u042d\u0428 10\u04450,5","amount":"2,815","amount_parts":"0,745; 2,07; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"","company_name":""}],"performedDatetime":"2017-05-31T11:54:11Z","authStatus":"10"}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'мкэш%' or title like '% мкэш%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'мкэш%' or title like '% мкэш%')
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T15:48:33Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T15:48:33Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: мям
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043c\u044f\u043c","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2017-05-31T15:48:45Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'мям%' or title like '% мям%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'мям%' or title like '% мям%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T15:49:20Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+sklad_user:  
+sklad_hash:  
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T15:49:20Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: кантал
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043a\u0430\u043d\u0442\u0430\u043b","resultsFrom":0,"code":0,"resultsCount":"0","data":[],"performedDatetime":"2017-05-31T15:49:26Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'кантал%' or title like '% кантал%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'кантал%' or title like '% кантал%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: кабель
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u043a\u0430\u0431\u0435\u043b\u044c","resultsFrom":0,"code":0,"resultsCount":null,"data":[],"performedDatetime":"2017-05-31T15:49:33Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and  order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and 
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+cityFilter: 
+sort: 0
+resultsFrom: 0
+action: get_goods_data
+searchTerm: nym
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"nym","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"419","lastPage":0,"data":[{"name":"NYM -\u041e 2\u04451,5","amount":"2,4","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"NYM -\u041e 2\u04452,5","amount":"4,895","amount_parts":"1,1; 3,7; 0,095; ","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"NYM 2x 1,5 \u0437\u0430\u043f.","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"25335","company_name":"\u041e\u041e\u041e \"\u041d\u0435\u0439\u0432\u0430-\u041a\u0430\u0431\u0435\u043b\u044c\""},{"name":"NYM 2x 2,5 \u0437\u0430\u043f.","amount":"0,6","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"25335","company_name":"\u041e\u041e\u041e \"\u041d\u0435\u0439\u0432\u0430-\u041a\u0430\u0431\u0435\u043b\u044c\""},{"name":"NYM 2X2.5","amount":"0,2","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"11160","company_name":"\u041e\u041e\u041e \u0418\u0422\u0421\u041a"},{"name":"NYM 2\u0445 1,5","amount":"0,35","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"31353","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u0422\u0440\u0430\u043d\u0441\u0421\u0435\u0440\u0432\u0438\u0441"},{"name":"NYM 2\u0445 2,5","amount":"2,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"270","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u0433\u0443\u043f\u043f\u0430 \u0421\u041f\u0411"},{"name":"NYM 2\u0445 2,5","amount":"0,723","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"31353","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u0422\u0440\u0430\u043d\u0441\u0421\u0435\u0440\u0432\u0438\u0441"},{"name":"NYM 2\u04451,5","amount":"0,123","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"NYM 2\u04451,5","amount":"0,127","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33750","company_name":"\u041e\u041e\u041e \u041c\u042d\u041a \u042d\u043b\u0435\u043a\u0442\u0440\u0438\u043a\u0430"},{"name":"NYM 2\u04451,5","amount":"3,053","amount_parts":"0,025; 3,028; ","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"5546","company_name":"\u041e\u041e\u041e \u0422\u0414 \u0423\u0440\u0430\u043b\u044d\u043b\u0435\u043a\u0442\u0440\u043e\u0442\u0435\u0445\u043d\u0438\u043a\u0430"},{"name":"NYM 2\u04451,5","amount":"3,33","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"270","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u0433\u0443\u043f\u043f\u0430 \u0421\u041f\u0411"},{"name":"NYM 2\u04451,5","amount":"1,995","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"NYM 2\u04251,5","amount":"0,8","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"65","company_name":"\u041e\u041e\u041e \u0424\u041e\u0420\u0415\u0421 \u0422\u041f\u041a"},{"name":"NYM 2\u04451,5","amount":"9,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0423\u0444\u0430","company_id":"15071","company_name":"\u0412\u0435\u043a\u0442\u043e\u0440"},{"name":"NYM 2\u04451,5","amount":"1,418","amount_parts":"800;100;;300;;;118;100","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"6765","company_name":"\u041c\u0435\u0436\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f"},{"name":"NYM 2\u04251,5","amount":"2,9","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"27384","company_name":"\u041e\u041e\u041e \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \"\u0418\u041c\u041f\u0415\u0420\u0410\""},{"name":"NYM 2\u04451,5","amount":"0,914","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"8456","company_name":"\u041e\u041e\u041e \"\u041f\u0440\u043e\u043c\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u041a\u0430\u0431\u0435\u043b\u044c\""},{"name":"NYM 2\u04451,5","amount":"0,32","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"28854","company_name":"\u041d\u041a \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434"},{"name":"NYM 2\u04451,5","amount":"6,669","amount_parts":"3,8; 2,869; ","unit":"\u043a\u043c","city":"\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","company_id":"22212","company_name":"\u041e\u041e\u041e \u0422\u0414 \"\u0422\u043e\u043b\u0435\u0434\u043e\""}],"performedDatetime":"2017-05-31T15:49:54Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'nym%' or title like '% nym%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'nym%' or title like '% nym%')
+ auth: 100 
+=====
+Query:
+sklad_user: Гость
+sklad_hash: ffffffff-ca15-7397-1102-460e547ead6b
+appleId: ffffffff-ca15-7397-1102-460e547ead6b
+action: get_company_data
+company_id: 25335
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":25335,"title":"\u041e\u041e\u041e \"\u041d\u0435\u0439\u0432\u0430-\u041a\u0430\u0431\u0435\u043b\u044c\"","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","address":"624135, \u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0433. \u041d\u043e\u0432\u043e\u0443\u0440\u0430\u043b\u044c\u0441\u043a, \u0443\u043b. \u0428\u0435\u0432\u0447\u0435\u043d\u043a\u043e, 20\u0410","phone":"8(34370)25752","email":"neyva_kabel@mail.ru","url":"http:\/\/neiva-cable.jimdo.com\/","contact":"\u0412\u0435\u043a\u0448\u0435\u0433\u043e\u043d\u043e\u0432 \u0421\u0435\u0440\u0433\u0435\u0439 \u0410\u043d\u0430\u0442\u043e\u043b\u044c\u0435\u0432\u0438\u0447","goods_count":"520","last_update":"31.05.2017"},"performedDatetime":"2017-05-31T15:49:56Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:19:27  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T17:19:27Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-31 17:19:37  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+searchTerm: Апвпу2г
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u04432\u0433","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"172","lastPage":0,"data":[{"name":"\u0410\u043f\u0432\u041f\u04432\u0413 120\/50-10","amount":"0,91","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043c\u0430\u0440\u0430","company_id":"23577","company_name":"\u041e\u041e\u041e \"\u041a\u041e\u0420\u041f\u041e\u0420\u0410\u0426\u0418\u042f \"\u042d\u041d\u0415\u0420\u0413\u041e\u0421\u0412\u042f\u0417\u042c\u041a\u0410\u0411\u0415\u041b\u042c\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445120","amount":"1,06","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445120\/16-10","amount":"0,78","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445120\/50-10","amount":"0,038","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33800","company_name":"\u0422\u041a \u041d\u043e\u043a\u0441\u0442\u043e\u043d"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445120\u043c\u043a\/25-10","amount":"0,388","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u0440\u0430\u043d\u0441\u043a","company_id":"18197","company_name":"\u041e\u041e\u041e \"\u0421\u0430\u0440\u0430\u043d\u0441\u043a\u043a\u0430\u0431\u0435\u043b\u044c\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445120\u043c\u043a\/25-10\u043a\u0412","amount":"1,23","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445120\u043c\u043a\/25-10\u043a\u0412","amount":"1,23","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150","amount":"1,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/25-10\u043a\u0412","amount":"1,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/25-10\u043a\u0412","amount":"1,02","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/35-10\u043a\u0412","amount":"1,19","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/35-10\u043a\u0412","amount":"1,19","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/35-10\u043a\u0412","amount":"0,87","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/35-10\u043a\u0412","amount":"0,87","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445150\u043c\u043a\/70-35","amount":"0,9","amount_parts":"0,6; 0,3; ","unit":"\u043a\u043c","city":"\u0418\u0440\u043a\u0443\u0442\u0441\u043a","company_id":"30777","company_name":"\u041e\u041e\u041e \u0422\u0414 \"\u0423\u041d\u041a\u041e\u041c\u0422\u0415\u0425\" \u041c\u043e\u0441\u043a\u0432\u0430"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445150\\50-10","amount":"0,347","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445150\\50-10","amount":"0,347","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"32187","company_name":"\u041e\u041e\u041e \"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0414\u043e\u043c \"\u0424\u0435\u043d\u0438\u043a\u0441\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445150\\50-35","amount":"0,099","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"32187","company_name":"\u041e\u041e\u041e \"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0414\u043e\u043c \"\u0424\u0435\u043d\u0438\u043a\u0441\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445185","amount":"1,055","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445185\u043c\u043a\/35-10\u043a\u0412","amount":"0,57","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"}],"performedDatetime":"2017-05-31T17:19:37Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпу2г%' or title like '% Апвпу2г%' or title like '%Апвпу2г%' or title like '%Апвпу2г%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпу2г%' or title like '% Апвпу2г%' or title like '%Апвпу2г%' or title like '%Апвпу2г%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:19:51  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+searchTerm: Апвпу2г
+resultsFrom: 1
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u043f\u04432\u0433","resultsFrom":1,"sort":0,"cityFilter":"","code":0,"resultsCount":"172","lastPage":0,"data":[{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445185\u043c\u043a\/35-10\u043a\u0412","amount":"0,57","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445185\u043c\u043a\/35-10\u043a\u0412","amount":"0,45","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445185\u043c\u043a\/35-10\u043a\u0412","amount":"0,45","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445185\\70-10","amount":"0,052","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445185\\70-10","amount":"0,052","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"32187","company_name":"\u041e\u041e\u041e \"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0414\u043e\u043c \"\u0424\u0435\u043d\u0438\u043a\u0441\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240","amount":"1,08","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/25-10","amount":"0,459","amount_parts":"259;200","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"6765","company_name":"\u041c\u0435\u0436\u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430\u044f \u043a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/50-10","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"30925","company_name":"\u041e\u041e\u041e \u0421\u043f\u0440\u0438\u043d\u0442\u042d\u041d\u0415\u0420\u0413\u041e"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/50-10","amount":"0,231","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u0412\u043e\u0434\u044b","company_id":"29646","company_name":"\u041e\u041e\u041e \u0425\u044d\u0434\u0432\u0435\u0439"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445240\/70","amount":"0,008","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"3660","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u041a\u043e\u043d\u0442\u0440\u0430\u043a\u0442 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70 - 110\u043a\u0412","amount":"8,95","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"8056","company_name":"\u041e\u041e\u041e \u041d\u041f\u041e \u042d\u043b\u0430\u0439\u043d"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70 -10\u043a\u0412","amount":"0,051","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"28854","company_name":"\u041d\u041a \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70 -110 \u043a\u0412","amount":"11,18","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"33423","company_name":"\u0424\u0430\u0440\u0430\u0434\u0435\u0439 - \u0441\u043b\u0443\u0436\u0431\u0430 \u043a\u0430\u0431\u0435\u043b\u044c \u0441\u0440\u043e\u0447\u043d\u043e"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70-10","amount":"0,821","amount_parts":"","unit":"\u043a\u043c","city":"\u0422\u044e\u043c\u0435\u043d\u044c","company_id":"33928","company_name":"\u0422\u044e\u043c\u0435\u043d\u044c\u042d\u043d\u0435\u0440\u0433\u043e\u041a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70-10\u043a\u0412","amount":"0,3","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70-10\u043a\u0412","amount":"1,19","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\/70-35","amount":"0,022","amount_parts":"","unit":"\u043a\u043c","city":"\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443","company_id":"16095","company_name":"\u043e\u043e\u043e \u0421\u0435\u0432\u043a\u0430\u0432\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445240\/95-10","amount":"0,087","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"\u0410\u041f\u0432\u041f\u04432\u0413 1\u0445240\/95-10","amount":"0,087","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"32187","company_name":"\u041e\u041e\u041e \"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0414\u043e\u043c \"\u0424\u0435\u043d\u0438\u043a\u0441\""},{"name":"\u0410\u041f\u0432\u041f\u04432\u0433 1\u0445240\u043c\u043a\/25-10\u043a\u0412","amount":"0,75","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","company_id":"22088","company_name":"\u0425\u043e\u043b\u0434\u0438\u043d\u0433 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0410\u043b\u044c\u044f\u043d\u0441"}],"performedDatetime":"2017-05-31T17:19:51Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвпу2г%' or title like '% Апвпу2г%' or title like '%Апвпу2г%' or title like '%Апвпу2г%') order by  s.title LIMIT 20, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвпу2г%' or title like '% Апвпу2г%' or title like '%Апвпу2г%' or title like '%Апвпу2г%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:19:58  0000
+action: get_city_list
+
+=====
+Response:
+{"action":"get_city_list","code":0,"data":["\u0410\u043b\u043c\u0430\u0442\u044b","\u0410\u043d\u0440\u0441\u043a","\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a","\u0410\u0441\u0442\u0430\u043d\u0430","\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434","\u0411\u0435\u0440\u0451\u0437\u043e\u0432\u0441\u043a\u0438\u0439","\u0411\u0440\u044f\u043d\u0441\u043a","\u0412\u0435\u043b\u0438\u043a\u0438\u0435 \u041b\u0443\u043a\u0438","\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","\u0418\u0432\u0430\u043d\u043e\u0432\u043e","\u0418\u0440\u043a\u0443\u0442\u0441\u043a","\u041a\u0430\u0437\u0430\u043d\u044c","\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","\u041a\u0438\u0440\u043e\u0432","\u041a\u0438\u0440\u043e\u0432\u043e-\u0427\u0435\u043f\u0435\u0446\u043a","\u041a\u0438\u0440\u0441","\u041a\u043e\u043b\u044c\u0447\u0443\u0433\u0438\u043d\u043e","\u041a\u043e\u043b\u044c\u0447\u0443\u043d\u043e","\u041a\u043e\u0440\u043e\u043b\u0435\u0432 (\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b.)","\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","\u041b\u044e\u0431\u0435\u0440\u0446\u044b","\u041c\u0438\u043d\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u0412\u043e\u0434\u044b","\u041c\u0438\u043d\u0441\u043a","\u041c\u043e\u0441\u043a\u0432\u0430","\u041d\u0430\u0445\u0430\u0431\u0438\u043d\u043e","\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a","\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a (\u0422\u0443\u043b\u044c\u0441\u043a\u0430\u044f \u043e\u0431\u043b.)","\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a","\u041e\u0440\u0435\u043b","\u041e\u0440\u0435\u043d\u0431\u0443\u0440\u0433","\u041f\u0435\u043d\u0437\u0430","\u041f\u0435\u0440\u043c\u044c","\u041f\u043e\u0434\u043e\u043b\u044c\u0441\u043a","\u0420\u043e\u0441\u0442\u043e\u0432","\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443","\u0421\u0430\u043c\u0430\u0440\u0430","\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","\u0421\u0430\u0440\u0430\u043d\u0441\u043a","\u0421\u0430\u0440\u0430\u0442\u043e\u0432","\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a","\u0422\u043e\u043c\u0441\u043a","\u0422\u044e\u043c\u0435\u043d\u044c","\u0423\u0444\u0430","\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a","\u0425\u0438\u043c\u043a\u0438","\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b","\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a","\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446","\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0443\u0433\u043b\u0438","\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c"],"performedDatetime":"2017-05-31T17:19:58Z","authStatus":"10"}
+=====
+
+select distinct city from sklad_tovar where city != '' order by city
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-31 17:20:37  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T17:20:37Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-31 17:21:00  0000
+action: check_user_rights
+sklad_user: 
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2017-05-31T17:21:00Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-31 17:21:05  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2017-05-31T17:21:05Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2017-05-31 17:21:25  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+searchTerm: Апвббшп
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u0431\u0431\u0448\u043f","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"80","lastPage":0,"data":[{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f (\u0433) -1 4\u0445120","amount":"0,126","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"29586","company_name":"\u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0446\u0435\u043d\u0442\u0440-\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u0445120","amount":"1,155","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u0445150","amount":"0,635","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u0445185","amount":"1,228","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u0445240","amount":"1,24","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u044535","amount":"1,124","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u044550","amount":"1,124","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u044570","amount":"1,112","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 4\u044595","amount":"1,18","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u0445120","amount":"1,438","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u0445150","amount":"1,378","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u0445185","amount":"1,71","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u0445240","amount":"0,992","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u044535","amount":"1,341","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u044550","amount":"1,764","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u044570","amount":"0,541","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f -1 5\u044595","amount":"0,705","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"29353","company_name":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 1\u043a\u0432 4\u0445240","amount":"0,09","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 1\u043a\u0432 4\u0445240","amount":"0,09","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"17087","company_name":"\u043e\u043e\u043e \u041b\u042d\u041f \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430"},{"name":"\u0410\u041f\u0412\u0411\u0411\u0428\u041f 1\u044570","amount":"0,155","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"}],"performedDatetime":"2017-05-31T17:21:25Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:21:32  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+searchTerm: Апвббшп
+resultsFrom: 1
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u0431\u0431\u0448\u043f","resultsFrom":1,"sort":0,"cityFilter":"","code":0,"resultsCount":"80","lastPage":0,"data":[{"name":"\u0410\u041f\u0412\u0411\u0411\u0428\u041f 3\u04456 - 1 (\u041e\u041a)","amount":"0,3","amount_parts":"","unit":"\u043a\u043c","city":"\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a","company_id":"30777","company_name":"\u041e\u041e\u041e \u0422\u0414 \"\u0423\u041d\u041a\u041e\u041c\u0422\u0415\u0425\" \u041c\u043e\u0441\u043a\u0432\u0430"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445120","amount":"0,085","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"26993","company_name":"\u041e\u041e\u041e \u042d\u043d\u0435\u0440\u0433\u043e\u0422\u0435\u0445\u0425\u043e\u043b\u0434\u0438\u043d\u0433"},{"name":"\u0410\u043f\u0432\u0431\u0431\u0448\u043f 4\u0445120","amount":"0,2","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"23365","company_name":"\u041b\u0435\u043d\u0421\u0442\u0440\u043e\u0439\u041c\u0435\u0442"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445120","amount":"0,282","amount_parts":"","unit":"\u043a\u043c","city":"\u041b\u044e\u0431\u0435\u0440\u0446\u044b","company_id":"15356","company_name":"\u041e\u041e\u041e \u042d\u043d\u0435\u0440\u0433\u043e\u0444\u043e\u0440\u0441\u0430\u0436"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445120","amount":"0,625","amount_parts":"0,31; 0,315; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0411\u0428\u041f 4\u0445120","amount":"0,714","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445150","amount":"0,507","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0411\u0428\u041f 4\u0445150","amount":"0,82","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u044516","amount":"0,133","amount_parts":"","unit":"\u043a\u043c","city":"\u041b\u044e\u0431\u0435\u0440\u0446\u044b","company_id":"15356","company_name":"\u041e\u041e\u041e \u042d\u043d\u0435\u0440\u0433\u043e\u0444\u043e\u0440\u0441\u0430\u0436"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u0445185","amount":"0,538","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u0445185","amount":"0,584","amount_parts":"0,534; 0,05; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445240","amount":"0,075","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"34090","company_name":"\u041e\u041e\u041e \u0410\u0422\u041b\u0410\u041d\u0422"},{"name":"\u0410\u041f\u0432\u0411\u0411\u0428\u043f 4\u0425240","amount":"0,103","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"23365","company_name":"\u041b\u0435\u043d\u0421\u0442\u0440\u043e\u0439\u041c\u0435\u0442"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u0445240","amount":"0,075","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"32187","company_name":"\u041e\u041e\u041e \"\u0422\u043e\u0440\u0433\u043e\u0432\u044b\u0439 \u0414\u043e\u043c \"\u0424\u0435\u043d\u0438\u043a\u0441\""},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u0445240","amount":"0,39","amount_parts":"0,09; 0,3; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u0445240 - 1 \u0444\u0430\u0441. \u0413\u041e\u0421\u0422 16442-80","amount":"0,002","amount_parts":"","unit":"\u043a\u043c","city":"\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","company_id":"30826","company_name":"\u0413\u041a \u042d\u041d\u0415\u0420\u0413\u041e\u041a\u041e\u041c\u041f\u041b\u0415\u041a\u0422 \u041c\u0424"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044525","amount":"0,502","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"33174","company_name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0426\u0435\u043d\u0442\u0440"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044535 -1\u043a\u0412","amount":"0,05","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"28854","company_name":"\u041d\u041a \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434"},{"name":"\u0410\u041f\u0412\u0411\u0411\u0428\u041f 4\u044550","amount":"0,096","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"3660","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u041a\u043e\u043d\u0442\u0440\u0430\u043a\u0442 \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u044550","amount":"0,204","amount_parts":"","unit":"\u043a\u043c","city":"\u041b\u044e\u0431\u0435\u0440\u0446\u044b","company_id":"15356","company_name":"\u041e\u041e\u041e \u042d\u043d\u0435\u0440\u0433\u043e\u0444\u043e\u0440\u0441\u0430\u0436"}],"performedDatetime":"2017-05-31T17:21:32Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%') order by  s.title LIMIT 20, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:21:59  0000
+action: get_company_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+company_id: 29353
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":29353,"title":"\u041e\u041e\u041e \u0424\u0435\u0440\u0440\u0443\u043c","city":"\u041f\u0435\u0440\u043c\u044c","address":"614000","phone":"3422150367","email":"info-spravrk@fe-ferrum.ru","url":"http:\/\/fe-ferrum.ru","contact":"\u0422\u0430\u0442\u044c\u044f\u043d\u0430 \u041a\u043e\u043d\u0438\u043d\u0430","goods_count":"5243","last_update":"29.05.2017"},"performedDatetime":"2017-05-31T17:22:00Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:22:09  0000
+action: get_company_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+company_id: 28626
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":28626,"title":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441","city":"","address":"196084, \u0433. \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0443\u043b. \u0417\u0430\u0441\u0442\u0430\u0432\u0441\u043a\u0430\u044f, \u0434. 31, \u043a\u043e\u0440\u043f.2","phone":"89817759000","email":"info@rosenergoaliance.ru","url":"http:\/\/rosenergoaliance.ru\/","contact":"\u0421\u043e\u043a\u043e\u043b\u043e\u0432 \u042e\u0440\u0438\u0439 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u0438\u0447","goods_count":"3751","last_update":"22.05.2017"},"performedDatetime":"2017-05-31T17:22:09Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:22:47  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+searchTerm: Апвббшп
+resultsFrom: 2
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0410\u043f\u0432\u0431\u0431\u0448\u043f","resultsFrom":2,"sort":0,"cityFilter":"","code":0,"resultsCount":"80","lastPage":0,"data":[{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044550 \u043c\u043a -1\u043a\u0412","amount":"0,04","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"28854","company_name":"\u041d\u041a \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044570","amount":"0,052","amount_parts":"","unit":"\u043a\u043c","city":"\u0423\u0444\u0430","company_id":"8479","company_name":"\u0427\u0430\u0441\u0442\u043d\u0430\u044f \u0421\u041a-\u0423\u0420\u0410\u041b"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044570","amount":"0,038","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"11082","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u044570","amount":"1,027","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u043f\u0412\u0431\u0431\u0428\u043f 4\u044570 \u041c\u041d","amount":"0,16","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"5967","company_name":"\u041e\u041e\u041e \u041a\u0443\u043c\u0438\u0440 \u044d\u043d\u0435\u0440\u0433\u0438\u044f"},{"name":"\u0410\u043f\u0432\u0431\u0431\u0448\u043f 4\u044595","amount":"0,095","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"23365","company_name":"\u041b\u0435\u043d\u0421\u0442\u0440\u043e\u0439\u041c\u0435\u0442"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f 4\u044595","amount":"1,26","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 4\u044595 (\u043e\u0436) - 1 \u0444\u0430\u0441.","amount":"0,103","amount_parts":"","unit":"\u043a\u043c","city":"\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","company_id":"30826","company_name":"\u0413\u041a \u042d\u041d\u0415\u0420\u0413\u041e\u041a\u041e\u041c\u041f\u041b\u0415\u041a\u0422 \u041c\u0424"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f 5\u044525","amount":"0,086","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"33174","company_name":"\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u041a\u0430\u0431\u0435\u043b\u044c\u043d\u044b\u0439 \u0426\u0435\u043d\u0442\u0440"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u0445120 - 1 \u0444\u0430\u0441.","amount":"0,013","amount_parts":"","unit":"\u043a\u043c","city":"\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","company_id":"30826","company_name":"\u0413\u041a \u042d\u041d\u0415\u0420\u0413\u041e\u041a\u041e\u041c\u041f\u041b\u0415\u041a\u0422 \u041c\u0424"},{"name":"\u0410\u043f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u0445120 \u043c\u043d","amount":"0,365","amount_parts":"298;18;49","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"4879","company_name":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418"},{"name":"\u0410\u043f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u0445150 \u043c\u043d","amount":"0,229","amount_parts":"73;156","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"4879","company_name":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418"},{"name":"\u0410\u043f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u0445240 \u043c\u043d","amount":"1,405","amount_parts":"56;234;530;585","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"4879","company_name":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f(\u0433) 4\u044550","amount":"0,031","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"23365","company_name":"\u041b\u0435\u043d\u0421\u0442\u0440\u043e\u0439\u041c\u0435\u0442"},{"name":"\u0410\u043f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u044570","amount":"0,85","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"4879","company_name":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418"},{"name":"\u0410\u043f\u0432\u0411\u0431\u0428\u043f(\u0433) 4\u044595","amount":"1,384","amount_parts":"29;131;130;1000;94","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"4879","company_name":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f(\u0433)-1 4\u0445150","amount":"0,6","amount_parts":"0,5; 0,1; ","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"28626","company_name":"\u041e\u041e\u041e \u0422\u0414 \u042d\u043d\u0435\u0440\u0433\u043e\u0410\u043b\u044c\u044f\u043d\u0441"},{"name":"\u0410\u041f\u0432\u0411\u0431\u0428\u043f(\u0433)-1 4\u0445185","amount":"0,124","amount_parts":"","unit":"\u043a\u043c","city":"\u041f\u0435\u0440\u043c\u044c","company_id":"11082","company_name":"\u041e\u041e\u041e \u0421\u0442\u0440\u043e\u0439\u043a\u0430\u0431\u0435\u043b\u044c"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f(\u0433)-1 4\u0445185\u043c\u043d","amount":"0,815","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33800","company_name":"\u0422\u041a \u041d\u043e\u043a\u0441\u0442\u043e\u043d"},{"name":"\u0410\u041f\u0412\u0411\u0431\u0428\u043f(\u0437)-1 4\u0445185\u043c\u043d","amount":"0,122","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33800","company_name":"\u0422\u041a \u041d\u043e\u043a\u0441\u0442\u043e\u043d"}],"performedDatetime":"2017-05-31T17:22:47Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%') order by  s.title LIMIT 40, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Апвббшп%' or title like '% Апвббшп%' or title like '%Апвббшп%' or title like '%Апвббшп%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2017-05-31 17:22:54  0000
+action: get_company_data
+sklad_user: Гость
+appleId: D32C5454-DB14-45AC-AF92-A49ABF28CD0F
+sklad_hash: 6fd17e43083500649c475b9b894286da
+company_id: 4879
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":4879,"title":"\u041e\u041e\u041e \u041a\u0410\u0411\u0415\u041b\u042c\u041a\u041e\u041c\u041f\u0410\u041d\u0418","city":"\u041c\u043e\u0441\u043a\u0432\u0430","address":"117216, \u0433. \u041c\u043e\u0441\u043a\u0432\u0430, \u0443\u043b. \u041a\u0443\u043b\u0438\u043a\u043e\u0432\u0441\u043a\u0430\u044f, \u0434.20, ","phone":"+7-495-979-09-51","email":"9790951@mail.ru","url":"http:\/\/www.kabelcompany.ru","contact":"\u041c\u0438\u0445\u0430\u0438\u043b","goods_count":"104","last_update":"23.05.2017"},"performedDatetime":"2017-05-31T17:22:55Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

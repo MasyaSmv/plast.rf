@@ -1,0 +1,51 @@
+Query:
+performedDatetime: 2019-01-11 12:53:54  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-01-11T12:53:55Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-01-11 12:54:21  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: B482D7B0-BA9F-4CE5-A779-3DDEF88BCCF6
+sklad_hash: fc64783ad1746a01fea8f06a2b37e3ae
+searchTerm: Тппэп-ндг 100х2х0,5
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"\u0422\u043f\u043f\u044d\u043f-\u043d\u0434\u0433 100\u04452\u04450,5","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"1","lastPage":1,"data":[{"name":"\u0422\u041f\u041f\u044d\u043f-\u041d\u0414\u0413 100\u04452\u04450,5","amount":"5,421","amount_parts":"302; 40; 127; 140; 100; 163; 501; 300; 151; 298; 1052; 1501; 746","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"34237","company_name":"\u041f\u0440\u043e\u043c\u042d\u043d\u0435\u0440\u0433\u043e\u0421\u0442\u0440\u043e\u0439"}],"performedDatetime":"2019-01-11T12:54:22Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Тппэп-ндг%' or title like '% Тппэп-ндг%' or title like '%Тппэп(A)-ндг%' or title like '%Тппэп(А)-ндг%') and (title like '%100х2х0,5%' or title like '%100х2х0.5%' or title like '%100x2x0,5%' or title like '%100x2x0,5%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Тппэп-ндг%' or title like '% Тппэп-ндг%' or title like '%Тппэп(A)-ндг%' or title like '%Тппэп(А)-ндг%') and (title like '%100х2х0,5%' or title like '%100х2х0.5%' or title like '%100x2x0,5%' or title like '%100x2x0,5%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-01-11 12:54:38  0000
+action: get_company_data
+sklad_user: Гость
+appleId: B482D7B0-BA9F-4CE5-A779-3DDEF88BCCF6
+sklad_hash: fc64783ad1746a01fea8f06a2b37e3ae
+company_id: 34237
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":34237,"title":"\u041f\u0440\u043e\u043c\u042d\u043d\u0435\u0440\u0433\u043e\u0421\u0442\u0440\u043e\u0439","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","address":"192283, \u0433. \u0421\u041f\u0431, \u0411\u0443\u0434\u0430\u043f\u0435\u0448\u0442\u0441\u043a\u0430\u044f \u0443\u043b., \u0434.87\/1","phone":"(812)-365-15-28","email":"pestroycable@bk.ru","url":"http:\/\/pestroy.ru\/","contact":"\u041f\u043e\u043b\u044f\u043a\u043e\u0432\u0430 \u0415\u043b\u0435\u043d\u0430 \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u043d\u0430","goods_count":"85","last_update":"10.01.2019"},"performedDatetime":"2019-01-11T12:54:39Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====

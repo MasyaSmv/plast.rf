@@ -1,0 +1,28 @@
+Query:
+performedDatetime: 2016-07-22 10:29:47  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#c3c3c3;'><center><img src='http:\/\/www.ruscable.ru\/banners\/electro2016-600x70.gif' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/www.elektro-expo.ru\/","performedDatetime":"2016-07-22T10:29:48Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+sklad_user: elektramir
+sklad_hash: 4778a12e7e946cc26401a49efeeca1be
+appleId: 00000000-67dc-5cd7-8974-5a1e15c37918
+action: check_user_rights
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2016-07-22T20:20:22Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====

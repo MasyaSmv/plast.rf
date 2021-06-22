@@ -1,0 +1,144 @@
+Query:
+performedDatetime: 2019-12-01 00:26:33  0000
+action: check_user_rights
+sklad_user: Гость
+appleId: 6871FCD6-D81D-4A44-93BD-38BB7B8D1E83
+sklad_hash: 7a8ac187a4f9a964c7a6aeed47139675
+
+=====
+Response:
+{"action":"check_user_rights","code":0,"performedDatetime":"2019-12-01T00:27:04Z","authStatus":"0","accessDateEnd":""}
+=====
+
+
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-01 00:27:05  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-12-01T00:27:09Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-12-01 00:27:16  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 6871FCD6-D81D-4A44-93BD-38BB7B8D1E83
+sklad_hash: 7a8ac187a4f9a964c7a6aeed47139675
+searchTerm: Utp
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"401","lastPage":0,"data":[{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"0,004","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"0,004","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CABEUS UTP-4P-Cat.6-SOLID-LSZH 23AWG,","amount":"0,06","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"30132","company_name":"\u041e\u041e\u041e \"\u041a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \"\u0418\u041d\u0422\u0420\u041e\""},{"name":"Cabletech UTP 4PR 24AWG cat5e \u043c\u0435\u0434\u043d\u0430\u044f \u0436\u0438\u043b\u0430","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CCA OUTDOOR \u043e\u043c\u0435\u0434\u043d\u0435\u043d\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 , cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CU OUTDOOR \u043c\u0435\u0434\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 , cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CU OUTDOOR \u043c\u0435\u0434\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 \u0441 \u0442\u0440\u043e\u0441\u043e\u043c cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"CU-incl. HELUKAT 300 UTP UL 4P AWG 23\/1 gr","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 rot","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"Deesh UTP 4PR 0.48mm 24AWG CAT 5e 305\u043c PVC BC","amount":"120,17","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"Deesh UTP 4PR 0.50mm 24AWG CAT 5e 305\u043c PVC BC","amount":"103,09","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"Deesh UTP 4PR 0.50mm 24AWG CAT 5e 305\u043c PVC CCA","amount":"370,27","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"GWire UTP 4PR 0,51mm 24AWG CAT 5e 305\u043c PVC BC FLUKE TEST","amount":"43,615","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"HELUKAT 100 UTP 4P AWG 26\/7 PVC grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 155 UTP 4P AWG 24\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 155 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 300 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"Hyperline UTP4-C5E-Solid-GY","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"8597","company_name":"\u041e\u041e\u041e \"\u0418\u041d\u0412\u0415\u0421\u0422\u041a\u0410\u0411\u0415\u041b\u042c\""},{"name":"Hyperline UTP4-C5E-SOLID-GY-305 (U\/UTP4-C5E-S24-IN-PVC-GY-305) (305 \u043c) \u0432\u0438\u0442\u0430\u044f \u043f\u0430\u0440\u0430, \u043d\u0435U\/UTP, \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5e, 4 \u043f\u0430\u0440\u044b (24 AWG), \u043e\u0434\u043d\u043e\u0436\u0438\u043b\u044c\u043d\u044b\u0439","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"}],"performedDatetime":"2019-12-01T00:27:18Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-01 00:27:29  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 6871FCD6-D81D-4A44-93BD-38BB7B8D1E83
+sklad_hash: 7a8ac187a4f9a964c7a6aeed47139675
+company_id: 34423
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":34423,"title":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","address":"236000, \u0433. \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434, \u0443\u043b. \u041f\u0443\u0433\u0430\u0447\u0435\u0432\u0430, 9-26","phone":"79052489631","email":"elcab.su@gmail.com","url":"http:\/\/www.elcab.su\/","contact":"\u041f\u0440\u0438\u0449\u0435\u043f \u0412\u0430\u0434\u0438\u043c \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447","goods_count":"9231","last_update":"25.11.2019"},"performedDatetime":"2019-12-01T00:27:32Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-01 00:27:38  0000
+action: get_city_list
+
+=====
+Response:
+{"action":"get_city_list","code":0,"data":["\u0410\u043b\u043c\u0430\u0442\u044b","\u0410\u043d\u0433\u0430\u0440\u0441\u043a","\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a","\u0410\u0441\u0442\u0430\u043d\u0430","\u0411\u0430\u0440\u043d\u0430\u0443\u043b","\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434","\u0411\u0435\u0440\u0435\u0437\u043e\u0432\u0441\u043a\u0438\u0439","\u0411\u0440\u044f\u043d\u0441\u043a","\u0412\u0435\u043b\u0438\u043a\u0438\u0435 \u041b\u0443\u043a\u0438","\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a","\u0412\u043e\u043b\u0433\u0430","\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","\u0433.\u041e\u0434\u0438\u043d\u0446\u043e\u0432\u043e","\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f","\u0414\u043e\u043b\u0433\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439","\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","\u0415\u0432\u043f\u0430\u0442\u043e\u0440\u0438\u044f","\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","\u0418\u0432\u0430\u043d\u043e\u0432\u043e","\u0418\u0432\u0430\u043d\u0442\u0435\u0435\u0432\u043a\u0430","\u0418\u0436\u0435\u0432\u0441\u043a","\u0418\u0440\u043a\u0443\u0442\u0441\u043a","\u041a\u0430\u0437\u0430\u043d\u044c","\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","\u041a\u0430\u043c\u0430","\u041a\u0430\u0440\u0430\u0433\u0430\u043d\u0434\u0430 ","\u041a\u0438\u0440\u043e\u0432","\u041a\u0438\u0440\u043e\u0432 (\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b)","\u041a\u0438\u0440\u0441","\u041a\u043e\u043b\u044c\u0447\u0443\u0433\u0438\u043d\u043e","\u041a\u043e\u0440\u043e\u043b\u0435\u0432 (\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b.)","\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","\u041a\u0443\u0440\u0433\u0430\u043d","\u041b\u044e\u0431\u0435\u0440\u0446\u044b","\u041b\u044e\u0434\u0438\u043d\u043e\u0432\u043e","\u041c\u0438\u043d\u0441\u043a","\u041c\u043e\u0441\u043a\u0432\u0430","\u041c\u044b\u0442\u0438\u0449\u0438","\u041d.\u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","\u041d\u0430\u0445\u0430\u0431\u0438\u043d\u043e","\u041d\u0435\u0432\u0430","\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a","\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a","\u041e\u043a\u0443\u043b\u043e\u0432\u043a\u0430","\u041e\u043c\u0441\u043a","\u041e\u0440\u0435\u043b","\u041f\u0435\u0440\u043c\u044c","\u041f\u043e\u0434\u043e\u043b\u044c\u0441\u043a","\u041f\u0441\u043a\u043e\u0432","\u0420\u0435\u0432\u0434\u0430","\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443","\u0420\u044b\u0431\u0438\u043d\u0441\u043a","\u0421\u0430\u043c\u0430\u0440\u0430","\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","\u0421\u0430\u0440\u0430\u043d\u0441\u043a","\u0421\u0430\u0440\u0430\u0442\u043e\u0432","\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b.","\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a","\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c","\u0422\u0432\u0435\u0440\u044c","\u0422\u043e\u043c\u0441\u043a","\u0422\u044e\u043c\u0435\u043d\u044c","\u0423\u0440\u0430\u043b","\u0423\u0444\u0430","\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a","\u0425\u0430\u043d\u0442\u044b-\u041c\u0430\u043d\u0441\u0438\u0439\u0441\u043a","\u0425\u0438\u043c\u043a\u0438","\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b","\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a","\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b. \u0433.\u0422\u0440\u0435\u0445\u0433\u043e\u0440\u043d\u044b\u0439","\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446","\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u043b\u043e\u0432\u043a\u0430","\u0429\u0435\u043b\u043a\u043e\u0432\u043e","\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u043b\u044c","\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0443\u0433\u043b\u0438","\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c"],"performedDatetime":"2019-12-01T00:27:41Z","authStatus":"10"}
+=====
+
+select distinct city from sklad_tovar where city != '' order by city
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-12-01 00:46:26  0000
+action: get_text
+
+=====
+Response:
+{"action":"get_text","code":0,"data":"<div style='padding:0px;margin:-8px;background-color:#ff9900;'><center><img src='http:\/\/ruscable.su\/www\/images\/14e7dffd3f4d3c0ab080491aba67be7e.jpg' style='width:100%;padding:0px;margin:0px;border:0px;'><\/center><\/div>","data_url":"http:\/\/lapprussia.lappgroup.com\/x05vv-f.html?pk_campaign=ruscable-ban&pk_kwd=x05vvf&pk_source=ruscable&pk_medium=link&pk_content=x05vvf","performedDatetime":"2019-12-01T00:46:27Z","authStatus":"10"}
+=====
+
+
+q2: 
+ auth: 0 
+=====
+Query:
+performedDatetime: 2019-12-01 00:46:37  0000
+action: get_goods_data
+sklad_user: Гость
+appleId: 6871FCD6-D81D-4A44-93BD-38BB7B8D1E83
+sklad_hash: 7a8ac187a4f9a964c7a6aeed47139675
+searchTerm: Utp
+resultsFrom: 0
+sort: 0
+cityFilter: 
+
+=====
+Response:
+{"action":"get_goods_data","searchTerm":"Utp","resultsFrom":0,"sort":0,"cityFilter":"","code":0,"resultsCount":"401","lastPage":0,"data":[{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"0,004","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"19C-U6-02WT-B305 \u043a\u0430\u0442. 6 UTP 4\u043f\u0430\u0440\u044b","amount":"0,004","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CABEUS UTP-4P-Cat.6-SOLID-LSZH 23AWG,","amount":"0,06","amount_parts":"","unit":"\u043a\u043c","city":"\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","company_id":"30132","company_name":"\u041e\u041e\u041e \"\u041a\u0430\u0431\u0435\u043b\u044c\u043d\u0430\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \"\u0418\u041d\u0422\u0420\u041e\""},{"name":"Cabletech UTP 4PR 24AWG cat5e \u043c\u0435\u0434\u043d\u0430\u044f \u0436\u0438\u043b\u0430","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CCA OUTDOOR \u043e\u043c\u0435\u0434\u043d\u0435\u043d\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 , cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CU OUTDOOR \u043c\u0435\u0434\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 , cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"Cabletech UTP4 CU OUTDOOR \u043c\u0435\u0434\u043d\u044b\u0439 \u0432\u043d\u0435\u0448\u043d\u0438\u0439 \u0441 \u0442\u0440\u043e\u0441\u043e\u043c cat5e","amount":"30,5","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"},{"name":"CU-incl. HELUKAT 300 UTP UL 4P AWG 23\/1 gr","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"CU-incl.HELUKAT 300 UTP UL 4P AWG 23\/1 rot","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"Deesh UTP 4PR 0.48mm 24AWG CAT 5e 305\u043c PVC BC","amount":"120,17","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"Deesh UTP 4PR 0.50mm 24AWG CAT 5e 305\u043c PVC BC","amount":"103,09","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"Deesh UTP 4PR 0.50mm 24AWG CAT 5e 305\u043c PVC CCA","amount":"370,27","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"GWire UTP 4PR 0,51mm 24AWG CAT 5e 305\u043c PVC BC FLUKE TEST","amount":"43,615","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"33388","company_name":"\u041e\u041e\u041e \u0418\u043d\u0442\u0435\u0445\u043f\u0440\u043e\u043c"},{"name":"HELUKAT 100 UTP 4P AWG 26\/7 PVC grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 155 UTP 4P AWG 24\/1 grau","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 155 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"HELUKAT 300 UTP UL 4P AWG 24\/1 massiv","amount":"6","amount_parts":"","unit":"\u043a\u043c","city":"\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","company_id":"34423","company_name":"\u041e\u041e\u041e \"\u042d\u041b\u041a\u0410\u0411+\"\t"},{"name":"Hyperline UTP4-C5E-Solid-GY","amount":"0,1","amount_parts":"","unit":"\u043a\u043c","city":"\u041c\u043e\u0441\u043a\u0432\u0430","company_id":"8597","company_name":"\u041e\u041e\u041e \"\u0418\u041d\u0412\u0415\u0421\u0422\u041a\u0410\u0411\u0415\u041b\u042c\""},{"name":"Hyperline UTP4-C5E-SOLID-GY-305 (U\/UTP4-C5E-S24-IN-PVC-GY-305) (305 \u043c) \u0432\u0438\u0442\u0430\u044f \u043f\u0430\u0440\u0430, \u043d\u0435U\/UTP, \u043a\u0430\u0442\u0435\u0433\u043e\u0440\u0438\u044f 5e, 4 \u043f\u0430\u0440\u044b (24 AWG), \u043e\u0434\u043d\u043e\u0436\u0438\u043b\u044c\u043d\u044b\u0439","amount":"9,15","amount_parts":"","unit":"\u043a\u043c","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","company_id":"16031","company_name":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413"}],"performedDatetime":"2019-12-01T00:46:38Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select s.id, s.comp_id, s.title, s.quant, s.unit_id, s.comments, s.city from
+		sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%') order by  s.title LIMIT 0, 20
+q2: select count(id) from sklad_tovar s where visible=1 and (title like 'Utp%' or title like '% Utp%')
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-01 00:46:46  0000
+action: get_company_data
+sklad_user: Гость
+appleId: 6871FCD6-D81D-4A44-93BD-38BB7B8D1E83
+sklad_hash: 7a8ac187a4f9a964c7a6aeed47139675
+company_id: 16031
+
+=====
+Response:
+{"action":"get_company_data","code":0,"data":{"company_id":16031,"title":"\u041e\u041e\u041e \u0412\u0435\u0440\u043a\u043e\u043d-\u041a\u0422\u0413","city":"\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","address":"198152, \u0433. \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u041a\u0440\u0430\u0441\u043d\u043e\u043f\u0443\u0442\u0438\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u0443\u043b. 67","phone":"+7-812-716-3338","email":"info@verkkon.net","url":"http:\/\/www.verkkon.net","contact":"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u0412\u0435\u0440\u043a\u043e\u043d","goods_count":"126","last_update":"27.11.2019"},"performedDatetime":"2019-12-01T00:46:47Z","authStatus":"0","accessDateEnd":""}
+=====
+
+select distinct city from sklad_tovar where comp_id= and city!='' order by city
+q2: 
+ auth: 100 
+=====
+Query:
+performedDatetime: 2019-12-01 00:46:59  0000
+action: get_city_list
+
+=====
+Response:
+{"action":"get_city_list","code":0,"data":["\u0410\u043b\u043c\u0430\u0442\u044b","\u0410\u043d\u0433\u0430\u0440\u0441\u043a","\u0410\u0440\u0445\u0430\u043d\u0433\u0435\u043b\u044c\u0441\u043a","\u0410\u0441\u0442\u0430\u043d\u0430","\u0411\u0430\u0440\u043d\u0430\u0443\u043b","\u0411\u0435\u043b\u0433\u043e\u0440\u043e\u0434","\u0411\u0435\u0440\u0435\u0437\u043e\u0432\u0441\u043a\u0438\u0439","\u0411\u0440\u044f\u043d\u0441\u043a","\u0412\u0435\u043b\u0438\u043a\u0438\u0435 \u041b\u0443\u043a\u0438","\u0412\u043b\u0430\u0434\u0438\u0432\u043e\u0441\u0442\u043e\u043a","\u0412\u043e\u043b\u0433\u0430","\u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434","\u0433.\u041e\u0434\u0438\u043d\u0446\u043e\u0432\u043e","\u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f","\u0414\u043e\u043b\u0433\u043e\u043f\u0440\u0443\u0434\u043d\u044b\u0439","\u0414\u043e\u043c\u043e\u0434\u0435\u0434\u043e\u0432\u043e","\u0415\u0432\u043f\u0430\u0442\u043e\u0440\u0438\u044f","\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0431\u0443\u0440\u0433","\u0418\u0432\u0430\u043d\u043e\u0432\u043e","\u0418\u0432\u0430\u043d\u0442\u0435\u0435\u0432\u043a\u0430","\u0418\u0436\u0435\u0432\u0441\u043a","\u0418\u0440\u043a\u0443\u0442\u0441\u043a","\u041a\u0430\u0437\u0430\u043d\u044c","\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434","\u041a\u0430\u043c\u0430","\u041a\u0430\u0440\u0430\u0433\u0430\u043d\u0434\u0430 ","\u041a\u0438\u0440\u043e\u0432","\u041a\u0438\u0440\u043e\u0432 (\u041a\u0438\u0440\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b)","\u041a\u0438\u0440\u0441","\u041a\u043e\u043b\u044c\u0447\u0443\u0433\u0438\u043d\u043e","\u041a\u043e\u0440\u043e\u043b\u0435\u0432 (\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b.)","\u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440","\u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a","\u041a\u0443\u0440\u0433\u0430\u043d","\u041b\u044e\u0431\u0435\u0440\u0446\u044b","\u041b\u044e\u0434\u0438\u043d\u043e\u0432\u043e","\u041c\u0438\u043d\u0441\u043a","\u041c\u043e\u0441\u043a\u0432\u0430","\u041c\u044b\u0442\u0438\u0449\u0438","\u041d.\u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","\u041d\u0430\u0445\u0430\u0431\u0438\u043d\u043e","\u041d\u0435\u0432\u0430","\u041d\u0438\u0436\u043d\u0438\u0439 \u041d\u043e\u0432\u0433\u043e\u0440\u043e\u0434","\u041d\u043e\u0432\u043e\u043c\u043e\u0441\u043a\u043e\u0432\u0441\u043a","\u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a","\u041e\u043a\u0443\u043b\u043e\u0432\u043a\u0430","\u041e\u043c\u0441\u043a","\u041e\u0440\u0435\u043b","\u041f\u0435\u0440\u043c\u044c","\u041f\u043e\u0434\u043e\u043b\u044c\u0441\u043a","\u041f\u0441\u043a\u043e\u0432","\u0420\u0435\u0432\u0434\u0430","\u0420\u043e\u0441\u0442\u043e\u0432-\u043d\u0430-\u0414\u043e\u043d\u0443","\u0420\u044b\u0431\u0438\u043d\u0441\u043a","\u0421\u0430\u043c\u0430\u0440\u0430","\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433","\u0421\u0430\u0440\u0430\u043d\u0441\u043a","\u0421\u0430\u0440\u0430\u0442\u043e\u0432","\u0421\u0432\u0435\u0440\u0434\u043b\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b.","\u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a","\u0421\u0442\u0430\u0432\u0440\u043e\u043f\u043e\u043b\u044c","\u0422\u0432\u0435\u0440\u044c","\u0422\u043e\u043c\u0441\u043a","\u0422\u044e\u043c\u0435\u043d\u044c","\u0423\u0440\u0430\u043b","\u0423\u0444\u0430","\u0425\u0430\u0431\u0430\u0440\u043e\u0432\u0441\u043a","\u0425\u0430\u043d\u0442\u044b-\u041c\u0430\u043d\u0441\u0438\u0439\u0441\u043a","\u0425\u0438\u043c\u043a\u0438","\u0427\u0435\u0431\u043e\u043a\u0441\u0430\u0440\u044b","\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a","\u0427\u0435\u043b\u044f\u0431\u0438\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b. \u0433.\u0422\u0440\u0435\u0445\u0433\u043e\u0440\u043d\u044b\u0439","\u0427\u0435\u0440\u0435\u043f\u043e\u0432\u0435\u0446","\u0427\u0435\u0440\u043d\u043e\u0433\u043e\u043b\u043e\u0432\u043a\u0430","\u0429\u0435\u043b\u043a\u043e\u0432\u043e","\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0441\u0442\u0430\u043b\u044c","\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u0443\u0433\u043b\u0438","\u042f\u0440\u043e\u0441\u043b\u0430\u0432\u043b\u044c"],"performedDatetime":"2019-12-01T00:46:59Z","authStatus":"10"}
+=====
+
+select distinct city from sklad_tovar where city != '' order by city
+q2: 
+ auth: 0 
+=====
