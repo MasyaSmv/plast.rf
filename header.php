@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
     <!-- Просто стили -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?v=1.0.0.3"> <!-- header -->
-	<link rel="stylesheet" type="text/css" href="css/main.css?v=1.0.0.1"> <!-- main -->
-	<link rel="stylesheet" type="text/css" href="css/upload.css?v=1.0.0.0"> <!-- upload -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0.3"> <!-- header -->
+	<link rel="stylesheet" type="text/css" href="/css/main.css?v=1.0.0.1"> <!-- main -->
+	<link rel="stylesheet" type="text/css" href="/css/upload.css?v=1.0.0.0"> <!-- upload -->
 
     <!-- Иконка вкладки -->
     <link rel="icon" href="/img/myfavicon.ico" type="image/x-icon" />
