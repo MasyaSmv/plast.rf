@@ -138,7 +138,7 @@ $("sr-only").click(function(){
                                     </li>
                                     <li class="ipetfd"></li>
                                     <li class="BBRNg">
-                                        <a href="https://www.google.com/account/about/?hl=ru&amp;utm_source=google-account&amp;utm_medium=web" class="VZLjze Wvetm zCVEd EhlvJf">
+                                        <a href="/" class="VZLjze Wvetm zCVEd EhlvJf">
                                             <div class="iKN8Oe">
                                                 <style nonce="">.HJOYVi10 {width: 24px; height: 24px;}</style>
                                                 <figure class="HJOYV HJOYVi10">
