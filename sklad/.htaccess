@@ -1,5 +1,0 @@
-AuthName "Area for registered members only"
-AuthType Basic
-require user vladimir
-require valid-user
-AuthUserFile /home/ruscableru/.htpasswd2

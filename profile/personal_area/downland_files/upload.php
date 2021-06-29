@@ -13,10 +13,10 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
     $fileType = $_FILES['uploadedFile']['type'];
     $fileNameCmps = explode(".", $fileName);
     $fileExtension = strtolower(end($fileNameCmps));
-    $id = $mysqli->query("SELECT id FROM ") // дописать айдишник из бд, что бы подставлялось в имя файла
+    // $id = $mysqli->query("SELECT id FROM `users` WHERE id = '".session_id()."'");
 
     // очистка имени файла
-    $newFileName = date("Y.m.d").'_'.$id.'_';
+    $newFileName = date("Y.m.d").'_'.md5(time() . $fileName) . '.' . $fileExtension;
 
     // проверка расширений файла
     $allowedfileExtensions = array('jpg', 'gif', 'png', 'zip', 'txt', 'xls', 'xlsx', 'doc');
@@ -48,4 +48,8 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
   }
 }
 $_SESSION['message'] = $message;
+
+
+
+
 header("Location: up_file.php");

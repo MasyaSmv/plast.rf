@@ -81,10 +81,13 @@
 
 						$_SESSION['first_name'] = $info_user['first_name'];
 						$_SESSION['last_name'] = $info_user['last_name'];
+						$_SESSION['id'] = $id;
+
 					}
 
 					$_SESSION["email"] = $email;
 					$_SESSION["password"] = $password;
+
 
 					$result_query_select->close();
 
