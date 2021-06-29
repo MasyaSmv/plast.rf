@@ -4,31 +4,19 @@
 <head>
   <title>Загрузка файла</title>
   <?php include ('../../../header.php');
-  require '../../../vendor/autoload.php';
   ?>
 </head>
 <body>
   <div class="upload_file">
-    <?php
-      if (isset($_SESSION['message']) && $_SESSION['message'])
-      {
-        printf('<b>%s</b>', $_SESSION['message']);
-        unset($_SESSION['message']);
-      }
-    ?>
-    <? echo session_id();
-    echo "<pre>";
-print_r($_SESSION);
-echo "</pre>"; ?>
-    <form  method="POST" action="upload.php" enctype="multipart/form-data">
-      <div>
-        <span>Upload a File:</span>
-        <input type="file" name="uploadedFile" />
-      </div>
-
-      <input type="submit" name="uploadBtn" value="Upload" />
-    </form>
-
+<!-- Тип кодирования данных, enctype, ДОЛЖЕН БЫТЬ указан ИМЕННО так -->
+<form enctype="multipart/form-data" action="upload.php" method="POST">
+    <!-- Поле MAX_FILE_SIZE должно быть указано до поля загрузки файла -->
+    <input type="hidden" name="MAX_FILE_SIZE" value="210000" />
+    <!-- Название элемента input определяет имя в массиве $_FILES -->
+    Отправить этот файл: <input name="userfile" type="file" /> <br> <br>
+    Описание: <input name="text" type="text" />
+    <input type="submit" value="Отправить файл" />
+</form>
   </div>
 </body>
 </html>
