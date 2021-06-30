@@ -1,6 +1,7 @@
 <?php
 include ('../../../header.php');
 include ('F:/XAMPP/htdocs/dbconnect.php');
+require_once "../../../vendor/autoload.php";
 
 $uploaddir = 'uploaded_files/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
@@ -12,34 +13,39 @@ if (move_uploaded_file($_FILES['userfile']['tmp_name'], $uploadfile)) {
     echo "Возможная атака с помощью файловой загрузки!\n";
 }
 
-$file = fopen('test.csv', 'r');
+// if ( $xlsx = SimpleXLSX::parse($uploadfile) ) {
+// 	echo '<table border="1" cellpadding="3" style="border-collapse: collapse">';
+// 	foreach( $xlsx->rows() as $r ) {
+// 		echo '<tr><td>'.implode('</td><td>', $r ).'</td></tr>';
+// 	}
+// 	echo '</table>';
+// } else {
+// 	echo SimpleXLSX::parseError();
+// }
 
-echo '<table cellspacing = "0" border = "1" width = "500"></table>';
-while (!feof($file)) {
-  $mass = fgetcsv($file, 1024, ';');
-  $j = count ($mass);
-  if ($j > 1) {
-    echo '<tr align = "center">';
-      echo '<td width = "25%">';
-      echo $mass[0];
-      echo '</td>';
-      echo '<td width = "25%">';
-      echo $mass[1];
-      echo '</td>';
-      echo '<td width = "25%">';
-      echo $mass[2];
-      echo '</td>';
-    echo '</tr>';
-      $mysqli -> query ("INSERT INTO `sklad_tovar` (`name`, `quantity`, `unit`) VALUES ('{$mass[0]}','{$mass[1]}','{$mass[2]}')");
-  }
+
+// print_r ( SimpleXLSX :: parse ( $uploadfile ) -> rowsEx ());
+
+if ( $xlsx = SimpleXLSX::parse($uploadfile)) {
+	// Produce array keys from the array values of 1st array element
+	$header_values = $rows = [];
+	foreach ( $xlsx->rows() as $k => $r ) {
+		if ( $k === 0 ) {
+			$header_values = $r;
+			continue;
+		}
+		$rows[] = array_combine( $header_values, $r );
+    // $mysqli -> query ("INSERT INTO `sklad_tovar` (`name`, `quantity`, `unit`) VALUES ('{$r['$name']}','{$r['$quantity']}','{$r['unit']}')");
+    $mysqli -> query ("INSERT INTO `sklad_tovar` (`name`, `quantity`, `unit`) VALUES ('$r[$name]','$r[$quantity]','$r[$unit]')");
+    // $query = mysqli_query($link,$sql) or die('Ошибка чтения записи: '.mysqli_error($mysql));
+	}
+	print_r( $rows );
 }
 
-echo '</table>';
-fclose($file);
-$mysqli -> close();
 
 
-// $loadfile = $_POST['userfile']; // получаем имя загруженного файла
+// echo SimpleXLSX :: parse($uploadfile) -> toHTML();
+
 // require_once $_SERVER['DOCUMENT_ROOT']."/Classes/PHPExcel/IOFactory.php"; // подключаем класс для доступа к файлу
 // $objPHPExcel = PHPExcel_IOFactory::load($_SERVER['DOCUMENT_ROOT']."/uploads_file/".$uploadfile);
 // foreach ($objPHPExcel->getWorksheetIterator() as $worksheet) // цикл обходит страницы файла
