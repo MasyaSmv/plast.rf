@@ -7,12 +7,10 @@ $("sr-only").click(function(){
     $("mySidenav").scrollLeft(60);
 });
 </script> -->
-<?php include ('../../header.php'); ?>
+<?php include ('../../header.php');?>
 	</head>
 
 	<body>
-
-
         <!-- МОбильное боковое меню -->
         <div class="T4LgNb">
             <div class="VjFXz"></div>
@@ -191,7 +189,12 @@ $("sr-only").click(function(){
                         <div class="cmSWBc">Всю нужную информацию вы можете просмотреть
                             <a href="#" class="VZLjze"> тут</a>
                         </div>
-
+                        <?php
+echo "\n Некоторая отладочная информация:";
+echo "<pre>";
+print_r($_SESSION);
+echo "</pre>";
+?>
                     </header>
                     <!-- Секция с блоками переходов на другие проекты/сервисы -->
                     <section class="dQBdyc">

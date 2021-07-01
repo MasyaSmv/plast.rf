@@ -73,7 +73,7 @@
 						redirect_to($message, 'profile/form_register.php');
 					}
 
-					$query_select_user = $mysqli->query("SELECT `id` FROM `users` WHERE `email` = '".$email."'");
+					$query_select_user = $mysqli->query("SELECT `id_user` FROM `users` WHERE `email` = '".$email."'");
 
 					if(!$query_select_user){
 

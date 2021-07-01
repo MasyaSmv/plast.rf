@@ -67,7 +67,9 @@
 				redirect_to($message, 'profile/form_auth.php');
 			}
 
-			$result_query_select = $mysqli->query("SELECT first_name, last_name FROM `users` WHERE email = '".$email."' AND password = '".$password."'");
+
+
+			$result_query_select = $mysqli->query("SELECT * FROM `users` WHERE email = '".$email."' AND password = '".$password."'");
 
 			if(!$result_query_select){
 
@@ -81,13 +83,12 @@
 
 						$_SESSION['first_name'] = $info_user['first_name'];
 						$_SESSION['last_name'] = $info_user['last_name'];
-						$_SESSION['id'] = $id;
+						$_SESSION['id_user'] = $info_user['id_user'];
 
 					}
 
 					$_SESSION["email"] = $email;
 					$_SESSION["password"] = $password;
-
 
 					$result_query_select->close();
 

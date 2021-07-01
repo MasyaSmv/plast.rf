@@ -3,7 +3,8 @@
 <html>
 <head>
   <title>Загрузка файла</title>
-  <?php include ('../../../header.php');
+  <?php
+  include ('../../../header.php');
   ?>
 </head>
 <body>
@@ -18,5 +19,8 @@
     <input type="submit" value="Отправить файл" />
 </form>
   </div>
+  <?
+
+  ?>
 </body>
 </html>
