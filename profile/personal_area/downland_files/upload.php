@@ -1,6 +1,7 @@
 <?php
+session_start();
 
-include ('F:/XAMPP/htdocs/dbconnect.php');
+include ('../../../dbconnect.php');
 include ("../../../vendor/autoload.php");
 
 // Обозначаем переменные и имя файла
@@ -17,7 +18,7 @@ else {
     echo "Возможная атака с помощью файловой загрузки!\n";
 }
 
-// Парсер файла с выдащей в виде таблицы в html
+// Парсер файла с выдащей в виде таблицы в html (Показыает когда тестишь скрипт)
 if ($xlsx = SimpleXLSX::parse($uploadfile)) {
     echo '<table border="1" cellpadding="3" style="border-collapse: collapse">';
     foreach ($xlsx->rows() as $v) {
@@ -42,7 +43,7 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
         $rows[] = array_combine($header_values, $v);
         for ($i = 0;$i < count($v);$i = $i + 5) {
 
-            //форматирование данных
+            //Убирает лишние пробелы
             $title = trim(preg_replace('/ {2,}/', ' ', $v[$i]));
             $size = trim(preg_replace('/ {2,}/', ' ', $v[$i + 1]));
             $quant = trim(preg_replace('/ {2,}/', ' ', $v[$i + 2]));
@@ -62,6 +63,7 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
             $mysqli->query("INSERT INTO `sklad_tovar` (`id_user`, `title`, `size`, `quant`, `unit`, `color`, `sity`)
                 VALUES ('{$_SESSION['id']}','$title','$size','$quant','$unit','$color','$sity')
                 ");
+                print_r($_SESSION['id']);
         }
     }
 }
