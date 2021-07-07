@@ -15,7 +15,7 @@ if(!$mysqli){
 
 $mysqli->set_charset('utf8');
 
-$address_site = "http://masyasm.ru/";
+$address_site = "/";
 
 function redirect_to($message, $address_page){
 

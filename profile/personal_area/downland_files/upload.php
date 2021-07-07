@@ -1,6 +1,6 @@
 <?php
-session_start();
 
+include ('../../../header.php');
 include ('../../../dbconnect.php');
 include ("../../../vendor/autoload.php");
 
@@ -8,6 +8,8 @@ include ("../../../vendor/autoload.php");
 $uploaddir = 'uploaded_files/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 $sity = $_POST['sity'];
+
+print_r($_SESSION);
 
 // Сообщения загрузки файла
 echo '<pre>';
@@ -63,9 +65,10 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
             $mysqli->query("INSERT INTO `sklad_tovar` (`id_user`, `title`, `size`, `quant`, `unit`, `color`, `sity`)
                 VALUES ('{$_SESSION['id']}','$title','$size','$quant','$unit','$color','$sity')
                 ");
-                print_r($_SESSION['id']);
         }
     }
+    print_r($rows);
 }
-header("Location: up_file.php");
-exit;
+
+// header("Location: up_file.php");
+// exit;
