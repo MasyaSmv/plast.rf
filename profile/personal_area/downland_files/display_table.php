@@ -14,6 +14,8 @@ $sql = "SELECT title,size,quant,unit,color,sity, SUM(quant)
         GROUP BY title,size,color,sity";
 
 $result = $mysqli->query($sql);
+
+
 ?>
 </head>
 <body>
@@ -44,10 +46,21 @@ while ($pow = mysqli_fetch_array($result)) {?>
       <td><?echo $pow['color'] ;?></td>
       <td><?echo  $pow['sity'] ;?></td>
     </tr>
-<?}?>
+<?}
+echo '<pre>';
+print_r($_SESSION);
+?>
   </tbody>
 </table>
-
 </div>
+
+<div style="display: flex; justify-content: center;">
+  <form action="delet_table.php" method="POST" name="btn_dlt_tbl">
+    <div class="form-group"><br />
+			<input class="btn btn-primary btn-block" type="submit" name="btn_delet_table" value="Delet table">
+		</div>
+  </form>
+</div>
+
 </body>
 </html>

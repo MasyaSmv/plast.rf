@@ -15,14 +15,14 @@ if(!$mysqli){
 
 $mysqli->set_charset('utf8');
 
-$address_site = "/";
+$address_site = "index.php";
 
 function redirect_to($message, $address_page){
 
 	$_SESSION["serever_message"] = $message;
 
 	header("HTTP/1.1 301 Moved Permanently");
-	header("Location: ".$address_site."/".$address_page);
+	header("Location: ". $address_site ."/".$address_page);
 
 	exit();
 }
