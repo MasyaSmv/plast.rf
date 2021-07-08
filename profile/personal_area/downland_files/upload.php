@@ -9,6 +9,7 @@ $uploaddir = 'uploaded_files/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
 $sity = $_POST['sity'];
 
+echo '<pre>';
 print_r($_SESSION);
 
 // Сообщения загрузки файла
@@ -67,6 +68,7 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
                 ");
         }
     }
+    echo '<pre>';
     print_r($rows);
 }
 
