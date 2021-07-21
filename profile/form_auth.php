@@ -10,6 +10,7 @@
 		<!-- Подключение шапки с линками -->
 		<?php
 			require_once("../header.php");
+			include ('vk.php');
 
 			// Проверка почты с паролем
 			if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
@@ -68,7 +69,7 @@
 			</div>
 
 			<div class="col-xs-2 col-sm-2">
-				<a href="#" class="btn btn-lg btn-block kpx_btn-vk" data-toggle="tooltip" data-placement="top" title="VKontakte">
+				<a href="https://oauth.vk.com/authorize?client_id=<?=ID?>&display=page&redirect_uri=<?=URL?>&scope=friends&response_type=code" class="btn btn-lg btn-block kpx_btn-vk" data-toggle="tooltip" data-placement="top" title="VKontakte">
 				<i class="fab fa-vk fa-2x"></i>
 				<span class="hidden-xs"></span>
 				</a>
@@ -132,7 +133,10 @@
 
 		<?php
 			}
-
+			echo "\n Некоторая отладочная информация:";
+			echo "<pre>";
+			print_r($_SESSION);
+			echo "</pre>";
 			// require_once("footer.php");
 		?>
 
