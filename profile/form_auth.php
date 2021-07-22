@@ -10,7 +10,7 @@
 		<!-- Подключение шапки с линками -->
 		<?php
 			require_once("../header.php");
-			include ('vk.php');
+			// include ('vk.php');									Проблемы с авторизацией. Надо будет исправить
 
 			// Проверка почты с паролем
 			if(!isset($_SESSION['email']) && !isset($_SESSION['password'])){
@@ -56,8 +56,8 @@
 				<span class="hidden-xs"></span>
 				</a>
 			</div>
+			<------ Пока не работают
 		</div>
-
 		<br>
 
 		<div class="row kpx_row-sm-offset-3 kpx_socialButtons">
@@ -68,6 +68,7 @@
 				</a>
 			</div>
 
+			<!-- Была попытка сделать API авторизацию, но неудачно -->
 			<div class="col-xs-2 col-sm-2">
 				<a href="https://oauth.vk.com/authorize?client_id=<?=ID?>&display=page&redirect_uri=<?=URL?>&scope=friends&response_type=code" class="btn btn-lg btn-block kpx_btn-vk" data-toggle="tooltip" data-placement="top" title="VKontakte">
 				<i class="fab fa-vk fa-2x"></i>
@@ -80,6 +81,7 @@
 				<span class="hidden-xs"></span>
 				</a>
 			</div>
+			<--------Пока не работают
 		</div>
 
 		<br>

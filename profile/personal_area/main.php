@@ -361,16 +361,16 @@ echo "</pre>";
                                     <!-- Верхняя часть блока с текстами и картинкой -->
                                     <div class="ugt2L aK2X8b iDdZmf">
                                         <!-- Ссылка для перехода -->
-                                        <a href="#" class="VZLjze Wvetm N5YmOc kJXJmd bvW4md I6g62c">
+                                        <a href="/profile/personal_area/downland_files/price.php" class="VZLjze Wvetm N5YmOc kJXJmd bvW4md I6g62c">
                                             <!-- Блок с текстами и картинкой -->
                                             <header class="mSUZQd">
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">Заголовок блока 4</h2>
+                                                    <h2 class="fnfC4c">С прайсом ябоътня</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Описание 4 блока</div>
+                                                        <div>Даже не чекай....</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -396,7 +396,7 @@ echo "</pre>";
                                         <!-- Нижняя часть блока -->
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
-                                            <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
+                                            <a href="/profile/personal_area/downland_files/price.php" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
                                                 <div class="mtfBU">и тут ссылочка с текстом</div>
                                             </a>
                                         </div>

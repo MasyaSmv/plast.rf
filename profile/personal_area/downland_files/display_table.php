@@ -5,9 +5,9 @@
         <?php
             include ('../../../header.php');
             include ('../../../dbconnect.php');
-            include ('../left_menu.html');
+            include ('left_menu.html');
 
-            $limit = 10;
+            $limit = 100;
 
             if (isset($_POST['page_no'])) {
                 $page_no = $_POST['page_no'];
@@ -15,12 +15,15 @@
                 $page_no = 1;
             }
 
+
             $offset = ($page_no-1) * $limit;
 
             $sql = "SELECT title,size,quant,unit,color,sity, SUM(quant)
                     FROM `sklad_tovar`
                     WHERE id_user = {$_SESSION['id']}
                     GROUP BY title,size,color,sity
+                    HAVING quant > 0
+                    /* AND unit = 'км'       Баг с группировкой разных величин (надо пофиксить) */
                     LIMIT $offset, $limit";
 
             $result = $mysqli->query($sql);

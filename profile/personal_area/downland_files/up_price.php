@@ -44,33 +44,30 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
         }
         //Разбивает данные на столбцы
         $rows[] = array_combine($header_values, $v);
-        for ($i = 0;$i < count($v);$i = $i + 5) {
+        for ($i = 0;$i < count($v);$i = $i + 7) {
 
+
+                        if (is_int($price)) {
+                            settype($price, "float");
+                        }
             //Убирает лишние пробелы
             $title = trim(preg_replace('/ {2,}/', ' ', $v[$i]));
-            $size = trim(preg_replace('/ {2,}/', ' ', $v[$i + 1]));
-            $quant = trim(preg_replace('/ {2,}/', ' ', $v[$i + 2]));
+            $nomen = trim(preg_replace('/ {2,}/', ' ', $v[$i + 1]));
+            $price = trim(preg_replace('/ {2,}/', ' ', $v[$i + 2]));
             $unit = trim(preg_replace('/ {2,}/', ' ', $v[$i + 3]));
-            $color = trim(preg_replace('/ {2,}/', ' ', $v[$i + 4]));
+            $tu_gost = trim(preg_replace('/ {2,}/', ' ', $v[$i + 4]));
 
-            //Конвертирует
-            if ($unit === "") {
-                $unit = "км";
-            }
-            if ($unit === "м") {
-                $quant = $quant / 1000;
-                $unit = "км";
-            }
 
 
             //Запись в БД
-            $mysqli->query("INSERT INTO `sklad_tovar` (`id_user`, `title`, `size`, `quant`, `unit`, `color`, `sity`)
-                VALUES ('{$_SESSION['id']}','$title','$size','$quant','$unit','$color','$sity')
+            $mysqli -> query (
+                "INSERT INTO `price` (`id_user`, `title`, `nomenclature`, `price`, `unit`, `gost/tu`)
+                VALUES ('{$_SESSION['id']}','$title','$nomen','$price','$unit','$tu_gost')
                 ");
         }
     }
     echo '<pre>';
-    print_r($rows);
+    var_dump($rows);
 }
 
 // header("Location: up_file.php");
