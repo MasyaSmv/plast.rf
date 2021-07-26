@@ -15,6 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/main.css?v=1.0.0.1"> <!-- main -->
 	<link rel="stylesheet" type="text/css" href="/css/upload.css?v=1.0.0.0"> <!-- upload -->
 	<link rel="stylesheet" type="text/css" href="/css/up_file.css?v=1.0.0.2"> <!-- up_file -->
+	<link rel="stylesheet" type="text/css" href="/css/contact_company.css?v=1.0.0.1"> <!-- contact_company -->
 
     <!-- Иконка вкладки -->
     <link rel="icon" href="/img/myfavicon.ico" type="image/x-icon" />
