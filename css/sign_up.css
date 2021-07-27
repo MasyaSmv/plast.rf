@@ -1187,6 +1187,7 @@ pre code {
     color: rgb(181, 175, 166);
     background-color: rgb(24, 26, 27);
     border-color: rgb(60, 65, 68);
+    cursor: inherit;
 }
 .custom-file-label::after {
     color: rgb(181, 175, 166);

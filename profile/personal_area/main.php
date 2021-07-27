@@ -264,10 +264,10 @@ echo "</pre>";
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">Блок загрузки файла</h2>
+                                                    <h2 class="fnfC4c">Блок загрузки и показа файлов</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Здесь можно перейти на страницу загрузки файла</div>
+                                                        <div>Здесь можно перейти на страничку</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -293,7 +293,7 @@ echo "</pre>";
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
                                             <a href="/profile/personal_area/downland_files/up_file.php" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
-                                                <div class="mtfBU">Загрузить файл</div>
+                                                <div class="mtfBU">Переход</div>
                                             </a>
                                         </div>
                                     </div>
@@ -361,16 +361,16 @@ echo "</pre>";
                                     <!-- Верхняя часть блока с текстами и картинкой -->
                                     <div class="ugt2L aK2X8b iDdZmf">
                                         <!-- Ссылка для перехода -->
-                                        <a href="#" class="VZLjze Wvetm N5YmOc kJXJmd bvW4md I6g62c">
+                                        <a href="/profile/personal_area/downland_files/price.php" class="VZLjze Wvetm N5YmOc kJXJmd bvW4md I6g62c">
                                             <!-- Блок с текстами и картинкой -->
                                             <header class="mSUZQd">
                                                 <!-- Блок с текстами -->
                                                 <div class="jbRlDc">
                                                     <!-- Заголовок -->
-                                                    <h2 class="fnfC4c">Заголовок блока 4</h2>
+                                                    <h2 class="fnfC4c">С прайсом ябоътня</h2>
                                                     <!-- Описание -->
                                                     <div class="ISnqu">
-                                                        <div>Описание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блокаОписание 4 блока</div>
+                                                        <div>Даже не чекай....</div>
                                                     </div>
                                                 </div>
                                                 <!-- Контейнер с картинкой -->
@@ -396,144 +396,11 @@ echo "</pre>";
                                         <!-- Нижняя часть блока -->
                                         <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <!-- Ссылка для перехода -->
-                                            <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
+                                            <a href="/profile/personal_area/downland_files/price.php" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd">
                                                 <div class="mtfBU">и тут ссылочка с текстом</div>
                                             </a>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Контейнер с возможными вопросами -->
-                        <div class="wJpH8c">
-                            <div class="  XLK0Od">
-                                <!-- Блок с переходами по другим вопросам -->
-                                <div class="ahh38c">
-                                    <!-- Контейнер с заголовком -->
-                                    <div class="ugt2L">
-                                        <!-- Блок с заголовком -->
-                                        <div class="  N5YmOc kJXJmd bvW4md">
-                                            <header class="mSUZQd">
-                                                <!-- Заголовок -->
-                                                <div class="jbRlDc">
-                                                    <h2 class="fnfC4c">Не нашли то, что искали?</h2>
-                                                    <div class="ISnqu"></div>
-                                                </div>
-                                            </header>
-                                        </div>
-                                    </div>
-                                    <!-- Контейнер с первым вопросом -->
-                                    <div class="ugt2L aK2X8b iDdZmf">
-                                        <!-- Кнопка перехода первого вопроса -->
-                                        <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                            <!-- Блок с первым вопросом -->
-                                            <div class="N5YmOc kJXJmd">
-                                                <!-- Блок с иконками и текстом первого вопроса -->
-                                                <div class="VJbqBb">
-                                                    <!-- Блок с иконкой поиска -->
-                                                    <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                        <!-- Иконка -->
-                                                        <figure class="HJOYV HJOYVi21">
-                                                            <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_24x24_7fe3ea4597e9dac907a66deed95eb727.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_48x48_560813edf73a6132cc8369322d876013.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_72x72_7c3b2287e14072ebea0e4b09dbf47943.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_96x96_2cd27eae501ba777163e0a0087615a3b.png 4x">
-                                                        </figure>
-                                                    </div>
-                                                    <!-- Блок с текстом первого вопроса -->
-                                                    <div class="R1PxN">
-                                                        <div class="BQtBnc">
-                                                            <div class="sGTBnf">
-                                                                <div class="xoXYwe">
-                                                                    <h3 class="bJCr1d">Поиск по сайту</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Иконка стрелочки первого вопроса -->
-                                                    <div class="NUNLMb">
-                                                        <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                        <span class="DPvwYc sm8sCf"></span>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </button>
-                                </div>
-                                <!-- Контейнер со вторым вопросом -->
-                                <div class="ugt2L aK2X8b t97Ap iDdZmf">
-                                    <!-- Разделение первого и второго вопросов -->
-                                    <div class="cv2gi">
-                                        <div class="Q5jTGb"></div>
-                                    </div>
-                                    <!-- Кнопка перехода второго вопроса -->
-                                    <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                        <!-- Блок со вторым вопросом -->
-                                        <div class="N5YmOc kJXJmd">
-                                            <!-- Блок с иконками и текстом второго вопроса -->
-                                            <div class="VJbqBb">
-                                                <!-- Блок с иконкой вопросика -->
-                                                <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                    <figure class="HJOYV HJOYVi22">
-                                                        <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_24x24_cb612bd5b13215e48a9fbf99b4f3601b.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_48x48_2435cb519a104c2f54f2c4d04dd93a90.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_72x72_c853474338ca48bdedfcdfc4cd71753e.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_96x96_bfb8ba0469a3ea50c7153b4fca3a3941.png 4x">
-                                                    </figure>
-                                                </div>
-                                                <!-- Блок с текстом второго вопроса -->
-                                                <div class="R1PxN">
-                                                    <div class="BQtBnc">
-                                                        <div class="sGTBnf">
-                                                            <div class="xoXYwe">
-                                                                <h3 class="bJCr1d">Посмотреть справку</h3>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- Иконка стрелочки второго вопроса -->
-                                                <div class="NUNLMb">
-                                                    <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                    <span class="DPvwYc sm8sCf"></span>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </button>
-                            </div>
-                            <!-- Контейнер с третьим вопросом -->
-                            <div class="ugt2L aK2X8b t97Ap">
-                                <!-- Разделение второго и третьего вопросов -->
-                                <div class="cv2gi">
-                                    <div class="Q5jTGb"></div>
-                                </div>
-                                <!-- Кнопка перехода третьего вопроса -->
-                                <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                    <!-- Блок с третьим вопросом -->
-                                    <div class="N5YmOc kJXJmd">
-                                        <!-- Блок с иконками и текстом третьего вопроса -->
-                                        <div class="VJbqBb">
-                                            <!-- Блок с иконкой диалогового окна -->
-                                            <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                <figure class="HJOYV HJOYVi23">
-                                                    <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_24x24_fe8ef3663c826d5218dfd17847430fa5.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_48x48_3079515681c69aa9ba732dac82bb1b67.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_72x72_b70198f92bdb74f9086412d4024de3e0.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_96x96_d34f3dbacb2adb3b5874cf8479ea5b37.png 4x">
-                                                </figure>
-                                            </div>
-                                            <!-- Блок с текстом третьего вопроса -->
-                                            <div class="R1PxN">
-                                                <div class="BQtBnc">
-                                                    <div class="sGTBnf">
-                                                        <div class="xoXYwe">
-                                                            <h3 class="bJCr1d">Написать нам</h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- Иконка стрелочки третьего вопроса -->
-                                            <div class="NUNLMb">
-                                                <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                <span class="DPvwYc sm8sCf"></span>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </button>
-                            </div>
                                 </div>
                             </div>
                         </div>

@@ -23,6 +23,10 @@
 
 		<?php
 // 			require_once("footer.php");
+echo "\n Некоторая отладочная информация:";
+echo "<pre>";
+print_r($_SESSION);
+echo "</pre>";
 		?>
 
 	</body>
