@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'a709b64ff66ee221e3b604fefc8ed0603abf7181',
+    'reference' => 'dac3614579382e0ffb1ce32607b144ef4202ab13',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,16 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'a709b64ff66ee221e3b604fefc8ed0603abf7181',
+      'reference' => 'dac3614579382e0ffb1ce32607b144ef4202ab13',
+    ),
+    'harvesthq/chosen' => 
+    array (
+      'pretty_version' => 'v1.8.7',
+      'version' => '1.8.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ad86732b668627c131e61ee8f0e6e9ed52e4db8d',
     ),
     'shuchkin/simplexlsx' => 
     array (

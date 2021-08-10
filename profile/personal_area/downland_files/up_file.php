@@ -167,23 +167,11 @@
                         </div>
                         </div>
                         </div>
-                        <div class="card">
-                        <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                        <button class="pHFe3 btn btn-link-free btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                        </button>
-                        </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                        And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                        </div>
-                        </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </form>
         </div>
         <?
             echo "\n Некоторая отладочная информация:";
@@ -191,8 +179,6 @@
             print_r($_SESSION);
             echo "</pre>";
               ?>
-        </form>
-        </div>
         <script>
             document.querySelector('.custom-file-input').addEventListener('change',function(e){
               var fileName = document.getElementById("myInput").files[0].name;

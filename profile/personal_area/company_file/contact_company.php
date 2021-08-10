@@ -8,9 +8,41 @@
     <?php
     include ('../../../header.php');
     include ('../left_menu.html');
+    include ('../../../dbconnect.php');
+
+	// Запросы в бд для списка городов и стран
+	$city = "SELECT city
+			FROM `city_id`";
+	$state = "SELECT state_ru
+			FROM `state_id`";
+	$resCity = $mysqli -> query($city);
+	$resState = $mysqli -> query($state);
+
+
     ?>
+
+	<!-- Скрипты жквери для списка городов и стран -->
+	<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://snipp.ru/cdn/chosen/1.8.7/chosen.jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('.js-chosen-city').chosen({
+			width: '100%',
+			no_resCitys_text: 'Совпадений не найдено',
+			placeholder_text_single: 'Выберите город'
+		});
+	});
+	$(document).ready(function(){
+		$('.js-chosen-state').chosen({
+			width: '100%',
+			no_resCitys_text: 'Совпадений не найдено',
+			placeholder_text_single: 'Выберите страну'
+		});
+	});
+	</script>
 </head>
 <body>
+	<!-- Блок с номером телефона -->
     <div class="accordion dW35KL" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
@@ -20,19 +52,19 @@
         </button>
       </h2>
     </div>
-
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
       <form class="form-inline">
   <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+    <label for="inputPassword2" class="sr-only">Отправить</label>
+    <input type="password" class="form-control" id="inputPassword2" placeholder="+ 0 (000) 000-00-00">
   </div>
-  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+  <button type="submit" class="btn btn-primary mb-2">Отправить</button>
 </form>
       </div>
     </div>
   </div>
+  <!-- Блок с адресными данными -->
   <div class="card">
     <div class="card-header" id="headingTwo">
       <h2 class="mb-0">
@@ -43,24 +75,97 @@
     </div>
     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
       <div class="card-body">
-        ул. Кретинов, д. Придурка, кв. Долбаеба
-      </div>
+		  <form>
+			  <div class="form-row">
+				  <div class="form-group col-md-6">
+					  <label for="inputCity">Страна</label>
+					  <select class="form-control js-chosen-state" id="inputState" name="state">
+						  <!-- Выпадающий список со странами из бд -->
+			<?
+		if (!$resState) {
+			die('Неверный запрос: ' . mysqli_error($link));
+		}
+		else {
+			while ($pow = mysqli_fetch_array($resState)) {?>
+			<option></option>
+				<option>
+					<tr>
+						<td> <?echo $pow['state_ru'] ;?> </td>
+					</tr>
+			<?}
+		}
+			?>
+				</option>
+	</select>
+					</div>
+    <div class="form-group col-md-4">
+		<label for="inputState">Город</label>
+		<select class="form-control js-chosen-city" id="inputCity" name="city">
+			<!-- Выпадающий список с городами из бд -->
+			<?
+		if (!$resCity) {
+			die('Неверный запрос: ' . mysqli_error($link));
+		}
+		else {
+			while ($pow = mysqli_fetch_array($resCity)) {?>
+			<option></option>
+				<option>
+					<tr>
+						<td> <?echo $pow['city'] ;?> </td>
+					</tr>
+			<?}
+		}
+			?>
+				</option>
+	</select>
+</div>
+<div class="form-group col-md-2">
+	<label for="inputZip">Индекс</label>
+	<input type="text" class="form-control" id="inputZip">
+</div>
+</div>
+<div class="form-row">
+	<div class="form-group col-md-8">
+		<label for="inputAddress">Улица</label>
+		<input type="text" class="form-control" id="inputStreet">
     </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left collapsed pHFe3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Вебсайт
-        </button>
-      </h2>
+    <div class="form-group col-md-2">
+		<label for="inputHome">Дом</label>
+		<input type="text" class="form-control" id="inputHome">
+	</div>
+	<div class="form-group col-md-2">
+		<label for="inputOffice">кв/офис</label>
+		<input type="text" class="form-control" id="inputOffice">
+	</div>
+</div>
+<button type="submit" class="btn btn-primary">Отправить</button>
+</form>
+</div>
+</div>
+</div>
+<!-- Блок с сайтом -->
+<div class="card">
+	<div class="card-header" id="headingThree">
+		<h2 class="mb-0">
+			<button class="btn btn-link btn-block text-left collapsed pHFe3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+				Вебсайт
+			</button>
+		</h2>
     </div>
     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-        www.powelnahui.com
-      </div>
+		<div class="card-body">
+		<form method="POST" action="action.php" name="site">
+		<label">Сайт</label>
+		<div class="col-7">
+        <input type="text" class="form-control" name="site" minlength="2" maxlength="255" required />
+        </div>
+		<div class="form-group"><br />
+		<input class="btn btn-primary btn-block" type="submit" name="btn_submit_register" value="Зарегистрироваться!">
+		</div>
+		</form>
+		</div>
     </div>
-  </div>
+</div>
 </div>
 </body>
 </html>
