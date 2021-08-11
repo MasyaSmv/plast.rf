@@ -54,12 +54,13 @@
     </div>
     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
       <div class="card-body">
-      <form class="form-inline">
+      <form class="form-inline" action="action.php" name="inputNumber">
   <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Отправить</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="+ 0 (000) 000-00-00">
+    <input type="text" class="form-control" id="inputNumber" name="inputNumber" placeholder="+ 0 (000) 000-00-00">
+	<div class="form-group">
+		  <input class="btn btn-primary" type="submit" name="btn_submit_number" style="margin-top: 15px; margin-left: 25px;" value="Отправить">
+		  </div>
   </div>
-  <button type="submit" class="btn btn-primary mb-2">Отправить</button>
 </form>
       </div>
     </div>
@@ -156,11 +157,11 @@
 		<div class="card-body">
 		<form method="POST" action="action.php" name="site">
 		<label">Сайт</label>
-		<div class="col-7">
+		<div class="3Eg4M">
         <input type="text" class="form-control" name="site" minlength="2" maxlength="255" required />
         </div>
 		<div class="form-group"><br />
-		<input class="btn btn-primary btn-block" type="submit" name="btn_submit_register" value="Зарегистрироваться!">
+		<input class="btn btn-outline-primary" type="submit" name="btn_submit_site" value="Отправить">
 		</div>
 		</form>
 		</div>
