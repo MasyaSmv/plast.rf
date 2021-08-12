@@ -45,9 +45,9 @@
 	<!-- Блок с номером телефона -->
     <div class="accordion dW35KL" id="accordionExample">
   <div class="card">
-    <div class="card-header" id="headingOne">
+    <div class="card-header list-group-item list-group-item-action active" id="headingOne">
       <h2 class="mb-0">
-        <button class="btn btn-link btn-block text-left pHFe3" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-left pHFe3 " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Номер телефона
         </button>
       </h2>
@@ -168,5 +168,11 @@
     </div>
 </div>
 </div>
+<script>
+	$('#myList a').on('click', function (event) {
+  event.preventDefault()
+  $(this).tab('show')
+})
+</script>
 </body>
 </html>

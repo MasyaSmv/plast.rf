@@ -170,7 +170,7 @@
                                     <div class="  N5YmOc kJXJmd bvW4md">
                                         <header class="mSUZQd">
                                             <div class="jbRlDc">
-                                                <h2 class="fnfC4c">Основная информация</h2>
+                                                <h2 class="fnfC4c">Основная информация о компании</h2>
                                                 <div class="ISnqu">
                                                     <div></div>
                                                 </div>
@@ -180,13 +180,13 @@
                                 </div>
                                 <div class="ugt2L aK2X8b iDdZmf">
                                     <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
-                                        <a href="profile/name" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="10090" data-nav-type="5">
+                                        <a href="company_file/main_info.php" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="10090" data-nav-type="5">
                                             <div class="VJbqBb" role="text">
                                                 <div class="R1PxN">
                                                     <div class="BQtBnc">
                                                         <div class="cdy4hc">
                                                             <div class="xoXYwe">
-                                                                <h3 class="WzaSad">Имя</h3>
+                                                                <h3 class="WzaSad">Наименование</h3>
                                                             </div>
                                                         </div>
                                                         <div class="zTjtYe" style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
@@ -398,114 +398,217 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="wJpH8c">
-                        <div class="  XLK0Od">
-                            <div class="ahh38c">
-                                <div class="ugt2L">
-                                    <div class="  N5YmOc kJXJmd bvW4md">
-                                        <header class="mSUZQd">
-                                            <div class="jbRlDc">
-                                                <h2 class="fnfC4c">О себе</h2>
-                                                <div class="ISnqu">
-                                                    <div></div>
-                                                </div>
-                                            </div>
-                                        </header>
-                                    </div>
-                                </div>
-                                <div class="ugt2L">
-                                    <div>
-                                        <div class="N5YmOc kJXJmd">
-                                            <header class="mSUZQd">
-                                                <div class="jbRlDc">
-                                                    <h2 class="ISnqu">
-                                                        <div>Места, ссылки и краткая информация о себе</div>
-                                                    </h2>
-                                                </div>
-                                            </header>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ugt2L">
-                                    <div>
-                                        <div class="N5YmOc">
-                                            <div class="CCN0Qd" jscontroller="wq3ehe" jsaction="rcuQ6b:VEbqJe; GvneHb:VEbqJe">
-                                                <div class="DlrK9" jsname="XuHpsb">
-                                                    <div class="jwr3wd">
-                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;" title="Добавьте больше информации о себе">
-                                                            <a href="profile/about/add" class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd" data-rid="10084" data-nav-type="5">
-                                                                <div class="CSgpLb">
-                                                                    <style nonce="ROpunfH+DctR8a3VT8fgCQ">.HJOYVi15 {width: 18px; height: 18px;}</style>
-                                                                    <figure class="HJOYV HJOYVi15" aria-hidden="true"><img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_20x20_2f7d83d7b9d939c28af464b2ea390165.png" alt="" aria-hidden="true" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_40x40_3db0bf242f023947dedac89c34e22cf4.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_60x60_34da8df8df0647ce80c63633dc48defc.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_80x80_1c65cb29b2f86dc5f9c9c8ee79b264a1.png 4x"></figure>
-                                                                </div>
-                                                                <div class="nF0lvf">Добавьте больше информации о себе</div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="ofBt5e eLNT1d" jsname="HG5jfd" aria-hidden="true"><span class="DPvwYc sm8sCf DqeGTe" aria-hidden="true" jsaction="click: XYMtZ">&#xE5CB;</span></div>
-                                                <div class="AlVhAf eLNT1d" jsname="ZidPZ" aria-hidden="true"><span class="DPvwYc sm8sCf Rbf3t" aria-hidden="true" jsaction="click: zh6UJd">&#xE5CC;</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+            <div class="  XLK0Od">
+              <div class="ahh38c">
+                <div class="ugt2L">
+                  <div class="  N5YmOc kJXJmd bvW4md">
+                    <header class="mSUZQd">
+                      <div class="jbRlDc">
+                        <h2 class="fnfC4c">Инфомрацияя о компании</h2>
+                        <div class="ISnqu">
+                          <div></div>
                         </div>
-                    </div>
-                    <div class="wJpH8c">
-                        <div class="  XLK0Od">
-                            <div class="ahh38c">
-                                <div class="ugt2L">
-                                    <div class="  N5YmOc kJXJmd bvW4md">
-                                        <header class="mSUZQd">
-                                            <div class="jbRlDc">
-                                                <h2 class="fnfC4c">Работа и образование</h2>
-                                                <div class="ISnqu">
-                                                    <div></div>
-                                                </div>
-                                            </div>
-                                        </header>
-                                    </div>
-                                </div>
-                                <div class="ugt2L">
-                                    <div>
-                                        <div class="N5YmOc kJXJmd">
-                                            <header class="mSUZQd">
-                                                <div class="jbRlDc">
-                                                    <h2 class="ISnqu">
-                                                        <div>Текущая позиция, опыт работы и информация об образовании</div>
-                                                    </h2>
-                                                </div>
-                                            </header>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="ugt2L">
-                                    <div>
-                                        <div class="N5YmOc">
-                                            <div class="CCN0Qd" jscontroller="wq3ehe" jsaction="rcuQ6b:VEbqJe; GvneHb:VEbqJe">
-                                                <div class="DlrK9" jsname="XuHpsb">
-                                                    <div class="jwr3wd">
-                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;" title="Добавьте информацию о работе и образовании">
-                                                            <a href="profile/work-and-education/add" class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd" data-rid="10083" data-nav-type="5">
-                                                                <div class="CSgpLb">
-                                                                    <style nonce="ROpunfH+DctR8a3VT8fgCQ">.HJOYVi16 {width: 18px; height: 18px;}</style>
-                                                                    <figure class="HJOYV HJOYVi16" aria-hidden="true"><img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_20x20_2f7d83d7b9d939c28af464b2ea390165.png" alt="" aria-hidden="true" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_40x40_3db0bf242f023947dedac89c34e22cf4.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_60x60_34da8df8df0647ce80c63633dc48defc.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_80x80_1c65cb29b2f86dc5f9c9c8ee79b264a1.png 4x"></figure>
-                                                                </div>
-                                                                <div class="nF0lvf">Добавьте информацию о работе и образовании</div>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="ofBt5e eLNT1d" jsname="HG5jfd" aria-hidden="true"><span class="DPvwYc sm8sCf DqeGTe" aria-hidden="true" jsaction="click: XYMtZ">&#xE5CB;</span></div>
-                                                <div class="AlVhAf eLNT1d" jsname="ZidPZ" aria-hidden="true"><span class="DPvwYc sm8sCf Rbf3t" aria-hidden="true" jsaction="click: zh6UJd">&#xE5CC;</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                      </div>
+                    </header>
+                  </div>
+                </div>
+                <div class="ugt2L aK2X8b iDdZmf">
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="email" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="203" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Название компании</h3></div>
                             </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d"><?php echo $_SESSION['email']; ?></div>
+                              </div>
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">...</div>
+                              </div>
+                            </div>
+                          </div>
                         </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Телефон</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Инн</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Город</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Страна</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Сайт</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="ugt2L aK2X8b t97Ap">
+                  <div class="cv2gi" role="presentation">
+                    <div class="Q5jTGb"></div>
+                  </div>
+                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                    <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204" data-nav-type="5">
+                      <div class="VJbqBb" role="text">
+                        <div class="R1PxN">
+                          <div class="BQtBnc">
+                            <div class="cdy4hc">
+                              <div class="xoXYwe">
+                                <h3 class="WzaSad">Почта</h3></div>
+                            </div>
+                            <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
+                              <div class="xoXYwe">
+                                <div class="bJCr1d">....</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="NUNLMb">
+                          <figure class="z7VTQb" style="width: undefinedpx; height: undefinedpx;" aria-hidden="true"><span class="DPvwYc sm8sCf" aria-hidden="true"></span></figure>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+                        </section>
                     </div>
+                </div>
+            </div>
+            </div>
+          </div>
                 </section>
                 <c-data id="i5" jsdata=" VUvzzc;10111;3"></c-data>
             </c-wiz>
