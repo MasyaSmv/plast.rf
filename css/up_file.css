@@ -11,11 +11,11 @@
 .pHFe3 {
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
-    color: #33a2ff;
+    color: white;
 }
 
-.pHFe3:active, :focus {
-    color: #ffffff!important;
+.pHFe3:active, :hover, :focus {
+    color: white!important;
     box-shadow: none!important;
 }
 

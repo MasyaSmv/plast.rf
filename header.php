@@ -10,16 +10,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
-	<!-- Jquery test -->
-	<!-- закоменченные не помню используются или нет -->
-	<!-- <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
-	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script> -->
-
-	<link rel="stylesheet" href="https://snipp.ru/cdn/chosen/1.8.7/chosen.min.css">
-<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://snipp.ru/cdn/chosen/1.8.7/chosen.jquery.min.js"></script>
-
     <!-- Просто стили -->
     <link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0.3"> <!-- header -->
 	<link rel="stylesheet" type="text/css" href="/css/main.css?v=1.0.0.1"> <!-- main -->
@@ -37,6 +27,10 @@
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/login.css?v=1.0.0.3">
 
+	<!-- Jquery test -->
+	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.js"></script>
 
 
     <!-- Head для form_register -->
