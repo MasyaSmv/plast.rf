@@ -50,7 +50,7 @@
                                                         </div>
                                                         <div class="form-row">
                                                         <div class="col-7">
-                                                        <input type="text" class="form-control" name="sity" autocomplete="off" placeholder="City">
+                                                        <input type="text" class="form-control" name="city" autocomplete="off" placeholder="City">
                                                         </div>
                                                         <div class="col">
                                                         <input type="text" class="form-control" name="country" autocomplete="off" placeholder="Country"> <!-- Еще не добавлена в БД -->
@@ -105,10 +105,10 @@
                         <div class="card-body">
                         <?
                             //запрос в бд с суммой столбца длины и групировкой одинаковых позций
-                            $sql = "SELECT title,size,quant,unit,color,sity, SUM(quant)
+                            $sql = "SELECT title,size,quant,unit,color,city, SUM(quant)
                               FROM `sklad_tovar`
                               WHERE id_user = {$_SESSION['id']}
-                              GROUP BY title,size,color,sity
+                              GROUP BY title,size,color,city
                               LIMIT $offset, $size_page";
 
                             $result = $mysqli->query($sql);
@@ -141,7 +141,7 @@
                         <td><?echo $pow['SUM(quant)'] ;?></td>
                         <td><?echo $pow['unit'] ;?></td>
                         <td><?echo $pow['color'] ;?></td>
-                        <td><?echo  $pow['sity'] ;?></td>
+                        <td><?echo  $pow['city'] ;?></td>
                         </tr>
                         <?}?>
                         </tbody>

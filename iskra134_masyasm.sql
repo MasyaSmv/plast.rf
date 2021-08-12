@@ -368,7 +368,7 @@ INSERT INTO `city_id` (`id`, `city`) VALUES
 
 CREATE TABLE `company` (
   `id` int(50) NOT NULL,
-  `sity_id` int(20) NOT NULL,
+  `city_id` int(20) NOT NULL,
   `title` varchar(255) NOT NULL,
   `date_add` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -403,14 +403,14 @@ CREATE TABLE `sklad_tovar` (
   `quant` double NOT NULL,
   `unit` varchar(255) NOT NULL,
   `color` varchar(50) NOT NULL,
-  `sity` varchar(50) NOT NULL
+  `city` varchar(50) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `sklad_tovar`
 --
 
-INSERT INTO `sklad_tovar` (`id`, `id_user`, `title`, `size`, `quant`, `unit`, `color`, `sity`) VALUES
+INSERT INTO `sklad_tovar` (`id`, `id_user`, `title`, `size`, `quant`, `unit`, `color`, `city`) VALUES
 (23, 7, 'МГЛФ', '1,50 4', 322, 'шт', '', 'прш'),
 (22, 7, 'МГЛФ', '1,50 4', 0.571, 'км', '', 'прш'),
 (21, 7, 'МГЛФ', '0,75 4', 4.8, 'км', '', 'прш'),

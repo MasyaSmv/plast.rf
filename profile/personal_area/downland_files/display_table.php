@@ -18,10 +18,10 @@
 
             $offset = ($page_no-1) * $limit;
 
-            $sql = "SELECT title,size,quant,unit,color,sity, SUM(quant)
+            $sql = "SELECT title,size,quant,unit,color,city, SUM(quant)
                     FROM `sklad_tovar`
                     WHERE id_user = {$_SESSION['id']}
-                    GROUP BY title,size,color,sity
+                    GROUP BY title,size,color,city
                     HAVING quant > 0
                     /* AND unit = 'км'       Баг с группировкой разных величин (надо пофиксить) */
                     LIMIT $offset, $limit";
@@ -57,7 +57,7 @@
                         <td><?echo $pow['SUM(quant)'] ;?></td>
                         <td><?echo $pow['unit'] ;?></td>
                         <td><?echo $pow['color'] ;?></td>
-                        <td><?echo  $pow['sity'] ;?></td>
+                        <td><?echo  $pow['city'] ;?></td>
                     </tr>
                     <?}
                         echo '<pre>';
