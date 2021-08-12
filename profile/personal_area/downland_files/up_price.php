@@ -7,7 +7,7 @@ include ("../../../vendor/autoload.php");
 // Обозначаем переменные и имя файла
 $uploaddir = 'uploaded_files/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
-$sity = $_POST['sity'];
+$city = $_POST['city'];
 
 echo '<pre>';
 print_r($_SESSION);

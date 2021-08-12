@@ -50,7 +50,7 @@
                                                         </div>
                                                         <div class="form-row">
                                                         <div class="col-7">
-                                                        <input type="text" class="form-control" name="sity" autocomplete="off" placeholder="City">
+                                                        <input type="text" class="form-control" name="city" autocomplete="off" placeholder="City">
                                                         </div>
                                                         <div class="col">
                                                         <input type="text" class="form-control" name="country" autocomplete="off" placeholder="Country"> <!-- Еще не добавлена в БД -->
@@ -105,10 +105,10 @@
                         <div class="card-body">
                         <?
                             //запрос в бд с суммой столбца длины и групировкой одинаковых позций
-                            $sql = "SELECT title,size,quant,unit,color,sity, SUM(quant)
+                            $sql = "SELECT title,size,quant,unit,color,city, SUM(quant)
                               FROM `sklad_tovar`
                               WHERE id_user = {$_SESSION['id']}
-                              GROUP BY title,size,color,sity
+                              GROUP BY title,size,color,city
                               LIMIT $offset, $size_page";
 
                             $result = $mysqli->query($sql);
@@ -141,7 +141,7 @@
                         <td><?echo $pow['SUM(quant)'] ;?></td>
                         <td><?echo $pow['unit'] ;?></td>
                         <td><?echo $pow['color'] ;?></td>
-                        <td><?echo  $pow['sity'] ;?></td>
+                        <td><?echo  $pow['city'] ;?></td>
                         </tr>
                         <?}?>
                         </tbody>
@@ -167,23 +167,11 @@
                         </div>
                         </div>
                         </div>
-                        <div class="card">
-                        <div class="card-header" id="headingThree">
-                        <h2 class="mb-0">
-                        <button class="pHFe3 btn btn-link-free btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Collapsible Group Item #3
-                        </button>
-                        </h2>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                        <div class="card-body">
-                        And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
-                        </div>
-                        </div>
-                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+        </form>
         </div>
         <?
             echo "\n Некоторая отладочная информация:";
@@ -191,8 +179,6 @@
             print_r($_SESSION);
             echo "</pre>";
               ?>
-        </form>
-        </div>
         <script>
             document.querySelector('.custom-file-input').addEventListener('change',function(e){
               var fileName = document.getElementById("myInput").files[0].name;

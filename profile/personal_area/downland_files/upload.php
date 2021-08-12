@@ -7,7 +7,7 @@ include ("../../../vendor/autoload.php");
 // Обозначаем переменные и имя файла
 $uploaddir = 'uploaded_files/';
 $uploadfile = $uploaddir . basename($_FILES['userfile']['name']);
-$sity = $_POST['sity'];
+$city = $_POST['city'];
 
 echo '<pre>';
 print_r($_SESSION);
@@ -64,8 +64,8 @@ if ($xlsx = SimpleXLSX::parse($uploadfile)) {
 
 
             //Запись в БД
-            $mysqli->query("INSERT INTO `sklad_tovar` (`id_user`, `title`, `size`, `quant`, `unit`, `color`, `sity`)
-                VALUES ('{$_SESSION['id']}','$title','$size','$quant','$unit','$color','$sity')
+            $mysqli->query("INSERT INTO `sklad_tovar` (`id_user`, `title`, `size`, `quant`, `unit`, `color`, `city`)
+                VALUES ('{$_SESSION['id']}','$title','$size','$quant','$unit','$color','$city')
                 ");
         }
     }

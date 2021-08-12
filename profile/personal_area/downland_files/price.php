@@ -25,7 +25,7 @@ $offset = ($page_no-1) * $limit;
 $sql = "SELECT *
         FROM `price`
         WHERE id_user = {$_SESSION['id']}
-        /* GROUP BY title,size,color,sity
+        /* GROUP BY title,size,color,city
         HAVING quant > 0 */
         /* AND unit = 'км'       Баг с группировкой разных величин (надо пофиксить) */
         LIMIT $offset, $limit";
