@@ -191,7 +191,7 @@
                                                         </div>
                                                         <div class="zTjtYe" style="-webkit-flex-basis:292px; -ms-flex-preferred-size:292px; flex-basis:292px;">
                                                             <div class="xoXYwe">
-                                                                <div class="bJCr1d">Maxim Smerdov</div>
+                                                                <div class="bJCr1d"><?php echo $_SESSION['company']; ?></div>
                                                             </div>
                                                         </div>
                                                     </div>

@@ -16,8 +16,8 @@
                 <!-- Контейнер с контентом -->
                 <div class="D8JwHb">
                     <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="headingOne">
+                        <div class="card GnT3R">
+                            <div class="card-header M3t4R" id="headingOne">
                                 <h2 class="mb-0">
                                     <button class="pHFe3 btn btn-link-free btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" name="button">
                                     Загрузка файла
@@ -25,7 +25,7 @@
                                 </h2>
                             </div>
                             <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                                <div class="card-body">
+                                <div class="card-body GnT3R">
                                     <div class="ahh38c">
                                         <!-- Верхняя часть блока с текстами и картинкой -->
                                         <div class="ugt2L aK2X8b iDdZmf">
@@ -80,7 +80,7 @@
                                         </div>
                                         </div>
                                         <!-- Нижняя часть блока -->
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
+                                        <div class="VfPpkd-ksKsZd">
                                         <!-- Ссылка для перехода -->
                                         <div class="VZLjze Wvetm I6g62c Of8KN kJXJmd">
                                         <div class="ng43Og mtfBU input-group-append">
@@ -93,8 +93,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card">
-                        <div class="card-header" id="headingTwo">
+                        <div class="card GnT3R">
+                        <div class="card-header M3t4R" id="headingTwo">
                         <h2 class="mb-0">
                         <button class="pHFe3 btn btn-link-free btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         Таблица с загруженными остатками
@@ -102,7 +102,7 @@
                         </h2>
                         </div>
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                        <div class="card-body">
+                        <div class="card-body GnT3R">
                         <?
                             //запрос в бд с суммой столбца длины и групировкой одинаковых позций
                             $sql = "SELECT title,size,quant,unit,color,city, SUM(quant)

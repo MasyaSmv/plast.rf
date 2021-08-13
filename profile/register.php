@@ -56,6 +56,27 @@
 				redirect_to($message, 'profile/form_register.php');
 			}
 
+			//======= Обработка компании ============
+			if(isset($_POST["company"])){
+
+				$company = $_POST["company"];
+
+				if(!empty($company)){
+
+					$company = str_replace(array(',', '"', "'", '«', '»'), '', $company);
+					$company = htmlspecialchars($company, ENT_QUOTES);
+				}//else{
+
+			// 		$message = "<p class='message_error'><strong>Ошибка!</strong> Укажите Вашу фамилию</p>";
+			// 		redirect_to($message, 'profile/form_register.php');
+			// 	}
+
+			// }else{
+
+			// 	$message = "<p class='message_error'><strong>Ошибка!</strong> Отсутствует поле с фамилией </p>";
+			// 	redirect_to($message, 'profile/form_register.php');
+			}
+
 			//======= Обработка адреса электронной почты ============
 			if(isset($_POST["email"])){
 
@@ -121,7 +142,7 @@
 				redirect_to($message, 'profile/form_register.php');
 			}
 
-			$result_query_insert = $mysqli->query("INSERT INTO `users` (first_name, last_name, email, password) VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."') ");
+			$result_query_insert = $mysqli->query("INSERT INTO `users` (first_name, last_name, email, password, company) VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."', '".$company."') ");
 
 			if(!$result_query_insert){
 

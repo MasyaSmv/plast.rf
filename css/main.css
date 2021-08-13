@@ -844,7 +844,7 @@ svg.VfPpkd-kBDsod
 }
 .VfPpkd-Bz112c-LgbsSe svg,.VfPpkd-Bz112c-LgbsSe img
 {
-	height: 24px;
+	height: 50px;
 	width: 24px;
 }
 .VfPpkd-Bz112c-LgbsSe:disabled
@@ -6185,7 +6185,7 @@ body:not(.uOat3d) .VZLjze:focus
 }
 .EWuRAb.OUzXuf .ikIPKb
 {
-	background-color: rgba(255,255,255,0.961);
+	background-color: #212529;
 }
 .edoSyc
 {
@@ -6197,6 +6197,7 @@ body:not(.uOat3d) .VZLjze:focus
 	min-width: 0;
 	--webkit-box-align: center;
 	width: 690px;
+	color: #fff;
 }
 .edoSyc.MGyuR
 {
@@ -6226,6 +6227,10 @@ body:not(.uOat3d) .VZLjze:focus
 	margin-right: 4px;
 	vertical-align: middle;
 }
+.ew338c:hover
+{
+	color: #fff;
+}
 .ew338c
 {
 	color: #5f6368;
@@ -6235,7 +6240,7 @@ body:not(.uOat3d) .VZLjze:focus
 .ZZ9xL
 {
 	box-flex: 1;
-	color: #202124;
+	cursor: default;
 	flex-grow: 1;
 	font-family: 'Google Sans',Roboto,Arial,sans-serif;
 	font-size: 1.5rem;
@@ -6753,7 +6758,6 @@ body:not(.uOat3d) .hrNQqb:focus
 	{
 		padding-left: 48px;
 		padding-right: 48px;
-		padding-top: 0;
 	}
 	.s7iwrf.Kdcijb .ETkYLd
 	{
@@ -7327,10 +7331,10 @@ body:not(.uOat3d) .hrNQqb:focus
 }
 @media (min-width:600px)
 {
-	.VjFXz
+	/* .VjFXz
 	{
 		height: 64px;
-	}
+	} */
 }
 #gb
 {
@@ -10676,4 +10680,13 @@ a.gb_4.gb_nd:active
 {
 	height: 48px;
 	width: 48px;
+}
+
+.FF3gM {
+	display: flex;
+    justify-content: space-between;
+}
+
+.Vpl32K {
+	width: 25em!important;
 }

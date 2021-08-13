@@ -29,7 +29,7 @@
 			<div class="row justify-content-center">
 
 			<!-- Контейнер блока формы регистрации -->
-			<div class="col-md-6" style="padding-top: 8em;">
+			<div class="col-md-6">
 
 			<!-- Форма регистрации -->
 			<div class="card" style="background-color: rgb(24, 26, 27); border-color: rgba(140, 130, 115, 0.13);">
@@ -43,14 +43,21 @@
 			<div id="form_register.php">
 				<article class="card-body">
 					<form action="register.php" method="POST" name="form_register">
+						<div class="FF3gM">
 						<div class="form-group">
 							<label>Имя:</label>
-							<input type="text" class="form-control" name="first_name" minlength="2" maxlength="255" required />
+							<input type="text" class="form-control Vpl32K" name="first_name" minlength="2" maxlength="255" required />
 						</div>
 
 						<div class="form-group">
 							<label>Фамилия:</label>
-							<input type="text" class="form-control" name="last_name" minlength="2" maxlength="255" required />
+							<input type="text" class="form-control Vpl32K" name="last_name" minlength="2" maxlength="255" required />
+						</div>
+						</div>
+
+						<div class="form-group">
+							<label>Компания:</label>
+							<input type="text" class="form-control" name="company" minlength="2" maxlength="255" required />
 						</div>
 
 						<div class="form-group">
@@ -65,6 +72,7 @@
 							<input type="password" class="form-control" autocomplete="new-password" name="password" minlength="6" maxlength="100" required placeholder="Минимум 6 символов" />
 							<div id="error_password_message" class="form_registration message_error" style="margin-bottom: -1em; color: red;"></div> <!-- Сообщение ошибки пароля (надо CSS добавить) -->
 						</div>
+
 
 						<!-- Кнопка регистрации -->
 						<div class="form-group"><br />

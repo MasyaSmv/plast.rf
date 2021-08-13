@@ -506,10 +506,16 @@ pre code {
 .btn:hover {
     text-decoration-color: initial;
 }
+.GnT3R {
+    background-color:#212529;
+}
+.btn:hover {
+    color: white;
+}
 .btn.focus,
 .btn:focus {
     outline-color: initial;
-    box-shadow: rgba(0, 98, 204, 0.25) 0px 0px 0px 0.2rem;
+    box-shadow: rgba(0, 99, 204, 0) 0px 0px 0px 0.2rem;
 }
 .btn:not(:disabled):not(.disabled).active,
 .btn:not(:disabled):not(.disabled):active {
@@ -1323,10 +1329,10 @@ pre code {
 .navbar-dark .navbar-text a:hover {
     color: rgb(232, 230, 227);
 }
-.card {
+/* .card {
     background-color: rgb(24, 26, 27);
     border-color: rgba(140, 130, 115, 0.13);
-}
+} */
 .card-link:hover {
     text-decoration-color: initial;
 }

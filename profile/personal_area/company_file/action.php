@@ -46,8 +46,20 @@
             $site = $site['path'];
         }
         $id_user = $_SESSION['id'];
-        $sql = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')"; // заменим переменные на специальные маркеры
-        $mysqli->query($sql);
+        $sqlCity = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')"; // заменим переменные на специальные маркеры
+        $mysqli->query($sqlCity);
         header("Location: contact_company.php");
-    } else {
+    }
+
+
+    // Скрипт кнопки смены имени компании
+    if (isset($_POST["btn_save_name"])) {
+        $sname = $_POST["saveName"];
+
+        $sqlsName = "UPDATE users SET company='$sname' WHERE company='{$_SESSION['company']}'";
+        $mysqli->query($sqlsName);
+        var_dump($saveName);
+        var_dump($sname);
+        var_dump($sqlsName);
+        header("Location: main_info.php");
     }
