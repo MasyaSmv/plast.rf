@@ -86,6 +86,7 @@
 						$_SESSION['id'] = $info_user['id'];
 						$_SESSION['company'] = $info_user['company'];
 						$_SESSION['site'] = $info_user['site'];
+						$_SESSION['compPhone'] = $info_user['compPhone'];
 
 					}
 

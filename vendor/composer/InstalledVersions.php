@@ -27,24 +27,33 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => 'a709b64ff66ee221e3b604fefc8ed0603abf7181',
+    'reference' => '95d3fb810034f5ae3d771be1e322c103dd5a4a0d',
     'name' => '__root__',
   ),
   'versions' => 
   array (
     '__root__' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => 'a709b64ff66ee221e3b604fefc8ed0603abf7181',
+      'reference' => '95d3fb810034f5ae3d771be1e322c103dd5a4a0d',
+    ),
+    'harvesthq/chosen' => 
+    array (
+      'pretty_version' => 'v1.8.7',
+      'version' => '1.8.7.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'ad86732b668627c131e61ee8f0e6e9ed52e4db8d',
     ),
     'shuchkin/simplexlsx' => 
     array (

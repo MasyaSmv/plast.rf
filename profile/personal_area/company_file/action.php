@@ -2,13 +2,31 @@
 
 	session_start();
     include ('../../../dbconnect.php');
+    $id_user = $_SESSION['id'];
 
     // Скрипт для мобильного телефона
-    if (isset($_POST["btn_submit_number"])) {
-        $inputNumber = $_POST["inputNumber"];
-        $inputNumber = preg_replace("/(?:\+|\d)[\d\-\(\) ]{9,}\d/g", "", $inputNumber,);
+    if (isset($_POST["btn_comp_phone"])) {
+        $compPhone = $_POST["compPhone"];
 
-        var_dump($inputNumber);
+        if (preg_match(("/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/"), $compPhone)) {
+
+            // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+            if ($_SESSION['compPhone'] === 0) {
+                $sqlComNum = "INSERT INTO company (numphone, id_user) VALUES('$compPhone', '{$_SESSION['id']}')";
+                $mysqli->query($sqlComNum);
+            } else {
+                $sqlComNum = "UPDATE company SET numphone='$compPhone' WHERE id_user='$id_user'";
+                $mysqli->query($sqlComNum);
+            }
+            // удаляет старое название  компани из сессии и перезаписывает его на новый
+            unset($_SESSION['compPhone']);
+            $_SESSION['compPhone'] = $compPhone;
+        } else {
+            unset($_SESSION['compPhone']);
+            echo ('Неверно введен телефон');
+        };
+        echo '<pre>';
+        var_dump($compPhone);
         header("Location: contact_company.php");
     }
 
@@ -46,14 +64,13 @@
             $site = parse_url($site);
             $site = $site['path'];
         }
-        $id_user = $_SESSION['id'];
         // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
         if ($_SESSION['site'] === 0) {
-            $sqlCity = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')";
-            $mysqli->query($sqlCity);
+            $sqlSite = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')";
+            $mysqli->query($sqlSite);
         } else {
-            $sqlCity = "UPDATE company SET site='$site' WHERE id_user='$id_user'";
-            $mysqli->query($sqlCity);
+            $sqlSite = "UPDATE company SET site='$site' WHERE id_user='$id_user'";
+            $mysqli->query($sqlSite);
         }
         // удаляет старое название  компани из сессии и перезаписывает его на новый
         unset($_SESSION['site']);

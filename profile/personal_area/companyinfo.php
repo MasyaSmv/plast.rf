@@ -426,10 +426,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d"><?php echo $_SESSION['email']; ?></div>
-                              </div>
-                              <div class="xoXYwe">
-                                <div class="bJCr1d">...</div>
+                                <div class="bJCr1d"><?php echo $_SESSION['company']; ?></div>
                               </div>
                             </div>
                           </div>
@@ -560,7 +557,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">....</div>
+                                <div class="bJCr1d"><?php echo $_SESSION['site']; ?></div>
                               </div>
                             </div>
                           </div>

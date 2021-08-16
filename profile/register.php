@@ -63,7 +63,7 @@
 
 				if(!empty($company)){
 
-					$company = str_replace(array(',', '"', "'", '«', '»', '[^a-zа-яё0-9 ]'), '', $company);
+					$company = str_replace(array(',', '"', "'", '«', '»'), '', $company);
 					$company = htmlspecialchars($company, ENT_QUOTES);
 				}//else{
 
@@ -143,6 +143,7 @@
 			}
 
 			$result_query_insert = $mysqli->query("INSERT INTO `users` (first_name, last_name, email, password, company) VALUES ('".$first_name."', '".$last_name."', '".$email."', '".$password."', '".$company."') ");
+			$result_query_insert = $mysqli->query("INSERT INTO `company` (title, id_user) VALUES ('".$company."', '".$mysqli->insert_id."')");
 
 			if(!$result_query_insert){
 
