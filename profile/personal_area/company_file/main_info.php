@@ -50,24 +50,13 @@
                                                     <div class="th336c">
                                                         <div class="O13N7c">Имя</div>
                                                     </div>
-                                                    <div class="input-group mb-3 wefgw">
-                                                        <div class="input-group-prepend Ur3K">
-                                                            <span class="input-group-text"
-                                                                id="inputGroup-sizing-default"><svg width="20"
-                                                                    height="20" class="NSy2Hd sBZVKd DNDTHd">
-                                                                    <path fill="none" d="M0 0h24v24H0V0z"></path>
-                                                                    <path
-                                                                        d="M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z">
-                                                                    </path>
-                                                                </svg></span>
-                                                        </div>
-                                                        <form action="action.php" name="saveName">
-                                                            <input type="text" class="form-control"
-                                                            aria-label="Sizing example input"
-                                                            value='<?php echo $_SESSION['company']; ?>'
-                                                            aria-describedby="inputGroup-sizing-default" id="saveName" name="saveName" type="submit" name="btn_save_name">
+                                                    <div class="card-body">
+		<form method="POST" action="action.php" name="saveName">
+		<label">Сайт</label>
+		<div class="3Eg4M">
+        <input type="text" class="form-control" name="saveName" minlength="2" maxlength="255" required />
+        </div>
 
-                                                    </div>
                                                     <hr class="vORqbf">
                                                     <div class="zHA9i">
                                                         <div class="th336c">
@@ -121,14 +110,11 @@
                                     <div class="r5zfde">
                                         <div class="qNQcfd T3o42d">
                                             <div class="N1UXxf">
-                                                <div class="VfPpkd-dgl2Hf-ppHlrf-sM5MNb" data-is-touch-wrapper="true">
-                                                    <button
-                                                        class="VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc"
-                                                        data-idom-class="nCP5yc AjY5Oe DuMIQc" type="submit" name="btn_save_name" style="margin-top: 15px; margin-left: 25px;">
-                                                        <div class="VfPpkd-Jh9lGc"></div>
-                                                        <div class="VfPpkd-RLmnJb"></div><span
-                                                            class="VfPpkd-vQzf8d">Сохранить</span>
-                                                    </button></div>
+                                            <div class="form-group"><br />
+		<input class="btn btn-outline-primary" type="submit" name="btn_save_name" value="Отправить">
+		</div>
+		</form>
+		</div>
                                             </div>
                                         </div>
                                     </div>
@@ -139,6 +125,9 @@
                 </div>
             </div>
             </form>
+            <?echo '<pre>';
+            print_r($_SESSION);
+            ?>
 </body>
 
 </html>

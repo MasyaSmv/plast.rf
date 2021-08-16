@@ -44,8 +44,8 @@
 <body>
 	<!-- Блок с номером телефона -->
     <div class="accordion dW35KL" id="accordionExample">
-  <div class="card">
-    <div class="card-header list-group-item list-group-item-action active" id="headingOne">
+  <div class="card G5n7T">
+    <div class="card-header list-group-item list-group-item-action active U8iN4" id="headingOne">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left pHFe3 " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Номер телефона
@@ -66,8 +66,8 @@
     </div>
   </div>
   <!-- Блок с адресными данными -->
-  <div class="card">
-    <div class="card-header" id="headingTwo">
+  <div class="card G5n7T">
+    <div class="card-header U8iN4" id="headingTwo">
       <h2 class="mb-0">
         <button class="btn btn-link btn-block text-left collapsed pHFe3" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Адрес
@@ -145,8 +145,8 @@
 </div>
 </div>
 <!-- Блок с сайтом -->
-<div class="card">
-	<div class="card-header" id="headingThree">
+<div class="card G5n7T">
+	<div class="card-header U8iN4" id="headingThree">
 		<h2 class="mb-0">
 			<button class="btn btn-link btn-block text-left collapsed pHFe3" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 				Вебсайт
@@ -174,5 +174,8 @@
   $(this).tab('show')
 	})
 </script>
+<?echo '<pre>';
+            print_r($_SESSION);
+            ?>
 </body>
 </html>

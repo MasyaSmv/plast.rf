@@ -85,6 +85,7 @@
 						$_SESSION['last_name'] = $info_user['last_name'];
 						$_SESSION['id'] = $info_user['id'];
 						$_SESSION['company'] = $info_user['company'];
+						$_SESSION['site'] = $info_user['site'];
 
 					}
 

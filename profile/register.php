@@ -63,7 +63,7 @@
 
 				if(!empty($company)){
 
-					$company = str_replace(array(',', '"', "'", '«', '»'), '', $company);
+					$company = str_replace(array(',', '"', "'", '«', '»', '[^a-zа-яё0-9 ]'), '', $company);
 					$company = htmlspecialchars($company, ENT_QUOTES);
 				}//else{
 
