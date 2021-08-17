@@ -193,6 +193,7 @@ $("sr-only").click(function(){
 echo "\n Некоторая отладочная информация:";
 echo "<pre>";
 print_r($_SESSION);
+print_r($site);
 echo "</pre>";
 ?>
                     </header>

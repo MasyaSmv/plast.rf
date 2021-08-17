@@ -4,7 +4,7 @@
         <title>Загрузка файла</title>
         <?php
             include ('../../../header.php');
-            include ('../left_menu.html');
+            include ('../left_menu.php');
             include ('paginator_table.php');
             ?>
     </head>
@@ -50,10 +50,10 @@
                                                         </div>
                                                         <div class="form-row">
                                                         <div class="col-7">
-                                                        <input type="text" class="form-control" name="city" autocomplete="off" placeholder="City">
+                                                        <input type="text" class="form-control Uh3N5" name="city" autocomplete="off" placeholder="City">
                                                         </div>
                                                         <div class="col">
-                                                        <input type="text" class="form-control" name="country" autocomplete="off" placeholder="Country"> <!-- Еще не добавлена в БД -->
+                                                        <input type="text" class="form-control Uh3N5" name="country" autocomplete="off" placeholder="Country"> <!-- Еще не добавлена в БД -->
                                                         </div>
                                                         </div>
                                                     </div>

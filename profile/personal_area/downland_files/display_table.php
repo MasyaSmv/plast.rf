@@ -5,7 +5,7 @@
         <?php
             include ('../../../header.php');
             include ('../../../dbconnect.php');
-            include ('../left_menu.html');
+            include ('../left_menu.php');
 
             $limit = 100;
 

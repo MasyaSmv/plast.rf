@@ -453,7 +453,7 @@
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
-                                <div class="bJCr1d">....</div>
+                                <div class="bJCr1d"><?php echo $_SESSION['compPhone']; ?></div>
                               </div>
                             </div>
                           </div>
@@ -579,7 +579,7 @@
                           <div class="BQtBnc">
                             <div class="cdy4hc">
                               <div class="xoXYwe">
-                                <h3 class="WzaSad">Почта</h3></div>
+                                <h3 class="WzaSad">Электронная почта</h3></div>
                             </div>
                             <div class="zTjtYe" style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                               <div class="xoXYwe">
@@ -613,13 +613,10 @@
     </div>
 </div>
 </div>
-<c-data id="i4" jsdata=" Hl9ifd;10050;4"></c-data>
-</c-wiz>
-<c-data id="i3" jsdata=" P9Pmsd;10050;2"></c-data>
-</c-wiz></div>
 <div class="vbHcXc gJItKf gHBEZd"></div>
 </div>
-<c-data id="i1"></c-data>
-</c-wiz>
+<?php echo '<pre>';
+                print_r($_SESSION);
+                ?>
 </body>
 </html>
