@@ -1,34 +1,26 @@
 <?php
 
 session_start();
-include '../../../dbconnect.php';
-$id_user = $_SESSION['id'];
+include '../../../sql_scripts.php';
 
 // Скрипт для мобильного телефона
 if (isset($_POST["btn_comp_phone"])) {
     $compPhone = $_POST["compPhone"];
-
     if (preg_match(("/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/"), $compPhone)) {
-
         // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
         if ($_SESSION['compPhone'] === 0) {
-            $sqlComNum = "INSERT INTO company (numphone, id_user) VALUES('$compPhone', '{$_SESSION['id']}')";
+            $sqlComNum = "INSERT INTO company (numphone, id_user) VALUES('$compPhone', '{$user_arr['id']}')";
             $mysqli->query($sqlComNum);
         } else {
-            $sqlComNum = "UPDATE company SET numphone='$compPhone' WHERE id_user='$id_user'";
+            $sqlComNum = "UPDATE company SET numphone='$compPhone' WHERE id_user='{$user_arr['id']}'";
             $mysqli->query($sqlComNum);
         }
-        // удаляет старое название  компани из сессии и перезаписывает его на новый
-        unset($_SESSION['compPhone']);
-        $_SESSION['compPhone'] = $compPhone;
+        header("Location: contact_company.php");
     } else {
-        unset($_SESSION['compPhone']);
         echo ('Неверно введен телефон');
-    }
-    ;
+    };
     echo '<pre>';
     var_dump($compPhone);
-    header("Location: contact_company.php");
     exit();
 }
 
@@ -49,6 +41,7 @@ WHERE state_ru = '$state', id_user= '$id_user'";
 // Скрипт кнопки ссылки сайта
 if (isset($_POST["btn_submit_site"])) {
     // Убираем слэши и пробелы
+    if ($site = preg_match('/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/', trim($_POST["site"]))) {
     $site = str_replace("/", "", trim($_POST["site"]));
     // Переменные для поиска протоколов
     $scheme0 = "http";
@@ -64,18 +57,18 @@ if (isset($_POST["btn_submit_site"])) {
         $site = $site['path'];
     }
     // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
-    if ($_SESSION['site'] === 0) {
-        $sqlSite = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')";
+    if ($company_arr['site'] === 0) {
+        $sqlSite = "INSERT INTO company (site, id_user) VALUES('$site', '{$user_arr['id']}')";
         $mysqli->query($sqlSite);
     } else {
-        $sqlSite = "UPDATE company SET site='$site' WHERE id_user='$id_user'";
+        $sqlSite = "UPDATE company SET site='$site' WHERE id_user='{$user_arr['id']}'";
         $mysqli->query($sqlSite);
     }
-    // удаляет старое название  компани из сессии и перезаписывает его на новый
-    unset($_SESSION['site']);
-    $_SESSION['site'] = $site;
     header("Location: contact_company.php");
     exit();
+    }else{
+        echo ('Чота не так с ссылкой');
+    }
 }
 
 // Скрипт кнопки смены имени компании
@@ -83,15 +76,31 @@ if (isset($_POST["btn_save_name"])) {
     $sname = $_POST["saveName"];
     // Почему-то нормальная регулярка не работает, а выяснять почему пока лень, да и много друго надо сделать
     $sname = str_replace(array(',', '"', "'", '«', '»', '!', '@', '<', '>', '#', '%', '$', '^', '&', '*', '(', ')', '_', '=', '+', '/', '?', "|", ';', ':', '.'), '', $sname);
-    $sqlsName = "UPDATE users SET company='$sname' WHERE company='{$_SESSION['company']}'";
-    $sqlsCompName = "UPDATE company SET title='$sname' WHERE title='{$_SESSION['company']}'";
+    $sqlsName = "UPDATE users SET company='$sname' WHERE company='{$user_arr['company']}'";
+    $sqlsCompName = "UPDATE company SET title='$sname' WHERE title='{$company_arr['compName']}'";
     $mysqli->query($sqlsName);
     $mysqli->query($sqlsCompName);
-    // удаляет старое название  компани из сессии и перезаписывает его на новый
-    unset($_SESSION['company']);
-    $_SESSION['company'] = $sname;
     header("Location: main_info.php");
     exit();
 }
 
-
+// Скрипт кнопки почты
+if (isset($_POST["btn_comp_mail"])) {
+    $compMail = $_POST["compMail"];
+    if (preg_match('/^((([0-9A-Za-z]{1}[-0-9A-z\.]{1,}[0-9A-Za-z]{1})|([0-9А-Яа-я]{1}[-0-9А-я\.]{1,}[0-9А-Яа-я]{1}))@([-A-Za-z]{1,}\.){1,2}[-A-Za-z]{2,})$/u', $compMail)) {
+        // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+        if ($company_arr['compMail'] === 0) {
+            $sqlCompMail = "INSERT INTO company (email, id_user) VALUES('$compMail', '$id_user')";
+            $mysqli->query($sqlCompMail);
+        } else {
+            $sqlCompMail = "UPDATE company SET email='$compMail' WHERE id_user='$id_user'";
+            $mysqli->query($sqlCompMail);
+        }
+        header("Location: contact_company.php");
+    } else {
+        echo ('Данные почты не верны и будут кастрированны');
+    };
+    echo '<pre>';
+    var_dump($compMail);
+    exit();
+}
