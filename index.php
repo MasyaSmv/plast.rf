@@ -26,6 +26,7 @@
 echo "\n Некоторая отладочная информация:";
 echo "<pre>";
 print_r($_SESSION);
+print_r($full_arr);
 echo "</pre>";
 		?>
 

@@ -851,6 +851,8 @@
     <div class="vbHcXc gJItKf gHBEZd"></div>
     </div>
     <?php echo '<pre>';
+                print_r($_SESSION);
+                print_r($_COOKIE);
                 print_r($full_arr);
                 ?>
 </body>
