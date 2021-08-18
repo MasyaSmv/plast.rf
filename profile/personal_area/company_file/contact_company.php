@@ -8,7 +8,6 @@
 	<title>Document</title>
 	<?php
     include ('../../../header.php');
-    include ('../../../dbconnect.php');
 
 	// Запросы в бд для списка городов и стран
 	$city = "SELECT city
@@ -86,7 +85,7 @@
 								<div class="G9o7T">
 									<div class="Yt9N8">
 										<input type="text" class="form-control U30lM" name="compPhone" minlength="2"
-											maxlength="255" value="<?php echo $_SESSION['compPhone']; ?>" required placeholder="8-***-***-**-**" />
+											maxlength="255" value="<?php echo $company_arr['compPhone']; ?>" required placeholder="8-***-***-**-**" />
 									</div>
 									<div class="form-group"><br />
 										<input class="btn btn-outline-primary Lo6MV" type="submit" name="btn_comp_phone"
@@ -202,7 +201,7 @@
 							<label">Сайт</label>
 							<div class="Mf3T5">
 									<input type="text" class="form-control" name="site" minlength="2" maxlength="255"
-										required value="<?php echo $_SESSION['site']; ?>" />
+										required value="<?php echo $company_arr['site']; ?>" />
 								</div>
 								<div class="form-group"><br />
 									<input class="btn btn-outline-primary" type="submit" name="btn_submit_site"
@@ -230,7 +229,7 @@
 							<div class="G9o7T">
 									<div class="Yt9N8">
 										<input type="text" class="form-control U30lM" name="compMail" minlength="2"
-											maxlength="255" value="<?php echo $_SESSION['compMail']; ?>" required placeholder="***@***.***" />
+											maxlength="255" value="<?php echo $company_arr['compMail']; ?>" required placeholder="***@***.***" />
 									</div>
 									<div class="form-group"><br />
 										<input class="btn btn-outline-primary Lo6MV" type="submit" name="btn_comp_mail"

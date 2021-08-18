@@ -93,3 +93,5 @@ if (isset($_POST["btn_save_name"])) {
     header("Location: main_info.php");
     exit();
 }
+
+
