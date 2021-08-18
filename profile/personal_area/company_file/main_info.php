@@ -63,7 +63,7 @@
                                                                         </path>
                                                                     </svg></span>
                                                             </div>
-                                                            <input type="text" class="form-control" name="saveName" value="<?php echo $_SESSION['company']; ?>"
+                                                            <input type="text" class="form-control" name="saveName" value="<?php echo $company_arr['compName']; ?>"
                                                                 minlength="2" maxlength="255" required />
 </form>
                                                         </div>

@@ -7,7 +7,7 @@ include '../../../sql_scripts.php';
 if (isset($_POST["btn_comp_phone"])) {
     $compPhone = $_POST["compPhone"];
     if (preg_match(("/^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$/"), $compPhone)) {
-        // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+        // Условие (если в сесси нет записи телефона - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
         if ($_SESSION['compPhone'] === 0) {
             $sqlComNum = "INSERT INTO company (numphone, id_user) VALUES('$compPhone', '{$user_arr['id']}')";
             $mysqli->query($sqlComNum);
@@ -87,13 +87,13 @@ if (isset($_POST["btn_save_name"])) {
 // Скрипт кнопки почты
 if (isset($_POST["btn_comp_mail"])) {
     $compMail = $_POST["compMail"];
-    if (preg_match('/^((([0-9A-Za-z]{1}[-0-9A-z\.]{1,}[0-9A-Za-z]{1})|([0-9А-Яа-я]{1}[-0-9А-я\.]{1,}[0-9А-Яа-я]{1}))@([-A-Za-z]{1,}\.){1,2}[-A-Za-z]{2,})$/u', $compMail)) {
-        // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+    if (preg_match('/^((([0-9A-Za-z]{1}[-0-9A-z\.]{1,}[0-9A-Za-z]{1})|([0-9А-Яа-я]{1}[-0-9А-я\.]{1,}[0-9А-Яа-я]{1}))@([-A-Za-z]{1,}\.){1,2}[-A-Za-z]{2,})$/', $compMail)) {
+        // Условие (если в сесси нет записи почты - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
         if ($company_arr['compMail'] === 0) {
-            $sqlCompMail = "INSERT INTO company (email, id_user) VALUES('$compMail', '$id_user')";
+            $sqlCompMail = "INSERT INTO company (email, id_user) VALUES('$compMail', '{$user_arr['id']}')";
             $mysqli->query($sqlCompMail);
         } else {
-            $sqlCompMail = "UPDATE company SET email='$compMail' WHERE id_user='$id_user'";
+            $sqlCompMail = "UPDATE company SET email='$compMail' WHERE id_user='{$user_arr['id']}'";
             $mysqli->query($sqlCompMail);
         }
         header("Location: contact_company.php");
@@ -102,5 +102,26 @@ if (isset($_POST["btn_comp_mail"])) {
     };
     echo '<pre>';
     var_dump($compMail);
+    exit();
+}
+
+// Скрипт кнопки Инн
+if (isset($_POST["btn_submit_inn"])) {
+    $inn = $_POST["inn"];
+    if (preg_match('/^[\d+]{10,12}$/', $inn)) {
+        // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+        if ($company_arr['inn'] === 0) {
+            $sqlInn = "INSERT INTO company (inn, id_user) VALUES ('$inn', '{$user_arr['id']}')";
+            $mysqli->query($sqlInn);
+        } else {
+            $sqlInn = "UPDATE company SET inn='$inn' WHERE id_user='{$user_arr['id']}'";
+            $mysqli->query($sqlInn);
+        }
+        header("Location: contact_company.php");
+    } else {
+        echo ('Уебанский Инн');
+    };
+    echo '<pre>';
+    var_dump($inn);
     exit();
 }

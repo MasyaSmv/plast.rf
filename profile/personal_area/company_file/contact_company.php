@@ -85,7 +85,8 @@
 								<div class="G9o7T">
 									<div class="Yt9N8">
 										<input type="text" class="form-control U30lM" name="compPhone" minlength="2"
-											maxlength="255" value="<?php echo $company_arr['compPhone']; ?>" required placeholder="8-***-***-**-**" />
+											maxlength="255" value="<?php echo $company_arr['compPhone']; ?>" required
+											placeholder="8-***-***-**-**" />
 									</div>
 									<div class="form-group"><br />
 										<input class="btn btn-outline-primary Lo6MV" type="submit" name="btn_comp_phone"
@@ -199,7 +200,7 @@
 					<div class="card-body">
 						<form method="POST" action="action.php" name="site">
 							<label">Сайт</label>
-							<div class="Mf3T5">
+								<div class="Mf3T5">
 									<input type="text" class="form-control" name="site" minlength="2" maxlength="255"
 										required value="<?php echo $company_arr['site']; ?>" />
 								</div>
@@ -226,13 +227,44 @@
 					<div class="card-body">
 						<form method="POST" action="action.php" name="compMail">
 							<label">Электронная почта</label>
-							<div class="G9o7T">
+								<div class="G9o7T">
 									<div class="Yt9N8">
 										<input type="text" class="form-control U30lM" name="compMail" minlength="2"
-											maxlength="255" value="<?php echo $company_arr['compMail']; ?>" required placeholder="***@***.***" />
+											maxlength="255" value="<?php echo $company_arr['compMail']; ?>" required
+											placeholder="***@***.***" />
 									</div>
 									<div class="form-group"><br />
 										<input class="btn btn-outline-primary Lo6MV" type="submit" name="btn_comp_mail"
+											value="Отправить">
+									</div>
+								</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- Блок с почтой -->
+			<div class="card G5n7T">
+				<div class="card-header U8iN4" id="headingFive">
+					<h2 class="mb-0">
+						<button class="btn btn-link btn-block text-left collapsed pHFe3" type="button"
+							data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+							aria-controls="collapseFive">
+							Инн епта
+						</button>
+					</h2>
+				</div>
+				<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+					<div class="card-body">
+						<form method="POST" action="action.php" name="inn">
+							<label">Инн</label>
+								<div class="G9o7T">
+									<div class="Yt9N8">
+										<input type="text" class="form-control U30lM" name="inn" minlength="2"
+											maxlength="12" value="<?php echo $company_arr['inn']; ?>" required
+											placeholder="00000000000" />
+									</div>
+									<div class="form-group"><br />
+										<input class="btn btn-outline-primary Lo6MV" type="submit" name="btn_submit_inn"
 											value="Отправить">
 									</div>
 								</div>
@@ -248,7 +280,8 @@
 			})
 		</script>
 		<?echo '<pre>';
-            print_r($_SESSION);
+		print_r($_POST['inn']);
+            print_r($full_arr);
             ?>
 </body>
 
