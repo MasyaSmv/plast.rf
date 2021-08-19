@@ -496,12 +496,12 @@
                         <span>&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    <iframe src="/profile/personal_area/profile_photo.php" width="765px" height="400px">
+                <div class="modal-body Lm4o8">
+                    <iframe src="/profile/personal_area/profile_photo.php" width="797" height="375">
                     </iframe>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                        <button type="button" id="upload_photo" class="btn btn-primary">Save changes</button>
                     </div>
                 </div>
             </div>
@@ -514,6 +514,27 @@ echo "<pre>";
 print_r($full_arr);
 echo "</pre>";
 ?>
+
+<script>
+    $('#upload_photo').on('click', function() {
+    var file_data = $('#sortpicture').prop('files')[0];
+    var form_data = new FormData();
+    form_data.append('file', file_data);
+    alert(form_data);
+    $.ajax({
+                url: 'upload_photo.php',
+                dataType: 'text',
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: form_data,
+                type: 'post',
+                success: function(php_script_response){
+                    alert(php_script_response);
+                }
+     });
+});
+</script>
 
 </bdy>
 </html>

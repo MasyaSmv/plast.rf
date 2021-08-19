@@ -64,12 +64,7 @@ if (isset($_POST["btn_submit_site"])) {
         $sqlSite = "UPDATE company SET site='$site' WHERE id_user='{$_SESSION['id']}'";
         $mysqli->query($sqlSite);
     }
-    // unset($company_arr['site']);
-    // $company_arr['site'] = $site;
-    // header("Location: contact_company.php");
-    echo '<pre>';
-    var_dump($site);
-    var_dump($sqlSite);
+    header("Location: contact_company.php");
     exit();
     }else{
         echo ('Чота не так с ссылкой');

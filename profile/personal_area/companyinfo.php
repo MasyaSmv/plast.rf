@@ -221,8 +221,7 @@
                                         </div>
                                     </div>
                                     <div class="ugt2L aK2X8b iDdZmf">
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="company_file/main_info.php"
                                                 class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="10090"
                                                 data-nav-type="5">
@@ -274,9 +273,8 @@
                                         </div>
                                         <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd"
                                             jscontroller="nEO8Ne" data-picker="https://docs.google.com/picker"
-                                            aria-haspopup="dialog" aria-label="изменить фото профиля"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;"
-                                            data-rid="218" data-nav-type="5">
+                                            aria-haspopup="dialog" aria-label="изменить фото профиля" data-rid="218"
+                                            data-nav-type="5">
                                             <div class="N5YmOc kJXJmd">
                                                 <div class="VJbqBb" role="text">
                                                     <div class="R1PxN">
@@ -340,8 +338,7 @@
                                         <div class="cv2gi" role="presentation">
                                             <div class="Q5jTGb"></div>
                                         </div>
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="gender?continue=https%3A%2F%2Fmyaccount.google.com%2Fprofile%3Fcontinue%3Dhttps%3A%2F%2Fmyaccount.google.com%2Fpersonal-info"
                                                 class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="206"
                                                 data-nav-type="5">
@@ -388,8 +385,7 @@
                                         <div class="cv2gi" role="presentation">
                                             <div class="Q5jTGb"></div>
                                         </div>
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="birthday?continue=https%3A%2F%2Fmyaccount.google.com%2Fprofile%3Fcontinue%3Dhttps%3A%2F%2Fmyaccount.google.com%2Fpersonal-info"
                                                 class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="205"
                                                 data-nav-type="5">
@@ -451,8 +447,7 @@
                                         </div>
                                     </div>
                                     <div class="ugt2L aK2X8b iDdZmf">
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="#" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="507"
                                                 data-nav-type="5">
                                                 <div class="VJbqBb" role="text">
@@ -461,7 +456,7 @@
                                                             <div class="cdy4hc">
                                                                 <div class="xoXYwe">
                                                                     <h3 class="WzaSad">Адрес электронной почты
-                                                                        аккаунта Google</h3>
+                                                                        компании</h3>
                                                                 </div>
                                                             </div>
                                                             <div class="zTjtYe"
@@ -510,8 +505,6 @@
                                                     <div class="DlrK9" jsname="XuHpsb">
                                                         <div class="jwr3wd">
                                                             <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe"
-                                                                jscontroller="fjYfSd"
-                                                                jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;"
                                                                 title="Добавьте контактные данные">
                                                                 <a href="company_file/contact_company.php"
                                                                     class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd"
@@ -552,8 +545,8 @@
                                                 <header class="mSUZQd">
                                                     <div class="jbRlDc">
                                                         <h2 class="ISnqu">
-                                                            <div>Для связи с вами Google может использовать
-                                                                контактную информацию, которая не указана здесь. <a
+                                                            <div>Для связи с вами мы можем использовать
+                                                                контактную информацию, которая указана здесь. <a
                                                                     href="personal-info" class="VZLjze" data-rid="10003"
                                                                     data-nav-type="5"
                                                                     aria-label="Посмотреть другие контактные данные">Чтобы
@@ -586,8 +579,7 @@
                                         </div>
                                     </div>
                                     <div class="ugt2L aK2X8b iDdZmf">
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="email" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="203"
                                                 data-nav-type="5">
                                                 <div class="VJbqBb" role="text">
@@ -622,8 +614,7 @@
                                         <div class="cv2gi" role="presentation">
                                             <div class="Q5jTGb"></div>
                                         </div>
-                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                             <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204"
                                                 data-nav-type="5">
                                                 <div class="VJbqBb" role="text">
@@ -657,8 +648,7 @@
                                             <div class="cv2gi" role="presentation">
                                                 <div class="Q5jTGb"></div>
                                             </div>
-                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                                jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                                 <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="204"
                                                     data-nav-type="5">
                                                     <div class="VJbqBb" role="text">
@@ -673,7 +663,8 @@
                                                                     style="-webkit-flex-basis:328px; -ms-flex-preferred-size:328px; flex-basis:328px;">
                                                                     <div class="xoXYwe">
                                                                         <div class="bJCr1d">
-                                                                            <?php echo $company_arr['inn']; ?></div>
+                                                                        <?php echo $company_arr['inn']; ?>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -691,8 +682,7 @@
                                                 <div class="cv2gi" role="presentation">
                                                     <div class="Q5jTGb"></div>
                                                 </div>
-                                                <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                                    jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                                <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                                     <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd"
                                                         data-rid="204" data-nav-type="5">
                                                         <div class="VJbqBb" role="text">
@@ -726,8 +716,7 @@
                                                     <div class="cv2gi" role="presentation">
                                                         <div class="Q5jTGb"></div>
                                                     </div>
-                                                    <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                                        jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                                    <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                                         <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd"
                                                             data-rid="204" data-nav-type="5">
                                                             <div class="VJbqBb" role="text">
@@ -761,8 +750,7 @@
                                                         <div class="cv2gi" role="presentation">
                                                             <div class="Q5jTGb"></div>
                                                         </div>
-                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd"
-                                                            jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                                             <a href="phone" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd"
                                                                 data-rid="204" data-nav-type="5">
                                                                 <div class="VJbqBb" role="text">
@@ -797,9 +785,7 @@
                                                             <div class="cv2gi" role="presentation">
                                                                 <div class="Q5jTGb"></div>
                                                             </div>
-                                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd"
-                                                                jscontroller="fjYfSd"
-                                                                jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
+                                                            <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd">
                                                                 <a href="phone"
                                                                     class="VZLjze Wvetm I6g62c N5YmOc kJXJmd"
                                                                     data-rid="204" data-nav-type="5">
