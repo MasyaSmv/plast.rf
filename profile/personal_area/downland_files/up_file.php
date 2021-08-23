@@ -4,6 +4,7 @@
 <head>
     <title>Загрузка файла</title>
     <?php
+            // include ('upload.php');
             include ('../../../header.php');
             include ('../left_menu.php');
             include ('paginator_table.php');

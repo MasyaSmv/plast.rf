@@ -1,49 +1,59 @@
-<?php
-include ('../dbconnect.php')
-if(isset($_FILES['file'])) {
+<?
+include ('../../header.php');
 
-  if ($_FILES['file']['name'] !== '' && $_FILES['file']['error'] == 0) {
-    try {
-      // MIME-типы нужно проверять ещё в JS коде и выводить ошибки пользователю
-      // Сейчас они вываливаются во вкладке "Network" браузера
-      $fileTmpName = $_FILES['file']['tmp_name'];
-      $fi = finfo_open(FILEINFO_MIME_TYPE);
-      $mime = (string) finfo_file($fi, $fileTmpName);
-      if (strpos($mime, 'image') === false) die('Можно загружать только изображения с расширениями  .jpg, .jpeg, .png!');
-      $image = getimagesize($fileTmpName);
-      $extension = image_type_to_extension($image[2]);
-      $name = randomFileName($extension);
-      $file = $name.str_replace('jpeg', 'jpg', $extension);
-      if (!move_uploaded_file($fileTmpName, __DIR__ . '/upload/'.$file)) {
-          throw new Exception('При загрузке изображения произошла ошибка на сервере!');
-      }
-      // Записать имя файла в БД
-    //   $db = new PDO('mysql:host=localhost;dbname=ajax', 'root', 'password');
-      $user_id = $_SESSION['id'];
-      $query = "UPDATE `users` SET `avatar` = :avatar WHERE `id` = :user_id";
-      $params = [':avatar' => $file, ':user_id' => $user_id];
-      $stmt = $db->prepare($query);
-      if (!$stmt->execute($params)) {
-          throw new Exception('Произошла ошибка при записи в БД!');
-      }
-      // Записать в $data имя файла
-      $data = ['file' => $file];
-      echo json_encode($data);
-    } catch (Exception $e) {
-      die($e->getMessage());
-    }
-  
-}
-
-
-// Генерируем уникальное имя для файла
-function randomFileName($extension = false)
+$message = '';
+if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
 {
-  $extension = $extension ? '.' . $extension : '';
-  do {
-    $name = md5(microtime() . rand(0, 9999));
-    $file = $name . $extension;
-  } while (file_exists($file));
+  if (isset($_FILES['uploadedFile']) && $_FILES['uploadedFile']['error'] === UPLOAD_ERR_OK)
+  {
+    // детали загруженного файла
+    $fileTmpPath = $_FILES['uploadedFile']['tmp_name'];
+    $fileName = $_FILES['uploadedFile']['name'];
+    $fileSize = $_FILES['uploadedFile']['size'];
+    $fileType = $_FILES['uploadedFile']['type'];
+    $fileNameCmps = explode(".", $fileName);
+    $fileExtension = strtolower(end($fileNameCmps));
 
-  return $file;
+    // очистка имени файла
+    $newFileName = md5(time() . $fileName) . '.' . $fileExtension;
+
+    // проверка расширений файла
+    $allowedfileExtensions = array('jpg', 'gif', 'png');
+
+    if (in_array($fileExtension, $allowedfileExtensions))
+    {
+        // каталог загрузки файла
+        $uploadFileDir = 'F:/XAMPP/htdocs/uploads/';
+        $dest_path = $uploadFileDir . $newFileName;
+
+        if(move_uploaded_file($fileTmpPath, $dest_path))
+        {
+            $message ='Файл успешно загружен.';
+            $bdFile = $mysqli -> query ("UPDATE `users` SET `profile_image` = '$newFileName' WHERE `id` = '{$_SESSION['id']}'");
+        }
+        else
+        {
+            $message = 'Произошла ошибка при перемещении файла в каталог для загрузки. Убедитесь, что каталог загрузки доступен для записи веб-сервером.';
+        }
+    }
+    else
+    {
+        $message = 'Ошибка загрузки. Допустимые типы файлов: ' . implode(',', $allowedfileExtensions);
+    }
 }
+else
+{
+    $message = 'Ошибка при загрузке файла. Пожалуйста, проверьте следующую ошибку.<br>';
+    $message .= 'Ошибка:' . $_FILES['uploadedFile']['error'];
+}
+}
+$_SESSION['message'] = $message;
+// header("Location: index.php");
+
+echo 'Некоторая отладочная информация:';
+print "<pre>";
+// print_r($_FILES);
+print_r($bdFile);
+var_dump($bdFile);
+// print_r($full_arr);
+print "</pre>";

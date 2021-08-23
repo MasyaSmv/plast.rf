@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '95d3fb810034f5ae3d771be1e322c103dd5a4a0d',
+    'reference' => 'd535e32f750a4fa737dd244fa9deffba7f92e7ba',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '95d3fb810034f5ae3d771be1e322c103dd5a4a0d',
+      'reference' => 'd535e32f750a4fa737dd244fa9deffba7f92e7ba',
     ),
     'harvesthq/chosen' => 
     array (
@@ -54,6 +54,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'ad86732b668627c131e61ee8f0e6e9ed52e4db8d',
+    ),
+    'samayo/bulletproof' => 
+    array (
+      'pretty_version' => 'v4.0.1',
+      'version' => '4.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4e485530522c0f3af81eba3955f1c459401cdd54',
     ),
     'shuchkin/simplexlsx' => 
     array (

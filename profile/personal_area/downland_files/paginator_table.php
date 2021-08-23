@@ -1,5 +1,12 @@
 <?php
-include ('../../../dbconnect.php');
+// происходит дублирование подключения к бд
+// include ('../../../dbconne.php');
+$server = "localhost";
+$username = "iskra134_admin";
+$password = "78951230Zz";
+$database = "iskra134_masyasm";
+
+$mysqli = new mysqli($server, $username, $password, $database);
 // Поверка, есть ли GET запрос
 if (isset($_GET['pageno'])) {
     // Если да то переменной $pageno присваиваем его

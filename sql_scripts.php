@@ -34,6 +34,7 @@ if (isset($_SESSION['id'])) {
         $user_arr['eStatus'] = $row['email_status'];
         $user_arr['psw'] = $row['password'];
         $user_arr['company'] = $row['company'];
+        $user_arr['photo'] = $row['profile_image'];
     }
 }
 

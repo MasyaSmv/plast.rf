@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInitc3a67cf21c0aab9c21927808b27799bb
 {
     public static $classMap = array (
+        'Bulletproof\\Image' => __DIR__ . '/..' . '/samayo/bulletproof/src/bulletproof.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'SimpleXLSX' => __DIR__ . '/..' . '/shuchkin/simplexlsx/src/SimpleXLSX.php',
     );
