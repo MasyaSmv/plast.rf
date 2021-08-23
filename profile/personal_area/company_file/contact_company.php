@@ -198,7 +198,7 @@
 				</div>
 				<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
 					<div class="card-body">
-						<form method="POST" action="action.php" name="site">
+						<form method="GET" action="action.php" name="site">
 							<label">Сайт</label>
 								<div class="Mf3T5">
 									<input type="text" class="form-control" name="site" minlength="2" maxlength="255"

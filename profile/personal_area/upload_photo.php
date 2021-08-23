@@ -32,7 +32,7 @@ if(isset($_FILES['file'])) {
     } catch (Exception $e) {
       die($e->getMessage());
     }
-  }
+  
 }
 
 

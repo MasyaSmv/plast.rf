@@ -39,10 +39,10 @@ WHERE state_ru = '$state', id_user= '$id_user'";
 }
 
 // Скрипт кнопки ссылки сайта
-if (isset($_POST["btn_submit_site"])) {
+if (isset($_GET["btn_submit_site"])) {
     // Убираем слэши и пробелы
-    if ($site = preg_match('/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/', trim($_POST["site"]))) {
-    $site = str_replace("/", "", trim($_POST["site"]));
+    if ($site = preg_match('/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/', trim($_GET["site"]))) {
+    $site = str_replace("/", "", trim($_GET["site"]));
     // Переменные для поиска протоколов
     $scheme0 = "http";
     $scheme0 = "https";
