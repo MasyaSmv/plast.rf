@@ -1,5 +1,6 @@
 <?
-include ('../../header.php');
+include ('../../sql_scripts.php');
+session_start();
 
 $message = '';
 if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
@@ -23,7 +24,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
     if (in_array($fileExtension, $allowedfileExtensions))
     {
         // каталог загрузки файла
-        $uploadFileDir = 'F:/XAMPP/htdocs/uploads/';
+        $uploadFileDir = 'F:/XAMPP/htdocs/uploads/image/ava/';
         $dest_path = $uploadFileDir . $newFileName;
 
         if(move_uploaded_file($fileTmpPath, $dest_path))
@@ -48,12 +49,12 @@ else
 }
 }
 $_SESSION['message'] = $message;
-// header("Location: index.php");
+header("Location: main.php");
 
-echo 'Некоторая отладочная информация:';
-print "<pre>";
+// echo 'Некоторая отладочная информация:';
+// print "<pre>";
+// print_r($bdFile);
+// var_dump($bdFile);
+// print "</pre>";
 // print_r($_FILES);
-print_r($bdFile);
-var_dump($bdFile);
 // print_r($full_arr);
-print "</pre>";

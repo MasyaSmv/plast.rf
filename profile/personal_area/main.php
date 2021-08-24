@@ -205,7 +205,7 @@
                                     <!-- Блок с картинкой пользователя -->
                                     <figure class="HJOYV HJOYVi11 Vz93id">
                                         <!-- Картинка пользователя -->
-                                        <img class="YPzqGd Vz93id" src="/img/ava1.jpg">
+                                        <? echo '<img class="YPzqGd Vz93id" src="/uploads/image/ava/'.$user_arr['photo'].'">'; ?>
                                     </figure>
                                     <!-- Высвечивающаяся кнопка смены картинки -->
                                     <div class="SC4xFe">
@@ -497,12 +497,33 @@
                     </button>
                 </div>
                 <div class="modal-body Lm4o8">
-                    <iframe src="/profile/personal_area/profile_photo.php" width="797" height="375">
-                    </iframe>
+                    <div class="s7iwrf gMPiLc  Kdcijb">
+                        <!-- Контейнер центра страницы -->
+                        <div class="ETkYLd">
+                            <!-- Контейнер с контентом -->
+                            <div class="D8JwHb">
+                                <h2>Загрузка файла</h2>
+                                <?php
+                    if (isset($_SESSION['message']) && $_SESSION['message']) {
+                        printf('<b>%s</b>', $_SESSION['message']);
+                        unset($_SESSION['message']);
+                    }
+                ?>
+                                <form method="POST" action="upload_photo.php" enctype="multipart/form-data">
+                                    <div>
+                                        <span>Upload a File:</span>
+                                        <input type="file" name="uploadedFile" />
+                                    </div>
+                                    <input type="submit" name="uploadBtn" value="Upload" />
+                                </form>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
     <?php
@@ -512,4 +533,5 @@ print_r($full_arr);
 echo "</pre>";
 ?>
 </body>
+
 </html>

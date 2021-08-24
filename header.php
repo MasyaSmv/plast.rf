@@ -121,13 +121,13 @@
 					<div class="btn-group dropleft" id="avatar-btn" aria-haspopup="true">
 					<button type="button" class="btn-menu-lc " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<div class="btn-menu-lc-img" >
-							<img src="/img/ava.jpg" width="32" height="32" class="d-inline-block align-top" alt=""> <!-- Реализовать загрузку картинки с сервера -->
+						<? echo '<img src="/uploads/image/ava/'.$user_arr['photo'].'" width="50" height="50" class="img-name-2c" alt="">' ?>
 						</div>
 					</button>
 					<div class="dropdown-menu links">
 						<div class="header-drop-menu">
 							<div class="head-avatar-img" id="avatar" width="50" height="50" style="background-color: transparent">
-								<img src="/img/ava.jpg" width="50" height="50" class="img-name-lc" alt=""> <!-- Реализовать загрузку картинки с сервера -->
+							<? echo '<img src="/uploads/image/ava/'.$user_arr['photo'].'" width="50" height="50" class="img-name-lc" alt="">' ?>
 							</div>
 							<div class="head-block-name" id="block-name">
 								<div class="head-account-name" id="account-name">
