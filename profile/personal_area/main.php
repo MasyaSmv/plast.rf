@@ -497,35 +497,33 @@
                     </button>
                 </div>
                 <div class="modal-body Lm4o8">
-                    <div class="s7iwrf gMPiLc  Kdcijb">
+                    <div class="Un7F0">
                         <!-- Контейнер центра страницы -->
-                        <div class="ETkYLd">
+                        <div class="Tg4M8H">
                             <!-- Контейнер с контентом -->
                             <div class="D8JwHb">
                                 <h2>Загрузка файла</h2>
                                 <?php
-                    if (isset($_SESSION['message']) && $_SESSION['message']) {
-                        printf('<b>%s</b>', $_SESSION['message']);
-                        unset($_SESSION['message']);
-                    }
-                ?>
+                                    if (isset($_SESSION['message']) && $_SESSION['message']) {
+                                        printf('<b>%s</b>', $_SESSION['message']);
+                                        unset($_SESSION['message']);
+                                    }
+                                ?>
                                 <form method="POST" action="upload_photo.php" enctype="multipart/form-data">
                                     <div>
-                                        <span>Upload a File:</span>
-                                        <input type="file" name="uploadedFile" />
+                                        <span>Загрузить фото:</span>
+                                        <input style="max-width: 17em;" type="file" name="uploadedFile" />
                                     </div>
-                                    <input type="submit" name="uploadBtn" value="Upload" />
+                                    <input type="submit" class="btn btn-success" name="uploadBtn" value="Загрузить" />
                                 </form>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
     </div>
-
     <?php
 echo "\n Некоторая отладочная информация:";
 echo "<pre>";
@@ -533,5 +531,4 @@ print_r($full_arr);
 echo "</pre>";
 ?>
 </body>
-
 </html>

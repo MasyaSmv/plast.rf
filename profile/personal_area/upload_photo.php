@@ -3,7 +3,7 @@ include ('../../sql_scripts.php');
 session_start();
 
 $message = '';
-if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload')
+if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Загрузить') //если будешь менять value кнопки, то и меняй здесь "загрузить"
 {
   if (isset($_FILES['uploadedFile']) && $_FILES['uploadedFile']['error'] === UPLOAD_ERR_OK)
   {
@@ -53,8 +53,6 @@ header("Location: main.php");
 
 // echo 'Некоторая отладочная информация:';
 // print "<pre>";
-// print_r($bdFile);
-// var_dump($bdFile);
-// print "</pre>";
 // print_r($_FILES);
 // print_r($full_arr);
+// print "</pre>";
