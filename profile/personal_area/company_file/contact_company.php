@@ -7,19 +7,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 	<?php
-    include ('../../../header.php');
-
-	// Запросы в бд для списка городов и стран
-	$city = "SELECT city
+include '../../../header.php';
+// Запросы в бд для списка городов и стран
+$city = "SELECT city
 			FROM `city_id`";
-	$state = "SELECT state_ru
+$state = "SELECT state_ru
 			FROM `state_id`";
-	$resCity = $mysqli -> query($city);
-	$resState = $mysqli -> query($state);
-
-
-    ?>
-
+$resCity = $mysqli->query($city);
+$resState = $mysqli->query($state);
+?>
 	<!-- Скрипты жквери для списка городов и стран -->
 	<script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://snipp.ru/cdn/chosen/1.8.7/chosen.jquery.min.js"></script>
@@ -65,7 +61,6 @@
 			</div>
 			<div class="MbGbAd"></div>
 		</div>
-
 		<div class="accordion dW35KL" id="accordionExample">
 			<!-- Блок с номером телефона -->
 			<div class="card G5n7T">
@@ -117,21 +112,20 @@
 									<select class="form-control js-chosen-state" id="state" type="submit" name="state">
 										<!-- Выпадающий список со странами из бд -->
 										<?
-		if (!$resState) {
-			die('Неверный запрос: ' . mysqli_error($link));
-		}
-		else {
-			while ($pow = mysqli_fetch_array($resState)) {?>
+if (!$resState) {
+    die('Неверный запрос: ' . mysqli_error($link));
+} else {
+    while ($pow = mysqli_fetch_array($resState)) {?>
 										<option></option>
 										<option>
 											<tr>
 												<td>
-													<?echo $pow['state_ru'] ;?>
+													<?echo $pow['state_ru']; ?>
 												</td>
 											</tr>
 											<?}
-		}
-			?>
+}
+?>
 										</option>
 									</select>
 								</div>
@@ -140,21 +134,20 @@
 									<select class="form-control js-chosen-city" id="inputCity" name="city">
 										<!-- Выпадающий список с городами из бд -->
 										<?
-		if (!$resCity) {
-			die('Неверный запрос: ' . mysqli_error($link));
-		}
-		else {
-			while ($pow = mysqli_fetch_array($resCity)) {?>
+if (!$resCity) {
+    die('Неверный запрос: ' . mysqli_error($link));
+} else {
+    while ($pow = mysqli_fetch_array($resCity)) {?>
 										<option></option>
 										<option>
 											<tr>
 												<td>
-													<?echo $pow['city'] ;?>
+													<?echo $pow['city']; ?>
 												</td>
 											</tr>
 											<?}
-		}
-			?>
+}
+?>
 										</option>
 									</select>
 								</div>
@@ -280,9 +273,9 @@
 			})
 		</script>
 		<?echo '<pre>';
-		print_r($_POST['inn']);
-            print_r($full_arr);
-            ?>
+print_r($_POST['inn']);
+print_r($full_arr);
+?>
 </body>
 
 </html>

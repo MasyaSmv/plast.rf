@@ -1,4 +1,5 @@
 <?php
+session_start();
 include('dbconnect.php');
 
 // Массив данных данных из таблицы компаний
@@ -20,6 +21,7 @@ if (isset($_SESSION['id'])) {
         $company_arr['compPhone'] = $row['numphone'];
         $company_arr['inn'] = $row['inn'];
         $company_arr['compMail'] = $row['email'];
+        $company_arr['logo'] = $row['logo'];
     }
 }
 // Массив данных данных из таблицы юзеров

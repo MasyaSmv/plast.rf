@@ -1,5 +1,4 @@
 <?php
-	session_start();
 	include('sql_scripts.php');
 ?>
 

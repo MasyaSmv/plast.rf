@@ -514,7 +514,7 @@
                                         <span>Загрузить фото:</span>
                                         <input style="max-width: 17em;" type="file" name="uploadedFile" />
                                     </div>
-                                    <input type="submit" class="btn btn-success" name="uploadBtn" value="Загрузить" />
+                                    <input type="submit" class="btn btn-success" name="uploadBtn" value="Загрузить фото" />
                                 </form>
                             </div>
                         </div>

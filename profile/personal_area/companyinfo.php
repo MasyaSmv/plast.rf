@@ -272,16 +272,15 @@
                                             <div class="Q5jTGb"></div>
                                         </div>
                                         <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd"
-                                            jscontroller="nEO8Ne" data-picker="https://docs.google.com/picker"
-                                            aria-haspopup="dialog" aria-label="изменить фото профиля" data-rid="218"
-                                            data-nav-type="5">
+                                        data-toggle="modal"
+                                    data-target="#exampleModal">
                                             <div class="N5YmOc kJXJmd">
                                                 <div class="VJbqBb" role="text">
                                                     <div class="R1PxN">
                                                         <div class="BQtBnc">
                                                             <div class="cdy4hc">
                                                                 <div class="xoXYwe">
-                                                                    <h3 class="WzaSad">Фото профиля</h3>
+                                                                    <h3 class="WzaSad">Логотип копании</h3>
                                                                 </div>
                                                             </div>
                                                             <div class="zTjtYe"
@@ -291,14 +290,12 @@
                                                                         <style nonce="ROpunfH+DctR8a3VT8fgCQ">
                                                                             .HJOYVi9 {
                                                                                 width: 60px;
-                                                                                height: 60px;
+                                                                                height: 55px;
                                                                             }
                                                                         </style>
                                                                         <figure class="HJOYV HJOYVi9"
-                                                                            aria-hidden="true"><img class="YPzqGd"
-                                                                                src="https://lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s60-c-rg-br100"
-                                                                                alt="" aria-hidden="true"
-                                                                                srcset="https://lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s120-c-rg-br100 2x, https://lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s180-c-rg-br100 3x, https://lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s240-c-rg-br100 4x">
+                                                                            aria-hidden="true">
+                                                                            <? echo '<img class="YPzqGd Vz93id" src="/uploads/image/logo/'.$company_arr['logo'].'">'; ?>
                                                                         </figure>
                                                                     </div>
                                                                     <div class="kFNik"
@@ -835,6 +832,53 @@
     </div>
     </div>
     <div class="vbHcXc gJItKf gHBEZd"></div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="ee-Ji-hc ee-Df-ie" style="height: 20px;">
+                        <div id="picker:ht" class="ee-Df-tc" role="heading" aria-level="1">Выбор фотографии профиля
+                        </div>
+                        <div class="ee-Df-db">
+                            <div role="button" class="a-b-c d-u d-u-R" tabindex="0" data-tooltip="Закрыть"
+                                aria-label="Закрыть" style="user-select: none;">
+                                <div class="ee-kk-db-Ii">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body Lm4o8">
+                    <div class="Un7F0">
+                        <!-- Контейнер центра страницы -->
+                        <div class="Tg4M8H">
+                            <!-- Контейнер с контентом -->
+                            <div class="D8JwHb">
+                                <h2>Загрузка файла</h2>
+                                <?php
+                                    if (isset($_SESSION['message']) && $_SESSION['message']) {
+                                        printf('<b>%s</b>', $_SESSION['message']);
+                                        unset($_SESSION['message']);
+                                    }
+                                ?>
+                                <form method="POST" action="upload_photo.php" enctype="multipart/form-data">
+                                    <div>
+                                        <span>Загрузить фото:</span>
+                                        <input style="max-width: 17em;" type="file" name="uploadedFile" />
+                                    </div>
+                                    <input type="submit" class="btn btn-success" name="uploadBtn" value="Загрузить логотип" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     <?php echo '<pre>';
                 print_r($_SESSION);

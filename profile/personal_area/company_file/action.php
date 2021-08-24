@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 include '../../../sql_scripts.php';
 
 // Скрипт для мобильного телефона
@@ -18,7 +17,8 @@ if (isset($_POST["btn_comp_phone"])) {
         header("Location: contact_company.php");
     } else {
         echo ('Неверно введен телефон');
-    };
+    }
+    ;
     echo '<pre>';
     var_dump($compPhone);
     exit();
@@ -42,31 +42,31 @@ WHERE state_ru = '$state', id_user= '$id_user'";
 if (isset($_GET["btn_submit_site"])) {
     // Убираем слэши и пробелы
     if ($site = preg_match('/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/', trim($_GET["site"]))) {
-    $site = str_replace("/", "", trim($_GET["site"]));
-    // Переменные для поиска протоколов
-    $scheme0 = "http";
-    $scheme0 = "https";
-    // Сам поиск в ссылке
-    $pos0 = strripos($site, $scheme0);
-    $pos1 = strripos($site, $scheme0);
-    // Условие (если есть протоколы - вырезает)/(если нет протоколов - просто оставляет домен)
-    if ($pos0 === true || $pos1 === true) {
-        $site = parse_url($site, PHP_URL_HOST);
+        $site = str_replace("/", "", trim($_GET["site"]));
+        // Переменные для поиска протоколов
+        $scheme0 = "http";
+        $scheme0 = "https";
+        // Сам поиск в ссылке
+        $pos0 = strripos($site, $scheme0);
+        $pos1 = strripos($site, $scheme0);
+        // Условие (если есть протоколы - вырезает)/(если нет протоколов - просто оставляет домен)
+        if ($pos0 === true || $pos1 === true) {
+            $site = parse_url($site, PHP_URL_HOST);
+        } else {
+            $site = parse_url($site);
+            $site = $site['path'];
+        }
+        // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
+        if ($company_arr['site'] === 0) {
+            $sqlSite = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')";
+            $mysqli->query($sqlSite);
+        } else {
+            $sqlSite = "UPDATE company SET site='$site' WHERE id_user='{$_SESSION['id']}'";
+            $mysqli->query($sqlSite);
+        }
+        header("Location: contact_company.php");
+        exit();
     } else {
-        $site = parse_url($site);
-        $site = $site['path'];
-    }
-    // Условие (если в сесси нет записи сайта - записывает в бд)/(если есть запись в сессии - обновляет по айдишнику)
-    if ($company_arr['site'] === 0) {
-        $sqlSite = "INSERT INTO company (site, id_user) VALUES('$site', '{$_SESSION['id']}')";
-        $mysqli->query($sqlSite);
-    } else {
-        $sqlSite = "UPDATE company SET site='$site' WHERE id_user='{$_SESSION['id']}'";
-        $mysqli->query($sqlSite);
-    }
-    header("Location: contact_company.php");
-    exit();
-    }else{
         echo ('Чота не так с ссылкой');
     }
 }
@@ -99,7 +99,8 @@ if (isset($_POST["btn_comp_mail"])) {
         header("Location: contact_company.php");
     } else {
         echo ('Данные почты не верны и будут кастрированны');
-    };
+    }
+    ;
     echo '<pre>';
     var_dump($compMail);
     exit();
@@ -120,7 +121,8 @@ if (isset($_POST["btn_submit_inn"])) {
         header("Location: contact_company.php");
     } else {
         echo ('Уебанский Инн');
-    };
+    }
+    ;
     echo '<pre>';
     var_dump($inn);
     exit();
