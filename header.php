@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	include('sql_scripts.php');
 ?>
 
 <head>
@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/upload.css?v=1.0.0.0"> <!-- upload -->
 	<link rel="stylesheet" type="text/css" href="/css/up_file.css?v=1.0.0.2"> <!-- up_file -->
 	<link rel="stylesheet" type="text/css" href="/css/contact_company.css?v=1.0.0.1"> <!-- contact_company -->
+	<link rel="stylesheet" type="text/css" href="/css/main_info.css?v=1.0.0.1"> <!-- main_info -->
 
     <!-- Иконка вкладки -->
     <link rel="icon" href="/img/myfavicon.ico" type="image/x-icon" />
@@ -34,7 +35,6 @@
 
 
     <!-- Head для form_register -->
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/sign_up.css?v=1.0.0.3">
@@ -108,7 +108,7 @@
 			if(!isset($_SESSION['first_name']) && !isset($_SESSION['password']) || !isset($_SESSION['id'])){
 		?>
 
-				<a role="button" class="float-right btn btn-outline-primary btn-log log-in" href="profile/form_auth.php" id="link_auth"><svg xmlns="http:/.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+				<a role="button" class="float-right btn btn-outline-primary btn-log log-in" href="/profile/form_auth.php" id="link_auth"><svg xmlns="http:/.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
   <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 </svg>
@@ -120,13 +120,13 @@
 					<div class="btn-group dropleft" id="avatar-btn" aria-haspopup="true">
 					<button type="button" class="btn-menu-lc " data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<div class="btn-menu-lc-img" >
-							<img src="/img/ava.jpg" width="32" height="32" class="d-inline-block align-top" alt=""> <!-- Реализовать загрузку картинки с сервера -->
+						<? echo '<img src="/uploads/image/ava/'.$user_arr['photo'].'" width="50" height="50" class="img-name-2c" alt="">' ?>
 						</div>
 					</button>
 					<div class="dropdown-menu links">
 						<div class="header-drop-menu">
 							<div class="head-avatar-img" id="avatar" width="50" height="50" style="background-color: transparent">
-								<img src="/img/ava.jpg" width="50" height="50" class="img-name-lc" alt=""> <!-- Реализовать загрузку картинки с сервера -->
+							<? echo '<img src="/uploads/image/ava/'.$user_arr['photo'].'" width="50" height="50" class="img-name-lc" alt="">' ?>
 							</div>
 							<div class="head-block-name" id="block-name">
 								<div class="head-account-name" id="account-name">

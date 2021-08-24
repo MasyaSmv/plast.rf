@@ -229,7 +229,7 @@
                               height: 60px;
                             }
                           </style>
-                          <figure class="HJOYV HJOYVc179 l7Wukc" aria-hidden="true"><img class="YPzqGd l7Wukc" src="//lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s60-c-rg-br100" srcset="//lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s120-c-rg-br100 2x, //lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s180-c-rg-br100 3x, //lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s240-c-rg-br100 4x" data-iml="10900170.06" data-atf="true"></figure>
+                          <figure class="HJOYV HJOYVc179 l7Wukc" aria-hidden="true"><img class="YPzqGd l7Wukc" src="/img/ava1.jpg" srcset="//lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s120-c-rg-br100 2x, //lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s180-c-rg-br100 3x, //lh3.googleusercontent.com/a-/AOh14GjgkO-Wv9wNhdl0Jtg03ICObE3mhuJBXJhfwKylCA=s240-c-rg-br100 4x" data-iml="10900170.06" data-atf="true"></figure>
                           <div class="Grg65b">
                             <div class="EJFIFb"></div>
                           </div>
@@ -424,192 +424,58 @@
               </div>
             </div>
           </div>
-          <!-- <div class="wJpH8c">
-            <div class="  XLK0Od">
-              <div class="ahh38c">
-                <div class="ugt2L aK2X8b iDdZmf">
-                  <a href="profile" class="VZLjze Wvetm N5YmOc kJXJmd bvW4md I6g62c" data-rid="10050" data-nav-type="5">
-                    <header class="mSUZQd">
-                      <div class="jbRlDc">
-                        <h2 class="fnfC4c">Доступ к данным о вас</h2>
-                        <div class="ISnqu">
-                          <div>Вы можете указать, какая личная информация будет видна другим пользователям в сервисах Google.</div>
-                        </div>
-                      </div>
-                      <div class="CljqTd">
-                        <div class="fxHFgc">
-                          <style nonce="">
-                            .HJOYVc180 {
-                              width: 96px;
-                              height: 96px;
-                            }
-                          </style>
-                          <figure class="HJOYV HJOYVc180" aria-hidden="true"><img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_icon_96x96_168efb49989f9e0ab86b932f8ca624c0.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_icon_192x192_19b9337af475ea9cc1e701360a83b32e.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_icon_288x288_c42ff8c74f18617276c7d550093d0ef1.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_icon_384x384_5befb67cc77dfaffde5aa71cc15893fe.png 4x" data-iml="10900170.245000001" data-atf="false"></figure>
-                        </div>
-                        <div class="ueiHJd">
-                          <style nonce="">
-                            .HJOYVc181 {
-                              width: 316px;
-                              height: 112px;
-                            }
-                          </style>
-                          <figure class="HJOYV HJOYVc181 P0ukfb" aria-hidden="true"><img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_scene_316x112_371ea487b68d0298cc54522403223de1.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_scene_632x224_24f4bd684b00a64177aa9fda65f88db6.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_scene_948x336_24f1d276593f5da5641e3666e6117d02.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/aboutme_scene_1264x448_c62fe60e3bb1b8642822a028568898c4.png 4x" data-iml="10900170.315" data-atf="true"></figure>
-                        </div>
-                      </div>
-                    </header>
-                  </a>
-                </div>
-                <div class="ugt2L ul8zCc aK2X8b t97Ap">
-                  <div class="cv2gi" role="presentation">
-                    <div class="Q5jTGb"></div>
-                  </div>
-                  <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;">
-                    <a href="profile" class="VZLjze Wvetm I6g62c N5YmOc kJXJmd" data-rid="10050" data-nav-type="5">
-                      <div class="mtfBU">Открыть страницу "О себе"</div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-                                      <!-- Контейнер с возможными вопросами -->
-                                      <div class="wJpH8c">
-                                <div class="  XLK0Od">
-                                    <!-- Блок с переходами по другим вопросам -->
-                                    <div class="ahh38c">
-                                        <!-- Контейнер с заголовком -->
-                                        <div class="ugt2L">
-                                            <!-- Блок с заголовком -->
-                                            <div class="  N5YmOc kJXJmd bvW4md">
-                                                <header class="mSUZQd">
-                                                    <!-- Заголовок -->
-                                                    <div class="jbRlDc">
-                                                        <h2 class="fnfC4c">Не нашли то, что искали?</h2>
-                                                        <div class="ISnqu"></div>
-                                                    </div>
-                                                </header>
-                                            </div>
-                                        </div>
-                                        <!-- Контейнер с первым вопросом -->
-                                        <div class="ugt2L aK2X8b iDdZmf">
-                                            <!-- Кнопка перехода первого вопроса -->
-                                            <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                                <!-- Блок с первым вопросом -->
-                                                <div class="N5YmOc kJXJmd">
-                                                    <!-- Блок с иконками и текстом первого вопроса -->
-                                                    <div class="VJbqBb">
-                                                        <!-- Блок с иконкой поиска -->
-                                                        <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                            <!-- Иконка -->
-                                                            <figure class="HJOYV HJOYVi21">
-                                                                <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_24x24_7fe3ea4597e9dac907a66deed95eb727.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_48x48_560813edf73a6132cc8369322d876013.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_72x72_7c3b2287e14072ebea0e4b09dbf47943.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/websettings_search_96x96_2cd27eae501ba777163e0a0087615a3b.png 4x">
-                                                            </figure>
-                                                        </div>
-                                                        <!-- Блок с текстом первого вопроса -->
-                                                        <div class="R1PxN">
-                                                            <div class="BQtBnc">
-                                                                <div class="sGTBnf">
-                                                                    <div class="xoXYwe">
-                                                                        <h3 class="bJCr1d">Поиск по сайту</h3>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <!-- Иконка стрелочки первого вопроса -->
-                                                        <div class="NUNLMb">
-                                                            <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                            <span class="DPvwYc sm8sCf"></span>
-                                                        </figure>
-                                                    </div>
+
+          <div class="wJpH8c">
+                        <div class="  XLK0Od">
+                            <div class="ahh38c">
+                                <div class="ugt2L">
+                                    <div class="  N5YmOc kJXJmd bvW4md">
+                                        <header class="mSUZQd">
+                                            <div class="jbRlDc">
+                                                <h2 class="fnfC4c">О себе</h2>
+                                                <div class="ISnqu">
+                                                    <div></div>
                                                 </div>
                                             </div>
-                                        </button>
+                                        </header>
                                     </div>
-                                    <!-- Контейнер со вторым вопросом -->
-                                    <div class="ugt2L aK2X8b t97Ap iDdZmf">
-                                        <!-- Разделение первого и второго вопросов -->
-                                        <div class="cv2gi">
-                                            <div class="Q5jTGb"></div>
-                                        </div>
-                                        <!-- Кнопка перехода второго вопроса -->
-                                        <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                            <!-- Блок со вторым вопросом -->
-                                            <div class="N5YmOc kJXJmd">
-                                                <!-- Блок с иконками и текстом второго вопроса -->
-                                                <div class="VJbqBb">
-                                                    <!-- Блок с иконкой вопросика -->
-                                                    <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                        <figure class="HJOYV HJOYVi22">
-                                                            <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_24x24_cb612bd5b13215e48a9fbf99b4f3601b.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_48x48_2435cb519a104c2f54f2c4d04dd93a90.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_72x72_c853474338ca48bdedfcdfc4cd71753e.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/search_support_96x96_bfb8ba0469a3ea50c7153b4fca3a3941.png 4x">
-                                                        </figure>
-                                                    </div>
-                                                    <!-- Блок с текстом второго вопроса -->
-                                                    <div class="R1PxN">
-                                                        <div class="BQtBnc">
-                                                            <div class="sGTBnf">
-                                                                <div class="xoXYwe">
-                                                                    <h3 class="bJCr1d">Посмотреть справку</h3>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Иконка стрелочки второго вопроса -->
-                                                    <div class="NUNLMb">
-                                                        <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                        <span class="DPvwYc sm8sCf"></span>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </button>
                                 </div>
-                                <!-- Контейнер с третьим вопросом -->
-                                <div class="ugt2L aK2X8b t97Ap">
-                                    <!-- Разделение второго и третьего вопросов -->
-                                    <div class="cv2gi">
-                                        <div class="Q5jTGb"></div>
-                                    </div>
-                                    <!-- Кнопка перехода третьего вопроса -->
-                                    <button type="button" class="hryX1e VfPpkd-ksKsZd-XxIAqe CmhoVd">
-                                        <!-- Блок с третьим вопросом -->
+                                <div class="ugt2L">
+                                    <div>
                                         <div class="N5YmOc kJXJmd">
-                                            <!-- Блок с иконками и текстом третьего вопроса -->
-                                            <div class="VJbqBb">
-                                                <!-- Блок с иконкой диалогового окна -->
-                                                <div class="X9g6he" style="width: 24px; height: 24px;">
-                                                    <figure class="HJOYV HJOYVi23">
-                                                        <img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_24x24_fe8ef3663c826d5218dfd17847430fa5.png" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_48x48_3079515681c69aa9ba732dac82bb1b67.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_72x72_b70198f92bdb74f9086412d4024de3e0.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/menu_feedback_96x96_d34f3dbacb2adb3b5874cf8479ea5b37.png 4x">
-                                                    </figure>
+                                            <header class="mSUZQd">
+                                                <div class="jbRlDc">
+                                                    <h2 class="ISnqu">
+                                                        <div>Места, ссылки и краткая информация о себе</div>
+                                                    </h2>
                                                 </div>
-                                                <!-- Блок с текстом третьего вопроса -->
-                                                <div class="R1PxN">
-                                                    <div class="BQtBnc">
-                                                        <div class="sGTBnf">
-                                                            <div class="xoXYwe">
-                                                                <h3 class="bJCr1d">Написать нам</h3>
-                                                            </div>
+                                            </header>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ugt2L">
+                                    <div>
+                                        <div class="N5YmOc">
+                                            <div class="CCN0Qd" jscontroller="wq3ehe" jsaction="rcuQ6b:VEbqJe; GvneHb:VEbqJe">
+                                                <div class="DlrK9" jsname="XuHpsb">
+                                                    <div class="jwr3wd">
+                                                        <div class="VfPpkd-ksKsZd-XxIAqe CmhoVd V7Ncoe" jscontroller="fjYfSd" jsaction="click:cOuCgd; mousedown:UX7yZ; mouseup:lbsD7e; mouseover:tfO1Yc; mouseleave:JywGue; touchstart:p6p2H; touchmove:FwuNnf; touchend:yfqBxc; touchcancel:JMtRjd; focus:AHmuwe; blur:O22p3e; contextmenu:mg9Pef;" title="Добавьте больше информации о себе">
+                                                            <a href="profile/about/add" class="VZLjze Wvetm I6g62c PdlOpb XLMwWc oGaYYd" data-rid="10084" data-nav-type="5">
+                                                                <div class="CSgpLb">
+                                                                    <style nonce="ROpunfH+DctR8a3VT8fgCQ">.HJOYVi15 {width: 18px; height: 18px;}</style>
+                                                                    <figure class="HJOYV HJOYVi15" aria-hidden="true"><img class="YPzqGd" src="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_20x20_2f7d83d7b9d939c28af464b2ea390165.png" alt="" aria-hidden="true" srcset="https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_40x40_3db0bf242f023947dedac89c34e22cf4.png 2x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_60x60_34da8df8df0647ce80c63633dc48defc.png 3x, https://www.gstatic.com/identity/boq/accountsettingsmobile/common_add_icon_80x80_1c65cb29b2f86dc5f9c9c8ee79b264a1.png 4x"></figure>
+                                                                </div>
+                                                                <div class="nF0lvf">Добавьте больше информации о себе</div>
+                                                            </a>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <!-- Иконка стрелочки третьего вопроса -->
-                                                <div class="NUNLMb">
-                                                    <figure class="z7VTQb" style="width: nullpx; height: nullpx;">
-                                                    <span class="DPvwYc sm8sCf"></span>
-                                                    </figure>
-                                                </div>
+                                                <div class="ofBt5e eLNT1d" jsname="HG5jfd" aria-hidden="true"><span class="DPvwYc sm8sCf DqeGTe" aria-hidden="true" jsaction="click: XYMtZ">&#xE5CB;</span></div>
+                                                <div class="AlVhAf eLNT1d" jsname="ZidPZ" aria-hidden="true"><span class="DPvwYc sm8sCf Rbf3t" aria-hidden="true" jsaction="click: zh6UJd">&#xE5CC;</span></div>
                                             </div>
                                         </div>
-                                    </button>
-                                </div>
                                     </div>
                                 </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            </div>
-          </div>
         </section>
         <c-data id="c185" jsdata=" VUvzzc;10101;$30"></c-data>
       </c-wiz>

@@ -5,6 +5,7 @@
     font-size: 3.5rem;
   }
 }
+
 .iframegura {
   width: 560px;
   height: 315px;
@@ -55,7 +56,7 @@ a:hover {
 .welcome {
   padding-right: 5em;
   margin-top: 0.6em;
-   font-family: 'RocknRoll One', sans-serif;
+  font-family: 'RocknRoll One', sans-serif;
 }
 
 .btn-menu-lc {
@@ -83,6 +84,16 @@ a:hover {
   margin-left: 1em;
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+.img-name-2c {
+  border: none;
+  background: none;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
 }
 
 

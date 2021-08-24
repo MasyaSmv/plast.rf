@@ -1,7 +1,7 @@
 <?php
 
 include ('../../../header.php');
-include ('../../../dbconnect.php');
+// include ('../../../dbconnect.php');
 include ("../../../vendor/autoload.php");
 
 // Обозначаем переменные и имя файла
