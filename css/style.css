@@ -50,13 +50,13 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: normal;
 }
 
-h1 {
+.head-h1 {
 	font-size: 24px;
 	color: #a5adb8;
 	text-transform: capitalize;
 }
 
-h1::first-letter {
+.head-h1 ::first-letter {
 	color: #ae4b5d;
 }
 
@@ -77,7 +77,7 @@ h4 {
 }
 
 h5 {
-	
+
 }
 
 h6 {
@@ -125,7 +125,7 @@ code {
 }
 
 /*Tables*/
-table {
+/* table {
     width: 100%;
     margin: 15px 0;
     padding: 0;
@@ -197,7 +197,7 @@ table tbody tr:last-child td:last-child {
 table tr:hover {
     background-color: #622833;
 	color: #d8dbde;
-}
+} */
 
 /*Forms*/
 form {
@@ -268,7 +268,7 @@ button {
 	background-image: -o-linear-gradient(#b0252e, #b0252e 25%, #95161f);
 	background-image: linear-gradient(#b0252e, #b0252e 25%, #95161f);
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0252e', endColorstr='#95161f', GradientType=0);
-	padding: 10px 18px 11px;	
+	padding: 10px 18px 11px;
 	color: white;
 	font-size: 15px;
 	line-height: normal;
@@ -349,7 +349,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .span,.span1 {
 	float: left;
 	display: inline;
-	
+
 }
 
 .span {
@@ -448,7 +448,7 @@ form.search > input:-moz-placeholder {
 }
 form.search > input::-webkit-input-placeholder {
   color: #5b636e;
-}	
+}
 
 form.search > input[type=text]:focus {
 	border: 1px solid #a5adb8;
@@ -711,4 +711,12 @@ ul.clock li {
 .social ul li {
 	float: left;
 	margin-right: 5px;
+}
+
+.bg-slide {
+	margin-top: -15em;
+}
+
+.bgSlide .shadow {
+	background-color: rgb(0 0 0 / 52%);
 }
