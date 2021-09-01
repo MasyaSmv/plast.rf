@@ -25,11 +25,11 @@ require_once 'app/header.php';
                     </a>
                 </div>
                 <div class="col-md-9">
-                    <h4><a href="/post.php?post_id=<?=$post['id']?>"><?=$post['title']?></a></h4>
+                    <h4><a href="/guidPoly.php?post_id=<?=$post['id']?>"><?=$post['title']?></a></h4>
                     <p>
                       <?=mb_substr($post['content'], 0, 128, 'UTF-8').'...'?>
                     </p>
-                    <p><a class="btn btn-info btn-sm" href="/post.php?post_id=<?=$post['id']?>">Читать полностью...</a></p>
+                    <p><a class="btn btn-info btn-sm" href="/guidPoly.php?post_id=<?=$post['id']?>">Читать полностью...</a></p>
                     <br/>
                     <ul class="list-inline">
                         <li><i class="glyphicon glyphicon-list"></i> <a href="#">Категория</a> | </li>

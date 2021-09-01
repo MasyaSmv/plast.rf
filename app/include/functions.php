@@ -1,19 +1,59 @@
 <?
 require_once "database.php";
 
-// function get_categories() {
 
-//     global $link;
 
-//     $sql = "SELECT * FROM categories";
+function get_news() {
 
-//     $result = mysqli_query($link, $sql);
+    global $link;
 
-//     $categories = mysqli_fetch_all($result, MYSQLI_ASSOC);
+    $sql = "SELECT * FROM news";
 
-//     return $categories;
+    $result = mysqli_query($link, $sql);
 
-// }
+    $news = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    return $news;
+
+}
+
+function get_news_by_id($new_id) {
+    global $link;
+
+    $sql = "SELECT * FROM news WHERE newsid = ".$new_id;
+
+    $result = mysqli_query($link, $sql);
+
+    $new = mysqli_fetch_assoc($result);
+
+    return $new;
+}
+
+function get_company() {
+
+    global $link;
+
+    $sql = "SELECT * FROM company";
+
+    $result = mysqli_query($link, $sql);
+
+    $companys = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    return $companys;
+
+}
+
+function get_company_by_id($company_id) {
+    global $link;
+
+    $sql = "SELECT * FROM company WHERE id = ".$company_id;
+
+    $result = mysqli_query($link, $sql);
+
+    $company = mysqli_fetch_assoc($result);
+
+    return $company;
+}
 
 function get_posts() {
 

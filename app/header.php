@@ -17,7 +17,7 @@
 		<div class="header">
 			<div class="headerContent">
 				<div class="left">
-					<h1 class="head-h1"><a href="#">Пластикат.РФ</a></h1>
+					<h1 class="head-h1"><a href="index.php">Пластикат.РФ</a></h1>
 					<p>Все о кабельны хполимерах</p>
 				</div>
 				<div class="right">
@@ -45,11 +45,11 @@
 		</div>
 		<div class="nav">
 			<ul class="menu">
-				<li><a href="/news/index.php">Новости</a></li>
-				<li><a href="#">Каталог компаний</a></li>
+				<li><a href="news.php">Новости</a></li>
+				<li><a href="company.php">Каталог компаний</a></li>
 				<li><a href="guide.php">Справочник</a></li>
-				<li><a href="#">Стандарты/ГОСТы</a></li>
-				<li><a href="#">Литература</a></li>
-				<li><a href="../index.php">О проекте</a></li>
+				<li><a href="gost.php">Стандарты/ГОСТы</a></li>
+				<li><a href="library.php">Литература</a></li>
+				<!-- <li><a href="index.php">О проекте</a></li> -->
 			</ul>
 		</div>

@@ -10,13 +10,12 @@
                 $i = 1;
             ?>
 <?php
-echo "<p>Получено объектов: $rowsCount</p>";
-echo "<table><tr><th>Id</th><th>Имя</th></tr>";
 foreach($posts as $post):
+    echo "<table><tr>";
     echo "<tr>";
     echo "<td>" . $i++ . "</td>";
     ?>
-<a href="/post.php?post_id=<?=$post['id']?>"><?=$post['mark']?></a>
+<td><a href="/guidPoly.php?post_id=<?=$post['id']?>"><?=$post['mark']?></a></td>
 <?echo "</tr>";?>
 <?php endforeach;
 echo "</table>";
