@@ -3,6 +3,32 @@ require_once "database.php";
 
 
 
+function get_library() {
+
+    global $link;
+
+    $sql = "SELECT * FROM library";
+
+    $result = mysqli_query($link, $sql);
+
+    $library = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
+    return $library;
+
+}
+
+function get_library_by_id($lib_id) {
+    global $link;
+
+    $sql = "SELECT * FROM library WHERE id = ".$lib_id;
+
+    $result = mysqli_query($link, $sql);
+
+    $lib = mysqli_fetch_assoc($result);
+
+    return $lib;
+}
+
 function get_news() {
 
     global $link;
