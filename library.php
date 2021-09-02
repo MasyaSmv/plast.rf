@@ -39,7 +39,7 @@ echo "</table>";
 
 
 <!-- =================НИЖЕ ПАРСЕР КНИГ С ПОЛИМЕРОВ================== -->
-<!-- <?
+<?
 $html = file_get_html('https://plastinfo.ru/information/literature/page7/');
 
 foreach($html->find('tr[valign="top"]') as $row) {
@@ -63,6 +63,6 @@ $image = $item['image'];
 }
 
 
-        ?> -->
+        ?>
 </div>
 </div>
