@@ -40,27 +40,27 @@ echo "</table>";
 
 <!-- =================НИЖЕ ПАРСЕР КНИГ С ПОЛИМЕРОВ================== -->
 <?
-$html = file_get_html('https://plastinfo.ru/information/literature/page7/');
+// $html = file_get_html('https://plastinfo.ru/information/literature/page7/');
 
-foreach($html->find('tr[valign="top"]') as $row) {
-    $item['h1'] = $row->find('strong',0)->plaintext;
-    $item['text'] = $row->find('p',0)->plaintext;
-    $item['image'] = $row->find('img',0)->src;
+// foreach($html->find('tr[valign="top"]') as $row) {
+//     $item['h1'] = $row->find('strong',0)->plaintext;
+//     $item['text'] = $row->find('p',0)->plaintext;
+//     $item['image'] = $row->find('img',0)->src;
 
-$h1 = $item['h1'];
-$text = $item['text'];
-$image = $item['image'];
+// $h1 = $item['h1'];
+// $text = $item['text'];
+// $image = $item['image'];
 
-    $table[] = $item;
-    $link -> query("INSERT INTO library SET `title` = '$h1', `text` = '$text', `image` = '$image'");
-    echo '<pre>';
-    print_r($h1);
-    echo '<pre>';
-    print_r($text);
-    echo '<pre>';
-    print_r($image);
+//     $table[] = $item;
+//     $link -> query("INSERT INTO library SET `title` = '$h1', `text` = '$text', `image` = '$image'");
+//     echo '<pre>';
+//     print_r($h1);
+//     echo '<pre>';
+//     print_r($text);
+//     echo '<pre>';
+//     print_r($image);
 
-}
+// }
 
 
         ?>
