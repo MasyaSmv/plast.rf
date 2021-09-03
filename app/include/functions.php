@@ -3,32 +3,6 @@ require_once "database.php";
 
 
 
-function get_gosts() {
-
-    global $link;
-
-    $sql = "SELECT * FROM gost";
-
-    $result = mysqli_query($link, $sql);
-
-    $gosts = mysqli_fetch_all($result, MYSQLI_ASSOC);
-
-    return $gosts;
-
-}
-
-function get_gost_by_id($gost_id) {
-    global $link;
-
-    $sql = "SELECT * FROM gost WHERE id = ".$gost_id;
-
-    $result = mysqli_query($link, $sql);
-
-    $gost = mysqli_fetch_assoc($result);
-
-    return $gost;
-}
-
 function get_library() {
 
     global $link;
